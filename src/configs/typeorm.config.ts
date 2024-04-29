@@ -13,7 +13,7 @@ export const OrmDataSource = TypeOrmModule.forRootAsync({
   useFactory: (config: ConfigService) => {
     logger.debug(objectToJson(config));
     logger.debug(
-      `DataSource Load Path : ${__dirname + "/src/entities/*.entity{.ts,.js}"}`
+      `DataSourceLoadPath: ${__dirname + "/src/entities/*.entity{.ts,.js}"}`
     );
     const isSchemaSync = config.get<string>("DB_SCHEMA_SYNC") === "true";
 
