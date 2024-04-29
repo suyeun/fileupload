@@ -1,0 +1,9 @@
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/7 18:44:33"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/me {"timestamp":"2023/11/7 18:44:40"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/7 18:44:58"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/me {"timestamp":"2023/11/7 18:44:59"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/7 18:45:09"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/7 18:45:13"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/me {"timestamp":"2023/11/7 18:45:16"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/7 18:45:28"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/me {"timestamp":"2023/11/7 18:45:29"}

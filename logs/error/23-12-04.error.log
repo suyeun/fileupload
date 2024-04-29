@@ -1,0 +1,488 @@
+error: uncaughtException: Module parse failed: Unexpected token (46:13)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             });
+|             return work;
+>              || undefined;
+|         });
+|     }
+Error: Module parse failed: Unexpected token (46:13)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             });
+|             return work;
+>              || undefined;
+|         });
+|     }
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6347:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9021:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9128:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6001:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9021:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9128:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5915:24)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9021:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9128:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5883:14) {"date":"Mon Dec 04 2023 15:08:21 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.38623046875,2.06591796875,2.09814453125],"uptime":97635},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":582208,"external":15002985,"heapTotal":85901312,"heapUsed":62047112,"rss":134889472},"pid":63809,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Unexpected token (46:13)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             });\n|             return work;\n>              || undefined;\n|         });\n|     }\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6347:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9021:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9128:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6001:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9021:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9128:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5915:24)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9021:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9128:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5883:14)","timestamp":"2023/12/4 15:08:21","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":6347,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9021,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9128,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6001,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9021,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9128,"method":null,"native":false},{"column":24,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":5915,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9021,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9128,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":5883,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: Unexpected token (46:13)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             });
+|             return work;
+>              | undefined;
+|         });
+|     }
+Error: Module parse failed: Unexpected token (46:13)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             });
+|             return work;
+>              | undefined;
+|         });
+|     }
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6347:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9021:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9128:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6001:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9021:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9128:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5915:24)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9021:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9128:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5883:14) {"date":"Mon Dec 04 2023 15:08:23 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.51513671875,2.09765625,2.10888671875],"uptime":97637},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":554049,"external":15002984,"heapTotal":85639168,"heapUsed":62085720,"rss":136544256},"pid":63818,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Unexpected token (46:13)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             });\n|             return work;\n>              | undefined;\n|         });\n|     }\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6347:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9021:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9128:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6001:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9021:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9128:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5915:24)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9021:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9128:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5883:14)","timestamp":"2023/12/4 15:08:23","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":6347,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9021,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9128,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6001,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9021,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9128,"method":null,"native":false},{"column":24,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":5915,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9021,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9128,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":5883,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: Unterminated string constant (24:40)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     //월-일 값 입력하고 한달전 구하기
+|     getDayStr(dateStr) {
+>         console.log("dateStr", dateStr, "));
+|         const result = new Date(dateStr).toISOString().split("T")[0];
+|         return result;
+Error: Module parse failed: Unterminated string constant (24:40)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     //월-일 값 입력하고 한달전 구하기
+|     getDayStr(dateStr) {
+>         console.log("dateStr", dateStr, "));
+|         const result = new Date(dateStr).toISOString().split("T")[0];
+|         return result;
+    at Object.__webpack_modules__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9117:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9145:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9252:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8470:29)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9145:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9252:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8434:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9145:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9252:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8371:20) {"date":"Mon Dec 04 2023 15:18:01 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.19189453125,1.96875,2.0078125],"uptime":98215},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":562241,"external":11085526,"heapTotal":85917696,"heapUsed":62824200,"rss":134856704},"pid":64733,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Unterminated string constant (24:40)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|     //월-일 값 입력하고 한달전 구하기\n|     getDayStr(dateStr) {\n>         console.log(\"dateStr\", dateStr, \"));\n|         const result = new Date(dateStr).toISOString().split(\"T\")[0];\n|         return result;\n    at Object.__webpack_modules__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9117:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9145:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9252:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8470:29)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9145:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9252:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8434:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9145:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9252:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8371:20)","timestamp":"2023/12/4 15:18:01","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.__webpack_modules__","line":9117,"method":"__webpack_modules__","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9145,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9252,"method":null,"native":false},{"column":29,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8470,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9145,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9252,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8434,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9145,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9252,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8371,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: Identifier 'result' has already been declared (121:18)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             })));
+|             console.log("calendarData", calendarData);
+>             const result = {
+|                 toDay: this.dtService.getToDay(),
+|                 totalPay: 0,
+Error: Module parse failed: Identifier 'result' has already been declared (121:18)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             })));
+|             console.log("calendarData", calendarData);
+>             const result = {
+|                 toDay: this.dtService.getToDay(),
+|                 totalPay: 0,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8441:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9117:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9224:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8434:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9117:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9224:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8371:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9117:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9224:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8346:14) {"date":"Mon Dec 04 2023 15:55:32 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[0.77197265625,1.474609375,1.67529296875],"uptime":100466},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":580930,"external":15006961,"heapTotal":85917696,"heapUsed":63031904,"rss":133201920},"pid":65898,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Identifier 'result' has already been declared (121:18)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             })));\n|             console.log(\"calendarData\", calendarData);\n>             const result = {\n|                 toDay: this.dtService.getToDay(),\n|                 totalPay: 0,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8441:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9117:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9224:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8434:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9117:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9224:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8371:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9117:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9224:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8346:14)","timestamp":"2023/12/4 15:55:32","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":8441,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9117,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9224,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8434,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9117,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9224,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8371,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9117,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9224,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8346,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: Identifier 'result' has already been declared (121:18)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             })));
+|             console.log("calendarData", calendarData);
+>             const result = {
+|                 toDay: this.dtService.getToDay(),
+|                 totalPay: 0,
+Error: Module parse failed: Identifier 'result' has already been declared (121:18)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             })));
+|             console.log("calendarData", calendarData);
+>             const result = {
+|                 toDay: this.dtService.getToDay(),
+|                 totalPay: 0,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8441:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9117:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9224:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8434:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9117:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9224:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8371:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9117:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9224:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8346:14) {"date":"Mon Dec 04 2023 15:55:38 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[0.73291015625,1.44189453125,1.6611328125],"uptime":100472},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":651711,"external":15006961,"heapTotal":85655552,"heapUsed":63455472,"rss":132071424},"pid":65915,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Identifier 'result' has already been declared (121:18)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             })));\n|             console.log(\"calendarData\", calendarData);\n>             const result = {\n|                 toDay: this.dtService.getToDay(),\n|                 totalPay: 0,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8441:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9117:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9224:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8434:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9117:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9224:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8371:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9117:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9224:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8346:14)","timestamp":"2023/12/4 15:55:38","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":8441,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9117,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9224,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8434,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9117,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9224,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8371,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9117,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9224,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8346,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: Identifier 'result' has already been declared (121:18)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             })));
+|             console.log("calendarData", calendarData);
+>             const result = {
+|                 toDay: this.dtService.getToDay(),
+|                 totalPay: 0,
+Error: Module parse failed: Identifier 'result' has already been declared (121:18)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             })));
+|             console.log("calendarData", calendarData);
+>             const result = {
+|                 toDay: this.dtService.getToDay(),
+|                 totalPay: 0,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8441:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9138:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9245:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8434:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9138:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9245:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8371:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9138:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9245:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8346:14) {"date":"Mon Dec 04 2023 15:56:22 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.13671875,1.46142578125,1.658203125],"uptime":100516},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":635333,"external":15007715,"heapTotal":85917696,"heapUsed":63375728,"rss":133857280},"pid":65998,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Identifier 'result' has already been declared (121:18)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             })));\n|             console.log(\"calendarData\", calendarData);\n>             const result = {\n|                 toDay: this.dtService.getToDay(),\n|                 totalPay: 0,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8441:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9138:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9245:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8434:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9138:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9245:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8371:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9138:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9245:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8346:14)","timestamp":"2023/12/4 15:56:22","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":8441,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9138,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9245,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8434,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9138,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9245,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8371,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9138,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9245,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8346,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: Identifier 'result' has already been declared (121:18)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             })));
+|             console.log("calendarData", calendarData);
+>             const result = {
+|                 toDay: this.dtService.getToDay(),
+|                 totalPay: 0,
+Error: Module parse failed: Identifier 'result' has already been declared (121:18)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             })));
+|             console.log("calendarData", calendarData);
+>             const result = {
+|                 toDay: this.dtService.getToDay(),
+|                 totalPay: 0,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8441:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9138:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9245:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8434:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9138:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9245:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8371:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9138:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9245:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8346:14) {"date":"Mon Dec 04 2023 15:56:32 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.03515625,1.42919921875,1.64453125],"uptime":100526},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":656086,"external":15007723,"heapTotal":85917696,"heapUsed":63445896,"rss":129974272},"pid":66025,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Identifier 'result' has already been declared (121:18)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             })));\n|             console.log(\"calendarData\", calendarData);\n>             const result = {\n|                 toDay: this.dtService.getToDay(),\n|                 totalPay: 0,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8441:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9138:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9245:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8434:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9138:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9245:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8371:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9138:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9245:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8346:14)","timestamp":"2023/12/4 15:56:32","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":8441,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9138,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9245,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8434,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9138,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9245,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8371,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9138,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9245,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8346,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: Identifier 'result' has already been declared (121:18)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             })));
+|             console.log("calendarData", calendarData);
+>             const result = {
+|                 toDay: this.dtService.getToDay(),
+|                 totalPay: 0,
+Error: Module parse failed: Identifier 'result' has already been declared (121:18)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             })));
+|             console.log("calendarData", calendarData);
+>             const result = {
+|                 toDay: this.dtService.getToDay(),
+|                 totalPay: 0,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8441:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9139:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9246:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8434:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9139:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9246:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8371:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9139:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9246:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8346:14) {"date":"Mon Dec 04 2023 15:57:56 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.951171875,1.55615234375,1.6650390625],"uptime":100610},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":695202,"external":15007795,"heapTotal":85655552,"heapUsed":64000960,"rss":132382720},"pid":66096,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Identifier 'result' has already been declared (121:18)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             })));\n|             console.log(\"calendarData\", calendarData);\n>             const result = {\n|                 toDay: this.dtService.getToDay(),\n|                 totalPay: 0,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8441:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9139:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9246:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8434:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9139:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9246:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8371:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9139:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9246:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8346:14)","timestamp":"2023/12/4 15:57:56","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":8441,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9139,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9246,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8434,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9139,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9246,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8371,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9139,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9246,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8346,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: Identifier 'result' has already been declared (121:18)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             })));
+|             console.log("calendarData", calendarData);
+>             const result = {
+|                 toDay: this.dtService.getToDay(),
+|                 totalPay: 0,
+Error: Module parse failed: Identifier 'result' has already been declared (121:18)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             })));
+|             console.log("calendarData", calendarData);
+>             const result = {
+|                 toDay: this.dtService.getToDay(),
+|                 totalPay: 0,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8441:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9139:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9246:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8434:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9139:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9246:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8371:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9139:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9246:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8346:14) {"date":"Mon Dec 04 2023 15:58:11 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.88134765625,1.560546875,1.6640625],"uptime":100625},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":569647,"external":15007795,"heapTotal":85655552,"heapUsed":62634928,"rss":133955584},"pid":66119,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Identifier 'result' has already been declared (121:18)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             })));\n|             console.log(\"calendarData\", calendarData);\n>             const result = {\n|                 toDay: this.dtService.getToDay(),\n|                 totalPay: 0,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8441:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9139:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9246:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8434:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9139:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9246:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8371:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9139:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9246:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8346:14)","timestamp":"2023/12/4 15:58:11","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":8441,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9139,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9246,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8434,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9139,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9246,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8371,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9139,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9246,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8346,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: Identifier 'result' has already been declared (121:18)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             })));
+|             console.log("calendarData", calendarData);
+>             const result = {
+|                 toDay: this.dtService.getToDay(),
+|                 totalPay: 0,
+Error: Module parse failed: Identifier 'result' has already been declared (121:18)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             })));
+|             console.log("calendarData", calendarData);
+>             const result = {
+|                 toDay: this.dtService.getToDay(),
+|                 totalPay: 0,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8441:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9139:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9246:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8434:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9139:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9246:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8371:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9139:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9246:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8346:14) {"date":"Mon Dec 04 2023 15:58:14 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.130859375,1.6171875,1.68359375],"uptime":100628},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":656350,"external":15007795,"heapTotal":85917696,"heapUsed":63307744,"rss":134889472},"pid":66129,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Identifier 'result' has already been declared (121:18)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             })));\n|             console.log(\"calendarData\", calendarData);\n>             const result = {\n|                 toDay: this.dtService.getToDay(),\n|                 totalPay: 0,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8441:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9139:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9246:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8434:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9139:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9246:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8371:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9139:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9246:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8346:14)","timestamp":"2023/12/4 15:58:14","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":8441,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9139,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9246,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8434,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9139,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9246,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8371,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9139,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9246,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8346,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: Unexpected token (80:43)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const workInfo = yield this.calendarRepository.workInfo(workId);
+|             console.log("workInfo", workInfo.pay);
+>             console.log("getTime", getTime.);
+|             const res = yield this.calendarRepository.update(userId, workId, workDt, startTime, endTime);
+|             if (!res)
+Error: Module parse failed: Unexpected token (80:43)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const workInfo = yield this.calendarRepository.workInfo(workId);
+|             console.log("workInfo", workInfo.pay);
+>             console.log("getTime", getTime.);
+|             const res = yield this.calendarRepository.update(userId, workId, workDt, startTime, endTime);
+|             if (!res)
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6818:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6811:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6599:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6550:14) {"date":"Mon Dec 04 2023 16:34:26 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[3.47900390625,2.361328125,1.91796875],"uptime":102800},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":643525,"external":15003466,"heapTotal":85639168,"heapUsed":62990160,"rss":131137536},"pid":68593,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Unexpected token (80:43)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const workInfo = yield this.calendarRepository.workInfo(workId);\n|             console.log(\"workInfo\", workInfo.pay);\n>             console.log(\"getTime\", getTime.);\n|             const res = yield this.calendarRepository.update(userId, workId, workDt, startTime, endTime);\n|             if (!res)\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6818:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6811:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6599:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6550:14)","timestamp":"2023/12/4 16:34:26","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":6818,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9043,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9150,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6811,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9043,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9150,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6599,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9043,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9150,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6550,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: Unexpected token (82:43)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 return (0, interfaces_1.JsonResponse)([], constants_1.ERROR_CODE.INVALID_INPUT, "INVALID_INPUT");
+|             console.log("workInfo", workInfo.pay);
+>             console.log("getTime", getTime.);
+|             //payType이 HOUR일때
+|             const res = yield this.calendarRepository.update(userId, workId, workDt, startTime, endTime);
+Error: Module parse failed: Unexpected token (82:43)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 return (0, interfaces_1.JsonResponse)([], constants_1.ERROR_CODE.INVALID_INPUT, "INVALID_INPUT");
+|             console.log("workInfo", workInfo.pay);
+>             console.log("getTime", getTime.);
+|             //payType이 HOUR일때
+|             const res = yield this.calendarRepository.update(userId, workId, workDt, startTime, endTime);
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6818:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6811:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6599:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6550:14) {"date":"Mon Dec 04 2023 16:35:09 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.21337890625,2.18310546875,1.875],"uptime":102843},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":635333,"external":15003519,"heapTotal":85639168,"heapUsed":62845592,"rss":132759552},"pid":68643,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Unexpected token (82:43)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|                 return (0, interfaces_1.JsonResponse)([], constants_1.ERROR_CODE.INVALID_INPUT, \"INVALID_INPUT\");\n|             console.log(\"workInfo\", workInfo.pay);\n>             console.log(\"getTime\", getTime.);\n|             //payType이 HOUR일때\n|             const res = yield this.calendarRepository.update(userId, workId, workDt, startTime, endTime);\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6818:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6811:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6599:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6550:14)","timestamp":"2023/12/4 16:35:09","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":6818,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9043,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9150,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6811,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9043,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9150,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6599,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9043,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9150,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6550,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: Unexpected token (82:43)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 return (0, interfaces_1.JsonResponse)([], constants_1.ERROR_CODE.INVALID_INPUT, "INVALID_INPUT");
+|             console.log("workInfo", workInfo.payType);
+>             console.log("getTime", getTime.);
+|             //payType이 HOUR일때
+|             const res = yield this.calendarRepository.update(userId, workId, workDt, startTime, endTime);
+Error: Module parse failed: Unexpected token (82:43)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 return (0, interfaces_1.JsonResponse)([], constants_1.ERROR_CODE.INVALID_INPUT, "INVALID_INPUT");
+|             console.log("workInfo", workInfo.payType);
+>             console.log("getTime", getTime.);
+|             //payType이 HOUR일때
+|             const res = yield this.calendarRepository.update(userId, workId, workDt, startTime, endTime);
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6818:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6811:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6599:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6550:14) {"date":"Mon Dec 04 2023 16:35:21 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.9462890625,2.126953125,1.8583984375],"uptime":102855},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":598540,"external":15003523,"heapTotal":85901312,"heapUsed":62716432,"rss":132120576},"pid":68671,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Unexpected token (82:43)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|                 return (0, interfaces_1.JsonResponse)([], constants_1.ERROR_CODE.INVALID_INPUT, \"INVALID_INPUT\");\n|             console.log(\"workInfo\", workInfo.payType);\n>             console.log(\"getTime\", getTime.);\n|             //payType이 HOUR일때\n|             const res = yield this.calendarRepository.update(userId, workId, workDt, startTime, endTime);\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6818:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6811:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6599:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6550:14)","timestamp":"2023/12/4 16:35:21","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":6818,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9043,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9150,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6811,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9043,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9150,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6599,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9043,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9150,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6550,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: Unexpected token (82:43)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 return (0, interfaces_1.JsonResponse)([], constants_1.ERROR_CODE.INVALID_INPUT, "INVALID_INPUT");
+|             console.log("workInfo", workInfo === null || workInfo === void 0 ? void 0 : workInfo.pay);
+>             console.log("getTime", getTime.);
+|             //payType이 HOUR일때
+|             const res = yield this.calendarRepository.update(userId, workId, workDt, startTime, endTime);
+Error: Module parse failed: Unexpected token (82:43)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 return (0, interfaces_1.JsonResponse)([], constants_1.ERROR_CODE.INVALID_INPUT, "INVALID_INPUT");
+|             console.log("workInfo", workInfo === null || workInfo === void 0 ? void 0 : workInfo.pay);
+>             console.log("getTime", getTime.);
+|             //payType이 HOUR일때
+|             const res = yield this.calendarRepository.update(userId, workId, workDt, startTime, endTime);
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6818:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6811:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6599:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6550:14) {"date":"Mon Dec 04 2023 16:35:28 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.20068359375,2.17236328125,1.876953125],"uptime":102862},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":647894,"external":15003571,"heapTotal":85901312,"heapUsed":62991160,"rss":135299072},"pid":68702,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Unexpected token (82:43)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|                 return (0, interfaces_1.JsonResponse)([], constants_1.ERROR_CODE.INVALID_INPUT, \"INVALID_INPUT\");\n|             console.log(\"workInfo\", workInfo === null || workInfo === void 0 ? void 0 : workInfo.pay);\n>             console.log(\"getTime\", getTime.);\n|             //payType이 HOUR일때\n|             const res = yield this.calendarRepository.update(userId, workId, workDt, startTime, endTime);\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6818:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6811:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6599:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9043:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9150:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6550:14)","timestamp":"2023/12/4 16:35:28","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":6818,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9043,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9150,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6811,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9043,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9150,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6599,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9043,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9150,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6550,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: Unexpected token (105:25)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|         return Math.floor(totalPay);
+|     }
+>     getCalculatePayMonth(, monthlySalary = 1000000, // 한달 급여
+|     , workingDaysPerWeek = 3, // 일주일에 일하는 날 수
+|     , workingHoursPerDay = 8, // 하루 근무 시간
+Error: Module parse failed: Unexpected token (105:25)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|         return Math.floor(totalPay);
+|     }
+>     getCalculatePayMonth(, monthlySalary = 1000000, // 한달 급여
+|     , workingDaysPerWeek = 3, // 일주일에 일하는 날 수
+|     , workingHoursPerDay = 8, // 하루 근무 시간
+    at Object.defineProperty.value (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8626:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9094:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9201:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8452:29)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9094:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9201:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8416:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9094:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9201:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8366:20) {"date":"Mon Dec 04 2023 18:37:56 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.890625,1.64990234375,1.658203125],"uptime":110210},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":1170180,"external":14199247,"heapTotal":85671936,"heapUsed":66066856,"rss":136773632},"pid":73708,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Unexpected token (105:25)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|         return Math.floor(totalPay);\n|     }\n>     getCalculatePayMonth(, monthlySalary = 1000000, // 한달 급여\n|     , workingDaysPerWeek = 3, // 일주일에 일하는 날 수\n|     , workingHoursPerDay = 8, // 하루 근무 시간\n    at Object.defineProperty.value (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8626:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9094:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9201:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8452:29)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9094:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9201:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8416:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9094:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9201:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8366:20)","timestamp":"2023/12/4 18:37:56","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.defineProperty.value","line":8626,"method":"value","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9094,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9201,"method":null,"native":false},{"column":29,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8452,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9094,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9201,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8416,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9094,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9201,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8366,"method":null,"native":false}]}
+error: uncaughtException: actualDailySalary is not defined
+ReferenceError: actualDailySalary is not defined
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8747:19)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9216:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9323:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8452:29)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9216:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9323:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8416:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9216:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9323:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8366:20) {"date":"Mon Dec 04 2023 18:38:07 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.900390625,1.66064453125,1.662109375],"uptime":110221},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":562241,"external":15012775,"heapTotal":86179840,"heapUsed":62635816,"rss":135086080},"pid":73747,"uid":503,"version":"v16.19.1"},"stack":"ReferenceError: actualDailySalary is not defined\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8747:19)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9216:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9323:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8452:29)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9216:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9323:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8416:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9216:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9323:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8366:20)","timestamp":"2023/12/4 18:38:07","trace":[{"column":19,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8747,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9216,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9323,"method":null,"native":false},{"column":29,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8452,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9216,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9323,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8416,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9216,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9323,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8366,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: Identifier 'monthlySalary' has already been declared (107:14)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     //월급에서 일한 시간에 따른 일당 검색
+|     getCalculatePayMonth(monthlySalary) {
+>         const monthlySalary = 1000000; // 한달 급여
+|         const workingDaysPerWeek = 3; // 일주일에 일하는 날 수
+|         const workingHoursPerDay = 8; // 하루 근무 시간
+Error: Module parse failed: Identifier 'monthlySalary' has already been declared (107:14)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     //월급에서 일한 시간에 따른 일당 검색
+|     getCalculatePayMonth(monthlySalary) {
+>         const monthlySalary = 1000000; // 한달 급여
+|         const workingDaysPerWeek = 3; // 일주일에 일하는 날 수
+|         const workingHoursPerDay = 8; // 하루 근무 시간
+    at Object.defineProperty.value (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8626:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9094:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9201:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8452:29)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9094:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9201:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8416:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9094:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9201:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8366:20) {"date":"Mon Dec 04 2023 18:39:57 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.58154296875,1.59912109375,1.634765625],"uptime":110331},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":584753,"external":15007082,"heapTotal":85655552,"heapUsed":62760816,"rss":132071424},"pid":73892,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Identifier 'monthlySalary' has already been declared (107:14)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|     //월급에서 일한 시간에 따른 일당 검색\n|     getCalculatePayMonth(monthlySalary) {\n>         const monthlySalary = 1000000; // 한달 급여\n|         const workingDaysPerWeek = 3; // 일주일에 일하는 날 수\n|         const workingHoursPerDay = 8; // 하루 근무 시간\n    at Object.defineProperty.value (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8626:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9094:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9201:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8452:29)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9094:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9201:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8416:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9094:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9201:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8366:20)","timestamp":"2023/12/4 18:39:57","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.defineProperty.value","line":8626,"method":"value","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9094,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9201,"method":null,"native":false},{"column":29,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8452,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9094,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9201,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8416,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9094,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9201,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8366,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: Identifier 'monthlySalary' has already been declared (107:14)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     //월급에서 일한 시간에 따른 일당 검색
+|     getCalculatePayMonth(monthlySalary, workingDaysPerWeek, workingHoursPerDay, actualWorkingHours) {
+>         const monthlySalary = 1000000; // 한달 급여
+|         const workingDaysPerWeek = 3; // 일주일에 일하는 날 수
+|         const workingHoursPerDay = 8; // 하루 근무 시간
+Error: Module parse failed: Identifier 'monthlySalary' has already been declared (107:14)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     //월급에서 일한 시간에 따른 일당 검색
+|     getCalculatePayMonth(monthlySalary, workingDaysPerWeek, workingHoursPerDay, actualWorkingHours) {
+>         const monthlySalary = 1000000; // 한달 급여
+|         const workingDaysPerWeek = 3; // 일주일에 일하는 날 수
+|         const workingHoursPerDay = 8; // 하루 근무 시간
+    at Object.defineProperty.value (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8626:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9094:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9201:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8452:29)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9094:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9201:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8416:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9094:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9201:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8366:20) {"date":"Mon Dec 04 2023 18:40:32 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.73876953125,1.62744140625,1.642578125],"uptime":110366},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":606282,"external":15007142,"heapTotal":85917696,"heapUsed":63129912,"rss":134578176},"pid":73966,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Identifier 'monthlySalary' has already been declared (107:14)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|     //월급에서 일한 시간에 따른 일당 검색\n|     getCalculatePayMonth(monthlySalary, workingDaysPerWeek, workingHoursPerDay, actualWorkingHours) {\n>         const monthlySalary = 1000000; // 한달 급여\n|         const workingDaysPerWeek = 3; // 일주일에 일하는 날 수\n|         const workingHoursPerDay = 8; // 하루 근무 시간\n    at Object.defineProperty.value (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8626:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9094:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9201:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8452:29)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9094:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9201:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8416:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9094:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9201:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8366:20)","timestamp":"2023/12/4 18:40:32","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.defineProperty.value","line":8626,"method":"value","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9094,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9201,"method":null,"native":false},{"column":29,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8452,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9094,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9201,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8416,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9094,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9201,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8366,"method":null,"native":false}]}

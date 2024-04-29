@@ -1,0 +1,11 @@
+debug: [JsonResponse] 200 OK {"timestamp":"2024/2/27 11:57:20"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/earn {"timestamp":"2024/2/27 11:57:20"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/2/27 11:57:30"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/earn {"timestamp":"2024/2/27 11:57:30"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/2/27 12:27:07"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/2/27 12:27:13"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/earn {"timestamp":"2024/2/27 12:27:13"}
+debug: [JsonResponse] 50001 ALREADY_PAID {"timestamp":"2024/2/27 12:27:26"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/earn {"timestamp":"2024/2/27 12:27:26"}
+debug: [JsonResponse] 50001 ALREADY_PAID {"timestamp":"2024/2/27 12:27:42"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/earn {"timestamp":"2024/2/27 12:27:42"}

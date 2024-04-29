@@ -1,0 +1,116 @@
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+debug: [REQ] ::1 POST 404 : /api/v1/avatar/category {"service":"SEERSLAB"}
+debug: [REQ] ::1 POST 404 : /api/v1/avatar/category {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+debug: [REQ] ::1 POST 404 : /api/v1/avatar/category {"service":"SEERSLAB"}
+debug: [REQ] ::1 POST 404 : /api/v1/avatar/category {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+debug: [REQ] ::1 POST 200 : /api/v1/avatar/category {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+debug: [REQ] ::1 POST 200 : /api/v1/avatar/category {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"service":"SEERSLAB"}
+warn: try to re-connect redisClientProvider after 10s... {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+debug: [REQ] ::1 POST 404 : /api/v1/avatar/%08create {"service":"SEERSLAB"}
+debug: [REQ] ::1 POST 500 : /api/v1/avatar/create {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+debug: [REQ] ::1 POST 500 : /api/v1/avatar/create {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+debug: [REQ] ::1 POST 200 : /api/v1/avatar/create {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+debug: [REQ] ::1 POST 404 : /api/v1/avatar/%08create {"service":"SEERSLAB"}
+debug: [REQ] ::1 POST 500 : /api/v1/avatar/create {"service":"SEERSLAB"}

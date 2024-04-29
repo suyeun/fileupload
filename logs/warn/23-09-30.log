@@ -1,0 +1,2 @@
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/30 22:07:58"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/30 22:07:58"}

@@ -1,0 +1,28 @@
+error: uncaughtException: Module parse failed: Unexpected token (227:38)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             async;
+|             findAll(userId, number);
+>             Promise < entities_1.Main[] | undefined > {
+|                 const: getToDay = this.dtService.getToDay(),
+|                 const: workList = yield this.dataSource.getRepository(entities_1.Work).find({
+Error: Module parse failed: Unexpected token (227:38)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             async;
+|             findAll(userId, number);
+>             Promise < entities_1.Main[] | undefined > {
+|                 const: getToDay = this.dtService.getToDay(),
+|                 const: workList = yield this.dataSource.getRepository(entities_1.Work).find({
+    at Object.__decorate (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6058:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9044:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9151:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6048:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9044:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9151:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5965:24)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9044:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9151:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5933:14) {"date":"Sun Dec 24 2023 14:09:11 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[3.32080078125,2.5654296875,2.6416015625],"uptime":428626},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":562241,"external":15013697,"heapTotal":85377024,"heapUsed":61890776,"rss":134119424},"pid":83790,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Unexpected token (227:38)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             async;\n|             findAll(userId, number);\n>             Promise < entities_1.Main[] | undefined > {\n|                 const: getToDay = this.dtService.getToDay(),\n|                 const: workList = yield this.dataSource.getRepository(entities_1.Work).find({\n    at Object.__decorate (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6058:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9044:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9151:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6048:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9044:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9151:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5965:24)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9044:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9151:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5933:14)","timestamp":"2023/12/24 14:09:11","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.__decorate","line":6058,"method":"__decorate","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9044,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9151,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6048,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9044,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9151,"method":null,"native":false},{"column":24,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":5965,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9044,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9151,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":5933,"method":null,"native":false}]}

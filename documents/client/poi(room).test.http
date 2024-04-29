@@ -1,0 +1,45 @@
+### POST 메인 - 배너, 공간리스트
+POST https://dev-mirrorcity-poi.mtown-dev.eks-main-t.mirrorcity.io/api/v1/main/load
+Content-Type: application/json
+Authorization: 23f852c7429e20122cab0db3c222871e0c6515318de42ebdf601d87c02e2673439
+
+{
+  "accessToken": "23f852c7429e20122cab0db3c222871e0c6515318de42ebdf601d87c02e2673439",
+  "command": {
+    "lat" : "37.57204",
+    "lon" : "126.97889",
+    "radius": 5,
+    "order" : 0,
+    "lastId" : 0
+  }
+}
+
+### POST 메인 - 배너, 공간리스트
+POST 192.168.1.57:9081/api/v2/poi
+Content-Type: application/json
+Authorization: 23f852c7429e20122cab0db3c222871e0c6515318de42ebdf601d87c02e2673439
+
+{
+  "type" : "main",
+  "lat" : "37.57204",
+  "lon" : "126.97889",
+  "radius": 5,
+  "order" : 0,
+  "lastId" : 0
+}
+
+
+### POST 메인-서브 - 월드, 월드리스트
+POST 192.168.1.57:9081/api/v2/poi
+Content-Type: application/json
+Authorization: 23f852c7429e20122cab0db3c222871e0c6515318de42ebdf601d87c02e2673439
+
+{
+  "type" : "sub",
+  "lat" : "37.57204",
+  "lon" : "126.97889",
+  "radius": 5,
+  "order" : 0,
+  "lastId" : 0
+}
+

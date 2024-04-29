@@ -1,0 +1,39 @@
+<head>
+  <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+
+  <title>pro-pro11</title>
+</head>
+<html>
+  <body>
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script>
+      function handleKakaoLogin(response) {
+        console.log("Kakao AccessToken: " + response.access_token);
+        // 필요한 로직을 수행하세요.
+      }
+
+      window.onload = function () {
+        Kakao.init("49771f982d0ceb1bac2deb0fbd432858"); // 카카오 앱 키 입력
+
+        document
+          .getElementById("kakao-login-btn")
+          .addEventListener("click", function () {
+            Kakao.Auth.loginForm({
+              success: function (authObj) {
+                console.log("authObj", authObj.id_token);
+                handleKakaoLogin(authObj);
+              },
+              fail: function (error) {
+                console.log(error);
+              },
+            });
+          });
+      };
+    </script>
+    <div id="buttonDiv">
+      <button id="kakao-login-btn" style="width: 100px; height: 100px">
+        카카오 로그인
+      </button>
+    </div>
+  </body>
+</html>

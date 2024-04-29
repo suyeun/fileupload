@@ -1,0 +1,394 @@
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 19:40:06"}
+error: uncaughtException: Module parse failed: 'return' outside of function (69:0)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_a = typeof repositories_1.WorkRepository !== "undefined" && repositories_1.WorkRepository) === "function" ? _a : Object, typeof (_b = typeof dt_service_1.DtService !== "undefined" && dt_service_1.DtService) === "function" ? _b : Object])
+| ], WorkService);
+> return (0, interfaces_1.JsonResponse)(res, 200, "OK");
+| //근무지 등록
+| async;
+Error: Module parse failed: 'return' outside of function (69:0)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_a = typeof repositories_1.WorkRepository !== "undefined" && repositories_1.WorkRepository) === "function" ? _a : Object, typeof (_b = typeof dt_service_1.DtService !== "undefined" && dt_service_1.DtService) === "function" ? _b : Object])
+| ], WorkService);
+> return (0, interfaces_1.JsonResponse)(res, 200, "OK");
+| //근무지 등록
+| async;
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4856:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4849:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4485:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4436:14) {"date":"Sat Mar 02 2024 19:45:17 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.455078125,1.91455078125,1.8681640625],"uptime":1381896},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":1140163,"external":15059521,"heapTotal":85753856,"heapUsed":66255456,"rss":134823936},"pid":27846,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: 'return' outside of function (69:0)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|     __metadata(\"design:paramtypes\", [typeof (_a = typeof repositories_1.WorkRepository !== \"undefined\" && repositories_1.WorkRepository) === \"function\" ? _a : Object, typeof (_b = typeof dt_service_1.DtService !== \"undefined\" && dt_service_1.DtService) === \"function\" ? _b : Object])\n| ], WorkService);\n> return (0, interfaces_1.JsonResponse)(res, 200, \"OK\");\n| //근무지 등록\n| async;\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4856:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4849:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4485:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4436:14)","timestamp":"2024/3/2 19:45:17","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"Object.create.k2","line":4856,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10089,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10196,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4849,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10089,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10196,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4485,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10089,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10196,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4436,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: 'return' outside of function (73:0)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_a = typeof repositories_1.WorkRepository !== "undefined" && repositories_1.WorkRepository) === "function" ? _a : Object, typeof (_b = typeof dt_service_1.DtService !== "undefined" && dt_service_1.DtService) === "function" ? _b : Object])
+| ], WorkService);
+> return (0, interfaces_1.JsonResponse)(res, 200, "OK");
+| //근무지 등록
+| async;
+Error: Module parse failed: 'return' outside of function (73:0)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_a = typeof repositories_1.WorkRepository !== "undefined" && repositories_1.WorkRepository) === "function" ? _a : Object, typeof (_b = typeof dt_service_1.DtService !== "undefined" && dt_service_1.DtService) === "function" ? _b : Object])
+| ], WorkService);
+> return (0, interfaces_1.JsonResponse)(res, 200, "OK");
+| //근무지 등록
+| async;
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4856:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4849:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4485:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4436:14) {"date":"Sat Mar 02 2024 19:45:40 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.6123046875,1.986328125,1.89404296875],"uptime":1381919},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":1131971,"external":15059521,"heapTotal":85753856,"heapUsed":66265000,"rss":133431296},"pid":27915,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: 'return' outside of function (73:0)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|     __metadata(\"design:paramtypes\", [typeof (_a = typeof repositories_1.WorkRepository !== \"undefined\" && repositories_1.WorkRepository) === \"function\" ? _a : Object, typeof (_b = typeof dt_service_1.DtService !== \"undefined\" && dt_service_1.DtService) === \"function\" ? _b : Object])\n| ], WorkService);\n> return (0, interfaces_1.JsonResponse)(res, 200, \"OK\");\n| //근무지 등록\n| async;\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4856:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4849:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4485:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4436:14)","timestamp":"2024/3/2 19:45:40","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"Object.create.k2","line":4856,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10089,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10196,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4849,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10089,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10196,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4485,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10089,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10196,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4436,"method":null,"native":false}]}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 19:45:45"}
+error: uncaughtException: Module parse failed: Identifier 'res' has already been declared (92:16)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const monthTime = weekTime * 4;
+|             const workDay = work.workDay.sort();
+>             let res;
+|             if ((checkWork === null || checkWork === void 0 ? void 0 : checkWork.state) == "PROGRESS") {
+|                 res = yield this.workRepository.update(checkWork === null || checkWork === void 0 ? void 0 : checkWork.workId, work.name, work.address, work.marker, workDay, work.startDay, work.startTime, work.endTime, work.payType, work.pay, work.paybackDay, work.breakTime || "", weekTime, monthTime);
+Error: Module parse failed: Identifier 'res' has already been declared (92:16)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const monthTime = weekTime * 4;
+|             const workDay = work.workDay.sort();
+>             let res;
+|             if ((checkWork === null || checkWork === void 0 ? void 0 : checkWork.state) == "PROGRESS") {
+|                 res = yield this.workRepository.update(checkWork === null || checkWork === void 0 ? void 0 : checkWork.workId, work.name, work.address, work.marker, workDay, work.startDay, work.startTime, work.endTime, work.payType, work.pay, work.paybackDay, work.breakTime || "", weekTime, monthTime);
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4856:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4849:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4485:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4436:14) {"date":"Sat Mar 02 2024 19:46:02 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[3.30859375,2.16845703125,1.96044921875],"uptime":1381941},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":1140163,"external":15059669,"heapTotal":85753856,"heapUsed":66246928,"rss":135086080},"pid":28009,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Identifier 'res' has already been declared (92:16)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const monthTime = weekTime * 4;\n|             const workDay = work.workDay.sort();\n>             let res;\n|             if ((checkWork === null || checkWork === void 0 ? void 0 : checkWork.state) == \"PROGRESS\") {\n|                 res = yield this.workRepository.update(checkWork === null || checkWork === void 0 ? void 0 : checkWork.workId, work.name, work.address, work.marker, workDay, work.startDay, work.startTime, work.endTime, work.payType, work.pay, work.paybackDay, work.breakTime || \"\", weekTime, monthTime);\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4856:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4849:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4485:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4436:14)","timestamp":"2024/3/2 19:46:02","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"Object.create.k2","line":4856,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10089,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10196,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4849,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10089,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10196,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4485,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10089,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10196,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4436,"method":null,"native":false}]}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 19:46:07"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 19:46:10"}
+error: uncaughtException: Module parse failed: 'return' outside of function (73:0)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_a = typeof repositories_1.WorkRepository !== "undefined" && repositories_1.WorkRepository) === "function" ? _a : Object, typeof (_b = typeof dt_service_1.DtService !== "undefined" && dt_service_1.DtService) === "function" ? _b : Object])
+| ], WorkService);
+> return (0, interfaces_1.JsonResponse)(res, 200, "OK");
+| //근무지 등록
+| async;
+Error: Module parse failed: 'return' outside of function (73:0)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_a = typeof repositories_1.WorkRepository !== "undefined" && repositories_1.WorkRepository) === "function" ? _a : Object, typeof (_b = typeof dt_service_1.DtService !== "undefined" && dt_service_1.DtService) === "function" ? _b : Object])
+| ], WorkService);
+> return (0, interfaces_1.JsonResponse)(res, 200, "OK");
+| //근무지 등록
+| async;
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4856:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4849:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4485:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4436:14) {"date":"Sat Mar 02 2024 19:46:16 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[3.54248046875,2.2744140625,2.00146484375],"uptime":1381955},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":1131971,"external":15059521,"heapTotal":85753856,"heapUsed":66256024,"rss":135118848},"pid":28069,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: 'return' outside of function (73:0)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|     __metadata(\"design:paramtypes\", [typeof (_a = typeof repositories_1.WorkRepository !== \"undefined\" && repositories_1.WorkRepository) === \"function\" ? _a : Object, typeof (_b = typeof dt_service_1.DtService !== \"undefined\" && dt_service_1.DtService) === \"function\" ? _b : Object])\n| ], WorkService);\n> return (0, interfaces_1.JsonResponse)(res, 200, \"OK\");\n| //근무지 등록\n| async;\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4856:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4849:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4485:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4436:14)","timestamp":"2024/3/2 19:46:16","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"Object.create.k2","line":4856,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10089,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10196,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4849,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10089,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10196,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4485,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10089,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10196,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4436,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: 'return' outside of function (73:0)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_a = typeof repositories_1.WorkRepository !== "undefined" && repositories_1.WorkRepository) === "function" ? _a : Object, typeof (_b = typeof dt_service_1.DtService !== "undefined" && dt_service_1.DtService) === "function" ? _b : Object])
+| ], WorkService);
+> return (0, interfaces_1.JsonResponse)(res, 200, "OK");
+| //근무지 등록
+| async;
+Error: Module parse failed: 'return' outside of function (73:0)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_a = typeof repositories_1.WorkRepository !== "undefined" && repositories_1.WorkRepository) === "function" ? _a : Object, typeof (_b = typeof dt_service_1.DtService !== "undefined" && dt_service_1.DtService) === "function" ? _b : Object])
+| ], WorkService);
+> return (0, interfaces_1.JsonResponse)(res, 200, "OK");
+| //근무지 등록
+| async;
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4856:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4849:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4485:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4436:14) {"date":"Sat Mar 02 2024 19:46:21 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[3.9794921875,2.3857421875,2.0419921875],"uptime":1381960},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":1140163,"external":15059521,"heapTotal":85753856,"heapUsed":66188736,"rss":133611520},"pid":28089,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: 'return' outside of function (73:0)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|     __metadata(\"design:paramtypes\", [typeof (_a = typeof repositories_1.WorkRepository !== \"undefined\" && repositories_1.WorkRepository) === \"function\" ? _a : Object, typeof (_b = typeof dt_service_1.DtService !== \"undefined\" && dt_service_1.DtService) === \"function\" ? _b : Object])\n| ], WorkService);\n> return (0, interfaces_1.JsonResponse)(res, 200, \"OK\");\n| //근무지 등록\n| async;\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4856:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4849:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4485:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4436:14)","timestamp":"2024/3/2 19:46:21","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"Object.create.k2","line":4856,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10089,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10196,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4849,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10089,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10196,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4485,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10089,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10196,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4436,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: 'return' outside of function (73:0)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_a = typeof repositories_1.WorkRepository !== "undefined" && repositories_1.WorkRepository) === "function" ? _a : Object, typeof (_b = typeof dt_service_1.DtService !== "undefined" && dt_service_1.DtService) === "function" ? _b : Object])
+| ], WorkService);
+> return (0, interfaces_1.JsonResponse)(res, 200, "OK");
+| //근무지 등록
+| async;
+Error: Module parse failed: 'return' outside of function (73:0)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_a = typeof repositories_1.WorkRepository !== "undefined" && repositories_1.WorkRepository) === "function" ? _a : Object, typeof (_b = typeof dt_service_1.DtService !== "undefined" && dt_service_1.DtService) === "function" ? _b : Object])
+| ], WorkService);
+> return (0, interfaces_1.JsonResponse)(res, 200, "OK");
+| //근무지 등록
+| async;
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4856:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4849:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4485:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4436:14) {"date":"Sat Mar 02 2024 19:46:33 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[4.0625,2.45458984375,2.0703125],"uptime":1381972},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":1131971,"external":15059521,"heapTotal":86016000,"heapUsed":66408928,"rss":133627904},"pid":28132,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: 'return' outside of function (73:0)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|     __metadata(\"design:paramtypes\", [typeof (_a = typeof repositories_1.WorkRepository !== \"undefined\" && repositories_1.WorkRepository) === \"function\" ? _a : Object, typeof (_b = typeof dt_service_1.DtService !== \"undefined\" && dt_service_1.DtService) === \"function\" ? _b : Object])\n| ], WorkService);\n> return (0, interfaces_1.JsonResponse)(res, 200, \"OK\");\n| //근무지 등록\n| async;\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4856:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4849:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4485:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10089:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10196:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4436:14)","timestamp":"2024/3/2 19:46:33","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"Object.create.k2","line":4856,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10089,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10196,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4849,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10089,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10196,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4485,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10089,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10196,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4436,"method":null,"native":false}]}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 19:46:38"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 19:47:37"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 19:48:08"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 19:48:56"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 19:49:14"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 19:49:15"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 19:49:34"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 19:50:23"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/3/2 19:50:25"}
+debug: [REQ] ::1 POST 200 : /api/v1/work/list {"timestamp":"2024/3/2 19:50:25"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:03:28"}
+debug: [REQ] ::1 POST 403 : /api/v1/work/list {"timestamp":"2024/3/2 20:03:28"}
+debug: [REQ] ::1 POST 403 : /api/v1/work/list {"timestamp":"2024/3/2 20:03:29"}
+debug: [REQ] ::1 POST 403 : /api/v1/work/list {"timestamp":"2024/3/2 20:03:30"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/3/2 20:03:36"}
+debug: [REQ] ::1 POST 200 : /api/v1/work/list {"timestamp":"2024/3/2 20:03:36"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:04:47"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:04:49"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:05:01"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:05:32"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:05:38"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:05:55"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:06:04"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:06:07"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:07:42"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:08:22"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:09:20"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:09:25"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:09:51"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:10:00"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:10:10"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:10:22"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:10:40"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:10:48"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:10:51"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:11:40"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:11:45"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:11:49"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:12:50"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:13:30"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:15:13"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:15:17"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:15:36"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:15:45"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:16:05"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:17:04"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:17:22"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:18:35"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:18:40"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:18:45"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:20:45"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:21:48"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:21:57"}
+error: uncaughtException: Module parse failed: Unexpected token (136:1)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_a = typeof typeorm_2.Repository !== "undefined" && typeorm_2.Repository) === "function" ? _a : Object, typeof (_b = typeof typeorm_2.Repository !== "undefined" && typeorm_2.Repository) === "function" ? _b : Object, typeof (_c = typeof typeorm_2.Repository !== "undefined" && typeorm_2.Repository) === "function" ? _c : Object, typeof (_d = typeof typeorm_2.DataSource !== "undefined" && typeorm_2.DataSource) === "function" ? _d : Object, typeof (_e = typeof dt_service_1.DtService !== "undefined" && dt_service_1.DtService) === "function" ? _e : Object])
+| ], WorkRepository);
+>  || "",
+|     async;
+| update(workId, number, work, any, weekTime, number, monthTime, number);
+Error: Module parse failed: Unexpected token (136:1)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_a = typeof typeorm_2.Repository !== "undefined" && typeorm_2.Repository) === "function" ? _a : Object, typeof (_b = typeof typeorm_2.Repository !== "undefined" && typeorm_2.Repository) === "function" ? _b : Object, typeof (_c = typeof typeorm_2.Repository !== "undefined" && typeorm_2.Repository) === "function" ? _c : Object, typeof (_d = typeof typeorm_2.DataSource !== "undefined" && typeorm_2.DataSource) === "function" ? _d : Object, typeof (_e = typeof dt_service_1.DtService !== "undefined" && dt_service_1.DtService) === "function" ? _e : Object])
+| ], WorkRepository);
+>  || "",
+|     async;
+| update(workId, number, work, any, weekTime, number, monthTime, number);
+    at Object.__decorate (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:5050:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10055:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10162:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:5042:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10055:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10162:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4935:24)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10055:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10162:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4903:14) {"date":"Sat Mar 02 2024 20:21:59 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.84228515625,2.541015625,2.38720703125],"uptime":1384098},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":1140163,"external":15059486,"heapTotal":86016000,"heapUsed":66398408,"rss":135938048},"pid":34369,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Unexpected token (136:1)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|     __metadata(\"design:paramtypes\", [typeof (_a = typeof typeorm_2.Repository !== \"undefined\" && typeorm_2.Repository) === \"function\" ? _a : Object, typeof (_b = typeof typeorm_2.Repository !== \"undefined\" && typeorm_2.Repository) === \"function\" ? _b : Object, typeof (_c = typeof typeorm_2.Repository !== \"undefined\" && typeorm_2.Repository) === \"function\" ? _c : Object, typeof (_d = typeof typeorm_2.DataSource !== \"undefined\" && typeorm_2.DataSource) === \"function\" ? _d : Object, typeof (_e = typeof dt_service_1.DtService !== \"undefined\" && dt_service_1.DtService) === \"function\" ? _e : Object])\n| ], WorkRepository);\n>  || \"\",\n|     async;\n| update(workId, number, work, any, weekTime, number, monthTime, number);\n    at Object.__decorate (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:5050:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10055:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10162:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:5042:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10055:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10162:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4935:24)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10055:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10162:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4903:14)","timestamp":"2024/3/2 20:21:59","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"Object.__decorate","line":5050,"method":"__decorate","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10055,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10162,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":5042,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10055,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10162,"method":null,"native":false},{"column":24,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4935,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10055,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10162,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4903,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: Unexpected token (136:1)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_a = typeof typeorm_2.Repository !== "undefined" && typeorm_2.Repository) === "function" ? _a : Object, typeof (_b = typeof typeorm_2.Repository !== "undefined" && typeorm_2.Repository) === "function" ? _b : Object, typeof (_c = typeof typeorm_2.Repository !== "undefined" && typeorm_2.Repository) === "function" ? _c : Object, typeof (_d = typeof typeorm_2.DataSource !== "undefined" && typeorm_2.DataSource) === "function" ? _d : Object, typeof (_e = typeof dt_service_1.DtService !== "undefined" && dt_service_1.DtService) === "function" ? _e : Object])
+| ], WorkRepository);
+>  || "",
+|     async;
+| update(workId, number, work, any, weekTime, number, monthTime, number);
+Error: Module parse failed: Unexpected token (136:1)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_a = typeof typeorm_2.Repository !== "undefined" && typeorm_2.Repository) === "function" ? _a : Object, typeof (_b = typeof typeorm_2.Repository !== "undefined" && typeorm_2.Repository) === "function" ? _b : Object, typeof (_c = typeof typeorm_2.Repository !== "undefined" && typeorm_2.Repository) === "function" ? _c : Object, typeof (_d = typeof typeorm_2.DataSource !== "undefined" && typeorm_2.DataSource) === "function" ? _d : Object, typeof (_e = typeof dt_service_1.DtService !== "undefined" && dt_service_1.DtService) === "function" ? _e : Object])
+| ], WorkRepository);
+>  || "",
+|     async;
+| update(workId, number, work, any, weekTime, number, monthTime, number);
+    at Object.__decorate (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:5050:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10055:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10162:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:5042:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10055:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10162:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4935:24)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10055:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10162:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4903:14) {"date":"Sat Mar 02 2024 20:22:12 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[3.02587890625,2.5888671875,2.40576171875],"uptime":1384111},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":435856,"external":14402985,"heapTotal":88096768,"heapUsed":60070032,"rss":136249344},"pid":34433,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Unexpected token (136:1)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|     __metadata(\"design:paramtypes\", [typeof (_a = typeof typeorm_2.Repository !== \"undefined\" && typeorm_2.Repository) === \"function\" ? _a : Object, typeof (_b = typeof typeorm_2.Repository !== \"undefined\" && typeorm_2.Repository) === \"function\" ? _b : Object, typeof (_c = typeof typeorm_2.Repository !== \"undefined\" && typeorm_2.Repository) === \"function\" ? _c : Object, typeof (_d = typeof typeorm_2.DataSource !== \"undefined\" && typeorm_2.DataSource) === \"function\" ? _d : Object, typeof (_e = typeof dt_service_1.DtService !== \"undefined\" && dt_service_1.DtService) === \"function\" ? _e : Object])\n| ], WorkRepository);\n>  || \"\",\n|     async;\n| update(workId, number, work, any, weekTime, number, monthTime, number);\n    at Object.__decorate (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:5050:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10055:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10162:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:5042:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10055:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10162:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4935:24)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10055:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10162:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4903:14)","timestamp":"2024/3/2 20:22:12","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"Object.__decorate","line":5050,"method":"__decorate","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10055,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10162,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":5042,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10055,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10162,"method":null,"native":false},{"column":24,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4935,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10055,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10162,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4903,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: Unexpected token (136:1)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_a = typeof typeorm_2.Repository !== "undefined" && typeorm_2.Repository) === "function" ? _a : Object, typeof (_b = typeof typeorm_2.Repository !== "undefined" && typeorm_2.Repository) === "function" ? _b : Object, typeof (_c = typeof typeorm_2.Repository !== "undefined" && typeorm_2.Repository) === "function" ? _c : Object, typeof (_d = typeof typeorm_2.DataSource !== "undefined" && typeorm_2.DataSource) === "function" ? _d : Object, typeof (_e = typeof dt_service_1.DtService !== "undefined" && dt_service_1.DtService) === "function" ? _e : Object])
+| ], WorkRepository);
+>  || "",
+|     async;
+| update(workId, number, work, any, weekTime, number, monthTime, number);
+Error: Module parse failed: Unexpected token (136:1)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_a = typeof typeorm_2.Repository !== "undefined" && typeorm_2.Repository) === "function" ? _a : Object, typeof (_b = typeof typeorm_2.Repository !== "undefined" && typeorm_2.Repository) === "function" ? _b : Object, typeof (_c = typeof typeorm_2.Repository !== "undefined" && typeorm_2.Repository) === "function" ? _c : Object, typeof (_d = typeof typeorm_2.DataSource !== "undefined" && typeorm_2.DataSource) === "function" ? _d : Object, typeof (_e = typeof dt_service_1.DtService !== "undefined" && dt_service_1.DtService) === "function" ? _e : Object])
+| ], WorkRepository);
+>  || "",
+|     async;
+| update(workId, number, work, any, weekTime, number, monthTime, number);
+    at Object.__decorate (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:5050:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10055:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10162:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:5042:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10055:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10162:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4935:24)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10055:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10162:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4903:14) {"date":"Sat Mar 02 2024 20:22:33 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.71240234375,2.5419921875,2.3935546875],"uptime":1384132},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":1140163,"external":15059499,"heapTotal":85753856,"heapUsed":66318480,"rss":132644864},"pid":34547,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Unexpected token (136:1)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|     __metadata(\"design:paramtypes\", [typeof (_a = typeof typeorm_2.Repository !== \"undefined\" && typeorm_2.Repository) === \"function\" ? _a : Object, typeof (_b = typeof typeorm_2.Repository !== \"undefined\" && typeorm_2.Repository) === \"function\" ? _b : Object, typeof (_c = typeof typeorm_2.Repository !== \"undefined\" && typeorm_2.Repository) === \"function\" ? _c : Object, typeof (_d = typeof typeorm_2.DataSource !== \"undefined\" && typeorm_2.DataSource) === \"function\" ? _d : Object, typeof (_e = typeof dt_service_1.DtService !== \"undefined\" && dt_service_1.DtService) === \"function\" ? _e : Object])\n| ], WorkRepository);\n>  || \"\",\n|     async;\n| update(workId, number, work, any, weekTime, number, monthTime, number);\n    at Object.__decorate (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:5050:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10055:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10162:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:5042:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10055:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10162:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4935:24)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10055:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10162:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:4903:14)","timestamp":"2024/3/2 20:22:33","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"Object.__decorate","line":5050,"method":"__decorate","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10055,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10162,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":5042,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10055,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10162,"method":null,"native":false},{"column":24,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4935,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10055,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10162,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":4903,"method":null,"native":false}]}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:22:56"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:23:26"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:23:35"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:23:38"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:23:54"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:24:07"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:25:10"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:25:25"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:25:30"}
+debug: [JsonResponse] 30000 DUPLICATE_WORK {"timestamp":"2024/3/2 20:25:43"}
+debug: [REQ] ::1 POST 200 : /api/v1/work/save {"timestamp":"2024/3/2 20:25:43"}
+debug: [JsonResponse] 30001 WORK_NOT_REGISTERED {"timestamp":"2024/3/2 20:25:58"}
+debug: [REQ] ::1 POST 200 : /api/v1/work/update {"timestamp":"2024/3/2 20:25:58"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:26:07"}
+debug: [JsonResponse] 30001 WORK_NOT_REGISTERED! {"timestamp":"2024/3/2 20:26:08"}
+debug: [REQ] ::1 POST 200 : /api/v1/work/update {"timestamp":"2024/3/2 20:26:08"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:26:33"}
+debug: [JsonResponse] 30001 WORK_NOT_REGISTERED! {"timestamp":"2024/3/2 20:26:34"}
+debug: [REQ] ::1 POST 200 : /api/v1/work/update {"timestamp":"2024/3/2 20:26:34"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:26:44"}
+debug: [JsonResponse] 30001 WORK_NOT_REGISTERED! {"timestamp":"2024/3/2 20:26:51"}
+debug: [REQ] ::1 POST 200 : /api/v1/work/update {"timestamp":"2024/3/2 20:26:51"}
+debug: [REQ] ::1 POST 500 : /api/v1/work/update {"timestamp":"2024/3/2 20:27:37"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:27:49"}
+debug: [REQ] ::1 POST 500 : /api/v1/work/update {"timestamp":"2024/3/2 20:27:51"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:28:03"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:28:08"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:28:12"}
+debug: [REQ] ::1 POST 500 : /api/v1/work/update {"timestamp":"2024/3/2 20:28:13"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:28:29"}
+debug: [REQ] ::1 POST 500 : /api/v1/work/update {"timestamp":"2024/3/2 20:28:31"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:28:53"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:29:08"}
+debug: [REQ] ::1 POST 500 : /api/v1/work/update {"timestamp":"2024/3/2 20:29:16"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:29:36"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:29:55"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:29:58"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:30:04"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:30:08"}
+debug: [REQ] ::1 POST 500 : /api/v1/work/update {"timestamp":"2024/3/2 20:30:10"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:30:35"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:30:37"}
+debug: [REQ] ::1 POST 500 : /api/v1/work/update {"timestamp":"2024/3/2 20:30:38"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:31:04"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:31:06"}
+debug: [REQ] ::1 POST 500 : /api/v1/work/update {"timestamp":"2024/3/2 20:31:07"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:31:28"}
+debug: [REQ] ::1 POST 500 : /api/v1/work/update {"timestamp":"2024/3/2 20:31:29"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:31:51"}
+debug: [REQ] ::1 POST 500 : /api/v1/work/update {"timestamp":"2024/3/2 20:31:54"}
+debug: [REQ] ::1 POST 500 : /api/v1/work/update {"timestamp":"2024/3/2 20:31:55"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:32:20"}
+debug: [REQ] ::1 POST 500 : /api/v1/work/update {"timestamp":"2024/3/2 20:32:25"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:32:51"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:33:00"}
+debug: [REQ] ::1 POST 500 : /api/v1/work/update {"timestamp":"2024/3/2 20:33:03"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:33:19"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:33:26"}
+debug: [REQ] ::1 POST 500 : /api/v1/work/update {"timestamp":"2024/3/2 20:33:28"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:33:47"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:33:56"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:33:59"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:34:20"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/3/2 20:34:24"}
+debug: [REQ] ::1 POST 200 : /api/v1/work/update {"timestamp":"2024/3/2 20:34:24"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:34:49"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:34:53"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:35:17"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:35:20"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:35:39"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:35:51"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 20:36:03"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/3/2 20:36:07"}
+debug: [REQ] ::1 POST 200 : /api/v1/work/update {"timestamp":"2024/3/2 20:36:07"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 21:39:20"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/3/2 21:39:29"}
+debug: [REQ] ::1 POST 200 : /api/v1/work/list {"timestamp":"2024/3/2 21:39:29"}
+debug: [REQ] ::1 POST 403 : /api/v1/main/list {"timestamp":"2024/3/2 21:39:40"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/3/2 21:39:53"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2024/3/2 21:39:53"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/3/2 21:40:09"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2024/3/2 21:40:09"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/3/2 21:41:23"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/3/2 21:41:36"}
+debug: [REQ] ::1 POST 200 : /api/v1/work/list {"timestamp":"2024/3/2 21:41:36"}

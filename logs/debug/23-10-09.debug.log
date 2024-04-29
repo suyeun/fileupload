@@ -1,0 +1,1120 @@
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.workId);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+Error: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.workId);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7615:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7608:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7396:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7347:14) {"date":"Mon Oct 09 2023 00:01:30 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[3.36328125,3.68896484375,3.06689453125],"uptime":38320},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":277917,"external":14635592,"heapTotal":85196800,"heapUsed":57607680,"rss":131235840},"pid":39803,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (45:34)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const calendarData = [];\n|             res.forEach((element) => {\n>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.workId);\n|                 calendarData.push({\n|                     workDt: element.workDt,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7615:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7608:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7396:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7347:14)","timestamp":"2023/10/9 00:01:30","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":7615,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9750,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9857,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7608,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9750,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9857,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7396,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9750,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9857,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7347,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.workId, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+Error: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.workId, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7615:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7608:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7396:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7347:14) {"date":"Mon Oct 09 2023 00:01:59 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.79052734375,3.51171875,3.02294921875],"uptime":38349},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":269725,"external":14635628,"heapTotal":84934656,"heapUsed":57489528,"rss":133660672},"pid":39836,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (45:34)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const calendarData = [];\n|             res.forEach((element) => {\n>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.workId, element.startTime, element.endTime);\n|                 calendarData.push({\n|                     workDt: element.workDt,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7615:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7608:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7396:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7347:14)","timestamp":"2023/10/9 00:01:59","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":7615,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9750,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9857,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7608,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9750,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9857,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7396,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9750,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9857,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7347,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.workId, workDt, element.workDt, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+Error: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.workId, workDt, element.workDt, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7615:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7608:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7396:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7347:14) {"date":"Mon Oct 09 2023 00:02:12 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.4609375,3.40380859375,2.9921875],"uptime":38362},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":261533,"external":14635652,"heapTotal":84934656,"heapUsed":57456528,"rss":133988352},"pid":39920,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (45:34)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const calendarData = [];\n|             res.forEach((element) => {\n>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.workId, workDt, element.workDt, element.startTime, element.endTime);\n|                 calendarData.push({\n|                     workDt: element.workDt,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7615:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7608:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7396:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7347:14)","timestamp":"2023/10/9 00:02:12","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":7615,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9750,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9857,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7608,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9750,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9857,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7396,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9750,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9857,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7347,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+Error: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7615:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7608:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7396:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7347:14) {"date":"Mon Oct 09 2023 00:02:37 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.22265625,3.2734375,2.95703125],"uptime":38387},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":257262,"external":14635625,"heapTotal":85458944,"heapUsed":57263792,"rss":133054464},"pid":39974,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (45:34)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const calendarData = [];\n|             res.forEach((element) => {\n>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);\n|                 calendarData.push({\n|                     workDt: element.workDt,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7615:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7608:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7396:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9750:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9857:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7347:14)","timestamp":"2023/10/9 00:02:37","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":7615,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9750,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9857,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7608,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9750,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9857,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7396,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9750,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9857,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7347,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+Error: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7626:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9761:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9868:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7619:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9761:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9868:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7407:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9761:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9868:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7358:14) {"date":"Mon Oct 09 2023 00:03:19 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[3.45654296875,3.40576171875,3.015625],"uptime":38429},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":277917,"external":14636043,"heapTotal":85196800,"heapUsed":57522928,"rss":132694016},"pid":40027,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (45:34)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const calendarData = [];\n|             res.forEach((element) => {\n>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);\n|                 calendarData.push({\n|                     workDt: element.workDt,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7626:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9761:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9868:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7619:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9761:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9868:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7407:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9761:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9868:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7358:14)","timestamp":"2023/10/9 00:03:19","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":7626,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9761,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9868,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7619,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9761,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9868,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7407,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9761,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9868,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7358,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+Error: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14) {"date":"Mon Oct 09 2023 00:04:11 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.44384765625,3.11474609375,2.9267578125],"uptime":38481},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":224217,"external":14636222,"heapTotal":85721088,"heapUsed":56782856,"rss":135380992},"pid":40080,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (45:34)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const calendarData = [];\n|             res.forEach((element) => {\n>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);\n|                 calendarData.push({\n|                     workDt: element.workDt,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14)","timestamp":"2023/10/9 00:04:11","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":7630,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7623,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7411,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7362,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+Error: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14) {"date":"Mon Oct 09 2023 00:04:56 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.4248046875,3.00634765625,2.8955078125],"uptime":38526},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":277917,"external":14636224,"heapTotal":85196800,"heapUsed":57663016,"rss":133332992},"pid":40117,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (45:34)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const calendarData = [];\n|             res.forEach((element) => {\n>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);\n|                 calendarData.push({\n|                     workDt: element.workDt,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14)","timestamp":"2023/10/9 00:04:56","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":7630,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7623,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7411,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7362,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+Error: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14) {"date":"Mon Oct 09 2023 00:05:04 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.2919921875,2.95654296875,2.87890625],"uptime":38534},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":277917,"external":14636224,"heapTotal":85196800,"heapUsed":57372664,"rss":132546560},"pid":40145,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (45:34)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const calendarData = [];\n|             res.forEach((element) => {\n>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);\n|                 calendarData.push({\n|                     workDt: element.workDt,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14)","timestamp":"2023/10/9 00:05:04","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":7630,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7623,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7411,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7362,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+Error: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14) {"date":"Mon Oct 09 2023 00:05:21 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.00537109375,2.85986328125,2.84521484375],"uptime":38551},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":232881,"external":5302180,"heapTotal":85196800,"heapUsed":56975872,"rss":132366336},"pid":40261,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (45:34)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const calendarData = [];\n|             res.forEach((element) => {\n>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);\n|                 calendarData.push({\n|                     workDt: element.workDt,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14)","timestamp":"2023/10/9 00:05:21","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":7630,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7623,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7411,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7362,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+Error: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14) {"date":"Mon Oct 09 2023 00:05:36 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.77001953125,2.767578125,2.81201171875],"uptime":38566},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":265454,"external":14636254,"heapTotal":85458944,"heapUsed":57243672,"rss":133005312},"pid":40288,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (45:34)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const calendarData = [];\n|             res.forEach((element) => {\n>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);\n|                 calendarData.push({\n|                     workDt: element.workDt,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14)","timestamp":"2023/10/9 00:05:36","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":7630,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7623,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7411,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7362,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+Error: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14) {"date":"Mon Oct 09 2023 00:05:49 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.55712890625,2.89208984375,2.85546875],"uptime":38579},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":277917,"external":14636244,"heapTotal":85196800,"heapUsed":57179280,"rss":134021120},"pid":40309,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (45:34)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const calendarData = [];\n|             res.forEach((element) => {\n>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);\n|                 calendarData.push({\n|                     workDt: element.workDt,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14)","timestamp":"2023/10/9 00:05:49","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":7630,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7623,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7411,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7362,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+Error: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14) {"date":"Mon Oct 09 2023 00:06:09 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.1142578125,2.76806640625,2.8115234375],"uptime":38599},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":265454,"external":14636244,"heapTotal":85196800,"heapUsed":57249112,"rss":132956160},"pid":40334,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (45:34)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const calendarData = [];\n|             res.forEach((element) => {\n>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);\n|                 calendarData.push({\n|                     workDt: element.workDt,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14)","timestamp":"2023/10/9 00:06:09","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":7630,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7623,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7411,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7362,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+Error: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14) {"date":"Mon Oct 09 2023 00:06:15 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.58544921875,2.8544921875,2.841796875],"uptime":38605},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":219049,"external":14636244,"heapTotal":85721088,"heapUsed":56553736,"rss":135888896},"pid":40347,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (45:34)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const calendarData = [];\n|             res.forEach((element) => {\n>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);\n|                 calendarData.push({\n|                     workDt: element.workDt,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14)","timestamp":"2023/10/9 00:06:15","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":7630,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7623,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7411,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7362,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+Error: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14) {"date":"Mon Oct 09 2023 00:06:16 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.58544921875,2.8544921875,2.841796875],"uptime":38606},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":251394,"external":14636244,"heapTotal":85721088,"heapUsed":57341336,"rss":135921664},"pid":40352,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (45:34)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const calendarData = [];\n|             res.forEach((element) => {\n>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);\n|                 calendarData.push({\n|                     workDt: element.workDt,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14)","timestamp":"2023/10/9 00:06:16","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":7630,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7623,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7411,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7362,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+Error: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14) {"date":"Mon Oct 09 2023 00:06:28 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.5341796875,2.82861328125,2.83203125],"uptime":38618},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":236704,"external":14636244,"heapTotal":85458944,"heapUsed":56853080,"rss":133611520},"pid":40381,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (45:34)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const calendarData = [];\n|             res.forEach((element) => {\n>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);\n|                 calendarData.push({\n|                     workDt: element.workDt,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14)","timestamp":"2023/10/9 00:06:28","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":7630,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7623,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7411,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7362,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element === null || element === void 0 ? void 0 : element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+Error: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element === null || element === void 0 ? void 0 : element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14) {"date":"Mon Oct 09 2023 00:06:40 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.3779296875,2.7841796875,2.81640625],"uptime":38630},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":604417,"external":6225465,"heapTotal":84148224,"heapUsed":59098936,"rss":133693440},"pid":40401,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (45:34)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const calendarData = [];\n|             res.forEach((element) => {\n>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element === null || element === void 0 ? void 0 : element.pay, element.startTime, element.endTime);\n|                 calendarData.push({\n|                     workDt: element.workDt,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14)","timestamp":"2023/10/9 00:06:40","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":7630,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7623,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7411,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7362,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+Error: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14) {"date":"Mon Oct 09 2023 00:06:41 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.3779296875,2.7841796875,2.81640625],"uptime":38631},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":269725,"external":5342991,"heapTotal":85196800,"heapUsed":57592448,"rss":130678784},"pid":40406,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (45:34)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const calendarData = [];\n|             res.forEach((element) => {\n>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);\n|                 calendarData.push({\n|                     workDt: element.workDt,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14)","timestamp":"2023/10/9 00:06:41","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":7630,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7623,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7411,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7362,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+Error: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14) {"date":"Mon Oct 09 2023 00:06:47 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.34765625,2.77099609375,2.8115234375],"uptime":38637},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":259586,"external":14636231,"heapTotal":85458944,"heapUsed":57072896,"rss":134873088},"pid":40419,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (45:34)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const calendarData = [];\n|             res.forEach((element) => {\n>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.startTime, element.endTime);\n|                 calendarData.push({\n|                     workDt: element.workDt,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14)","timestamp":"2023/10/9 00:06:47","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":7630,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7623,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7411,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7362,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(userId, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+Error: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(userId, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14) {"date":"Mon Oct 09 2023 00:06:53 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.2392578125,2.7412109375,2.80078125],"uptime":38643},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":257712,"external":14636239,"heapTotal":85196800,"heapUsed":57104192,"rss":134381568},"pid":40434,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (45:34)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const calendarData = [];\n|             res.forEach((element) => {\n>                 const TODAY_PAY = yield this.calendarRepository.todayPay(userId, element.startTime, element.endTime);\n|                 calendarData.push({\n|                     workDt: element.workDt,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14)","timestamp":"2023/10/9 00:06:53","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":7630,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7623,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7411,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7362,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+Error: Module parse failed: The keyword 'yield' is reserved (45:34)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);
+|                 calendarData.push({
+|                     workDt: element.workDt,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14) {"date":"Mon Oct 09 2023 00:07:14 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.1845703125,2.68212890625,2.7763671875],"uptime":38665},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":236704,"external":14636244,"heapTotal":85458944,"heapUsed":56770840,"rss":135249920},"pid":40454,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (45:34)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const calendarData = [];\n|             res.forEach((element) => {\n>                 const TODAY_PAY = yield this.calendarRepository.todayPay(element.pay, element.startTime, element.endTime);\n|                 calendarData.push({\n|                     workDt: element.workDt,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7630:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7623:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7411:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9765:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9872:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7362:14)","timestamp":"2023/10/9 00:07:15","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":7630,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7623,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7411,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9765,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9872,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7362,"method":null,"native":false}]}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:07:24"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:08:38"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:08:41"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:08:57"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:09:04"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:09:23"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:09:49"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:09:51"}
+error: uncaughtException: Module parse failed: Unexpected token (159:30)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                     totalHours,
+|                     totalPay,
+>                     workInfo, : .pay,
+|                 });
+|                 return true;
+Error: Module parse failed: Unexpected token (159:30)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                     totalHours,
+|                     totalPay,
+>                     workInfo, : .pay,
+|                 });
+|                 return true;
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7063:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9655:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9762:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6817:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9655:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9762:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6722:24)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9655:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9762:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6690:14) {"date":"Mon Oct 09 2023 00:11:05 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.869140625,2.26025390625,2.55859375],"uptime":38895},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":277917,"external":14633097,"heapTotal":85442560,"heapUsed":57457744,"rss":133005312},"pid":40760,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Unexpected token (159:30)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|                     totalHours,\n|                     totalPay,\n>                     workInfo, : .pay,\n|                 });\n|                 return true;\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7063:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9655:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9762:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6817:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9655:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9762:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6722:24)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9655:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9762:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6690:14)","timestamp":"2023/10/9 00:11:05","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":7063,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9655,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9762,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6817,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9655,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9762,"method":null,"native":false},{"column":24,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6722,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9655,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9762,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6690,"method":null,"native":false}]}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:11:10"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:11:35"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:11:39"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:11:45"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:12:11"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:12:12"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:13:29"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:13:45"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:13:54"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:13:55"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:14:00"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:14:06"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:14:24"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:14:35"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:14:36"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:14:57"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:14:58"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:15:48"}
+debug: [REQ] ::1 POST 500 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:15:50"}
+debug: [REQ] ::1 POST 500 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:15:52"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:16:01"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:16:03"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:16:04"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:18:50"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2023/10/9 00:19:08"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:19:12"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:19:13"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2023/10/9 00:19:21"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:19:24"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:19:25"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:19:26"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2023/10/9 00:19:40"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:19:43"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:19:44"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:19:45"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:20:47"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:21:18"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:21:29"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:21:59"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:22:13"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2023/10/9 00:22:28"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:22:31"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:22:32"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2023/10/9 00:22:35"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2023/10/9 00:22:41"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:22:44"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:23:16"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:24:41"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:27:11"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 00:28:13"}
+debug: [REQ] ::1 POST 403 : /api/v1/main/calculate-salary {"timestamp":"2023/10/9 00:28:23"}
+debug: [REQ] ::1 POST 403 : /api/v1/main/list {"timestamp":"2023/10/9 00:28:30"}
+debug: [REQ] ::1 POST 403 : /api/v1/pay-stub/list {"timestamp":"2023/10/9 00:28:33"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/10/9 00:29:04"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2023/10/9 00:29:16"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2023/10/9 00:29:22"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 00:29:28"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:34:10"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2023/10/9 14:34:18"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2023/10/9 14:34:46"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:35:22"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2023/10/9 14:35:24"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:38:49"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:38:51"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:41:21"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:43:27"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:43:28"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:43:30"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:43:50"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:43:55"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:44:01"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:44:03"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:45:03"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:45:09"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:45:19"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:45:28"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:45:44"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:46:14"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:46:30"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:46:43"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:46:45"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:46:53"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2023/10/9 14:47:03"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:48:51"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:49:20"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2023/10/9 14:49:28"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2023/10/9 14:50:40"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2023/10/9 14:51:42"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2023/10/9 14:52:20"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2023/10/9 14:52:26"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:57:56"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:58:55"}
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (39:19)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|         this.dataSource = dataSource;
+|         this.dtService = dtService;
+>         this.res = yield this.mainRepository.find({
+|             where: { userId, workDt: getToDay },
+|         });
+Error: Module parse failed: The keyword 'yield' is reserved (39:19)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|         this.dataSource = dataSource;
+|         this.dtService = dtService;
+>         this.res = yield this.mainRepository.find({
+|             where: { userId, workDt: getToDay },
+|         });
+    at Object.__decorate (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6824:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9612:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9719:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6814:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9612:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9719:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6722:24)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9612:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9719:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6690:14) {"date":"Mon Oct 09 2023 14:59:07 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[3.34423828125,2.95458984375,2.51123046875],"uptime":92177},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":255217,"external":14629736,"heapTotal":85442560,"heapUsed":57099264,"rss":134414336},"pid":61824,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (39:19)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|         this.dataSource = dataSource;\n|         this.dtService = dtService;\n>         this.res = yield this.mainRepository.find({\n|             where: { userId, workDt: getToDay },\n|         });\n    at Object.__decorate (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6824:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9612:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9719:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6814:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9612:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9719:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6722:24)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9612:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9719:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6690:14)","timestamp":"2023/10/9 14:59:07","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.__decorate","line":6824,"method":"__decorate","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9612,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9719,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6814,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9612,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9719,"method":null,"native":false},{"column":24,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6722,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9612,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9719,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6690,"method":null,"native":false}]}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:59:08"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:59:28"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 14:59:57"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:01:35"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:02:05"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:03:58"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:04:12"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:04:21"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:04:37"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:05:01"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:05:25"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:05:36"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:05:43"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:06:03"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:06:10"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:06:24"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:06:27"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:06:31"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:06:34"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:06:37"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:06:51"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:07:06"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:07:09"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:07:14"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:07:28"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:07:38"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:07:43"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:07:57"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:08:01"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:08:08"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2023/10/9 15:08:14"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2023/10/9 15:08:25"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2023/10/9 15:08:27"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2023/10/9 15:10:12"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:10:33"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:11:15"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:11:24"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:11:39"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/10/9 15:19:16"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:38:58"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:39:42"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:41:18"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:41:52"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:44:15"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/10/9 15:44:18"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2023/10/9 15:56:35"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2023/10/9 15:58:09"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:58:46"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:58:51"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:59:12"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:59:28"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 15:59:44"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/calculate-salary {"timestamp":"2023/10/9 16:00:11"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 16:29:18"}
+debug: [REQ] ::1 POST 200 : /api/v1/settings/point/search {"timestamp":"2023/10/9 16:29:22"}
+debug: [REQ] ::1 POST 200 : /api/v1/settings/point/search {"timestamp":"2023/10/9 16:29:23"}
+debug: [REQ] ::1 POST 200 : /api/v1/settings/point/search {"timestamp":"2023/10/9 16:29:24"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 16:29:43"}
+debug: [REQ] ::1 POST 200 : /api/v1/settings/point/search {"timestamp":"2023/10/9 16:29:45"}
+error: uncaughtException: Module parse failed: 'return' outside of function (57:0)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_e = typeof repositories_1.SettingRepository !== "undefined" && repositories_1.SettingRepository) === "function" ? _e : Object])
+| ], SettingService);
+> return (0, interfaces_1.JsonResponse)(res, 200, "OK");
+| //pushToken 저장
+| async;
+Error: Module parse failed: 'return' outside of function (57:0)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_e = typeof repositories_1.SettingRepository !== "undefined" && repositories_1.SettingRepository) === "function" ? _e : Object])
+| ], SettingService);
+> return (0, interfaces_1.JsonResponse)(res, 200, "OK");
+| //pushToken 저장
+| async;
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7795:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8908:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9015:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7788:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8908:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9015:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7511:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8908:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9015:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7453:14) {"date":"Mon Oct 09 2023 16:30:21 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.49755859375,2.3388671875,2.1796875],"uptime":97651},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":194709,"external":14590579,"heapTotal":85377024,"heapUsed":56623248,"rss":133169152},"pid":68837,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: 'return' outside of function (57:0)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|     __metadata(\"design:paramtypes\", [typeof (_e = typeof repositories_1.SettingRepository !== \"undefined\" && repositories_1.SettingRepository) === \"function\" ? _e : Object])\n| ], SettingService);\n> return (0, interfaces_1.JsonResponse)(res, 200, \"OK\");\n| //pushToken 저장\n| async;\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7795:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8908:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9015:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7788:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8908:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9015:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7511:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8908:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9015:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7453:14)","timestamp":"2023/10/9 16:30:21","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":7795,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8908,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9015,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7788,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8908,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9015,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7511,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8908,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9015,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7453,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: 'return' outside of function (57:0)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_e = typeof repositories_1.SettingRepository !== "undefined" && repositories_1.SettingRepository) === "function" ? _e : Object])
+| ], SettingService);
+> return (0, interfaces_1.JsonResponse)(res, 200, "OK");
+| //pushToken 저장
+| async;
+Error: Module parse failed: 'return' outside of function (57:0)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_e = typeof repositories_1.SettingRepository !== "undefined" && repositories_1.SettingRepository) === "function" ? _e : Object])
+| ], SettingService);
+> return (0, interfaces_1.JsonResponse)(res, 200, "OK");
+| //pushToken 저장
+| async;
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7795:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8908:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9015:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7788:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8908:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9015:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7511:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8908:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9015:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7453:14) {"date":"Mon Oct 09 2023 16:30:24 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.45751953125,2.3330078125,2.17822265625],"uptime":97654},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":216025,"external":14590579,"heapTotal":84852736,"heapUsed":56661008,"rss":135315456},"pid":68853,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: 'return' outside of function (57:0)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|     __metadata(\"design:paramtypes\", [typeof (_e = typeof repositories_1.SettingRepository !== \"undefined\" && repositories_1.SettingRepository) === \"function\" ? _e : Object])\n| ], SettingService);\n> return (0, interfaces_1.JsonResponse)(res, 200, \"OK\");\n| //pushToken 저장\n| async;\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7795:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8908:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9015:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7788:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8908:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9015:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7511:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8908:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9015:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:7453:14)","timestamp":"2023/10/9 16:30:24","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":7795,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8908,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9015,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7788,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8908,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9015,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7511,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8908,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9015,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":7453,"method":null,"native":false}]}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 16:30:26"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 16:30:42"}
+debug: [REQ] ::1 POST 200 : /api/v1/settings/point/search {"timestamp":"2023/10/9 16:30:44"}
+debug: [REQ] ::1 POST 200 : /api/v1/settings/point/search {"timestamp":"2023/10/9 16:30:45"}
+debug: [REQ] ::1 POST 200 : /api/v1/settings/point/search {"timestamp":"2023/10/9 16:30:46"}
+debug: [REQ] ::1 POST 200 : /api/v1/settings/point/search {"timestamp":"2023/10/9 16:30:47"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 16:32:05"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 18:45:14"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 18:46:21"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 18:46:32"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 18:46:36"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 18:58:03"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 18:58:15"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 18:58:16"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 18:58:36"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 18:58:52"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 18:58:57"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 18:59:02"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 18:59:18"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 18:59:22"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:02:05"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:02:40"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:02:50"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:03:01"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:04:00"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:04:11"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:04:21"}
+error: uncaughtException: Module parse failed: Unexpected token (70:30)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 return 0;
+|             const startDateTime = new Date(workDt + startCheckTime);
+>             let endDateTime = ;
+|             if (endCheckTime === "00:00") {
+|             }
+Error: Module parse failed: Unexpected token (70:30)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 return 0;
+|             const startDateTime = new Date(workDt + startCheckTime);
+>             let endDateTime = ;
+|             if (endCheckTime === "00:00") {
+|             }
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6161:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8831:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8938:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5913:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8831:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8938:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5827:24)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8831:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8938:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5795:14) {"date":"Mon Oct 09 2023 19:05:09 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[3.2275390625,2.619140625,2.37548828125],"uptime":106939},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":196797,"external":14588448,"heapTotal":85377024,"heapUsed":56193624,"rss":132268032},"pid":74611,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Unexpected token (70:30)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|                 return 0;\n|             const startDateTime = new Date(workDt + startCheckTime);\n>             let endDateTime = ;\n|             if (endCheckTime === \"00:00\") {\n|             }\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6161:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8831:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8938:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5913:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8831:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8938:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5827:24)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8831:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8938:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5795:14)","timestamp":"2023/10/9 19:05:09","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":6161,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8831,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":8938,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":5913,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8831,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":8938,"method":null,"native":false},{"column":24,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":5827,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8831,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":8938,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":5795,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: Unexpected token (73:16)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             if (endCheckTime === "00:00") {
+|                 endDateTime =
+>                 ;
+|             }
+|             console.log("startCheckTime", workDt, startCheckTime);
+Error: Module parse failed: Unexpected token (73:16)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             if (endCheckTime === "00:00") {
+|                 endDateTime =
+>                 ;
+|             }
+|             console.log("startCheckTime", workDt, startCheckTime);
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6161:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8831:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8938:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5913:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8831:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8938:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5827:24)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8831:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8938:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5795:14) {"date":"Mon Oct 09 2023 19:05:43 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.81396484375,2.58056640625,2.3701171875],"uptime":106973},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":245833,"external":14588438,"heapTotal":85114880,"heapUsed":56370176,"rss":132153344},"pid":74662,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Unexpected token (73:16)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             if (endCheckTime === \"00:00\") {\n|                 endDateTime =\n>                 ;\n|             }\n|             console.log(\"startCheckTime\", workDt, startCheckTime);\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6161:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8831:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8938:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5913:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8831:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8938:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5827:24)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8831:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8938:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5795:14)","timestamp":"2023/10/9 19:05:43","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":6161,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8831,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":8938,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":5913,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8831,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":8938,"method":null,"native":false},{"column":24,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":5827,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8831,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":8938,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":5795,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: Unexpected token (73:16)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             if (endCheckTime === "00:00") {
+|                 endDateTime =
+>                 ;
+|             }
+|             console.log("startCheckTime", workDt, startCheckTime);
+Error: Module parse failed: Unexpected token (73:16)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             if (endCheckTime === "00:00") {
+|                 endDateTime =
+>                 ;
+|             }
+|             console.log("startCheckTime", workDt, startCheckTime);
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6161:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8831:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8938:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5913:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8831:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8938:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5827:24)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8831:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8938:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5795:14) {"date":"Mon Oct 09 2023 19:05:59 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.64599609375,2.55224609375,2.36279296875],"uptime":106989},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":222968,"external":14588438,"heapTotal":85377024,"heapUsed":56182568,"rss":133545984},"pid":74703,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Unexpected token (73:16)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             if (endCheckTime === \"00:00\") {\n|                 endDateTime =\n>                 ;\n|             }\n|             console.log(\"startCheckTime\", workDt, startCheckTime);\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6161:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8831:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8938:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5913:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8831:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8938:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5827:24)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8831:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8938:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5795:14)","timestamp":"2023/10/9 19:05:59","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":6161,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8831,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":8938,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":5913,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8831,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":8938,"method":null,"native":false},{"column":24,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":5827,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8831,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":8938,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":5795,"method":null,"native":false}]}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:06:20"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:06:33"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:06:49"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:06:53"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:07:27"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:07:31"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:07:53"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:08:06"}
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (46:36)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const getTodayPay = yield this.calendarRepository.getTodayPay(element.pay || 0, element.startTime || "00:00", element.endTime || "00:00", element.workDt || "");
+|                 calendarData.push({
+|                     workDt: element.workDt,
+Error: Module parse failed: The keyword 'yield' is reserved (46:36)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const getTodayPay = yield this.calendarRepository.getTodayPay(element.pay || 0, element.startTime || "00:00", element.endTime || "00:00", element.workDt || "");
+|                 calendarData.push({
+|                     workDt: element.workDt,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6728:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8946:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9053:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6721:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8946:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9053:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6509:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8946:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9053:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6460:14) {"date":"Mon Oct 09 2023 19:08:10 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[7.0361328125,3.5302734375,2.7314453125],"uptime":107120},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":216497,"external":14591823,"heapTotal":85377024,"heapUsed":56611264,"rss":133742592},"pid":75025,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (46:36)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const calendarData = [];\n|             res.forEach((element) => {\n>                 const getTodayPay = yield this.calendarRepository.getTodayPay(element.pay || 0, element.startTime || \"00:00\", element.endTime || \"00:00\", element.workDt || \"\");\n|                 calendarData.push({\n|                     workDt: element.workDt,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6728:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8946:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9053:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6721:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8946:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9053:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6509:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8946:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9053:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6460:14)","timestamp":"2023/10/9 19:08:10","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":6728,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8946,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9053,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6721,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8946,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9053,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6509,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8946,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9053,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6460,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (47:36)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             async;
+|             res.forEach((element) => {
+>                 const getTodayPay = yield this.calendarRepository.getTodayPay(element.pay || 0, element.startTime || "00:00", element.endTime || "00:00", element.workDt || "");
+|                 calendarData.push({
+|                     workDt: element.workDt,
+Error: Module parse failed: The keyword 'yield' is reserved (47:36)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             async;
+|             res.forEach((element) => {
+>                 const getTodayPay = yield this.calendarRepository.getTodayPay(element.pay || 0, element.startTime || "00:00", element.endTime || "00:00", element.workDt || "");
+|                 calendarData.push({
+|                     workDt: element.workDt,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6728:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8946:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9053:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6721:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8946:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9053:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6509:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8946:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9053:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6460:14) {"date":"Mon Oct 09 2023 19:09:16 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[3.85205078125,3.2734375,2.69189453125],"uptime":107186},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":245833,"external":14591805,"heapTotal":85114880,"heapUsed":56668104,"rss":130859008},"pid":75075,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (47:36)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             async;\n|             res.forEach((element) => {\n>                 const getTodayPay = yield this.calendarRepository.getTodayPay(element.pay || 0, element.startTime || \"00:00\", element.endTime || \"00:00\", element.workDt || \"\");\n|                 calendarData.push({\n|                     workDt: element.workDt,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6728:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8946:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9053:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6721:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8946:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9053:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6509:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8946:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9053:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6460:14)","timestamp":"2023/10/9 19:09:16","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":6728,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8946,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9053,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6721,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8946,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9053,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6509,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8946,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9053,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6460,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: The keyword 'yield' is reserved (46:36)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const getTodayPay = yield this.calendarRepository.getTodayPay(element.pay || 0, element.startTime || "00:00", element.endTime || "00:00", element.workDt || "");
+|                 calendarData.push({
+|                     workDt: element.workDt,
+Error: Module parse failed: The keyword 'yield' is reserved (46:36)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             const calendarData = [];
+|             res.forEach((element) => {
+>                 const getTodayPay = yield this.calendarRepository.getTodayPay(element.pay || 0, element.startTime || "00:00", element.endTime || "00:00", element.workDt || "");
+|                 calendarData.push({
+|                     workDt: element.workDt,
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6728:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8946:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9053:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6721:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8946:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9053:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6509:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8946:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9053:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6460:14) {"date":"Mon Oct 09 2023 19:09:18 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[5.06494140625,3.5341796875,2.787109375],"uptime":107188},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":275552,"external":14591823,"heapTotal":85114880,"heapUsed":57143968,"rss":130973696},"pid":75090,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: The keyword 'yield' is reserved (46:36)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             const calendarData = [];\n|             res.forEach((element) => {\n>                 const getTodayPay = yield this.calendarRepository.getTodayPay(element.pay || 0, element.startTime || \"00:00\", element.endTime || \"00:00\", element.workDt || \"\");\n|                 calendarData.push({\n|                     workDt: element.workDt,\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6728:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8946:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9053:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6721:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8946:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9053:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6509:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8946:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9053:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6460:14)","timestamp":"2023/10/9 19:09:18","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":6728,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8946,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9053,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6721,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8946,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9053,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6509,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8946,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9053,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6460,"method":null,"native":false}]}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:10:45"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:10:47"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:10:53"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:10:55"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:10:56"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:11:07"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:11:09"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:11:16"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:11:21"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:11:34"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:11:36"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:12:30"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:12:50"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:13:50"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:13:59"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:14:52"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:16:09"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:16:44"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:17:12"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:17:26"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:17:41"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:17:59"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:18:18"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:18:20"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:19:06"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:19:09"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:19:36"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:19:39"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:19:48"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:19:51"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:20:00"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:20:02"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:20:23"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:20:25"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:21:13"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:21:15"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:21:38"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:21:39"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:23:40"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:24:20"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:24:22"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:28:30"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:28:37"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:28:55"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:28:57"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:29:20"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:29:26"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:29:55"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:30:03"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:30:28"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:30:31"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:30:36"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:30:53"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:30:55"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:32:27"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:32:43"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:32:45"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:32:59"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:33:01"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:33:27"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:33:30"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:33:33"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:33:52"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:34:26"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:34:33"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:34:35"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:34:41"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:34:43"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:35:14"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:35:16"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:35:24"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:35:29"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:35:34"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:35:35"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:35:50"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:35:51"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:36:10"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:37:25"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:37:26"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:39:09"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:39:15"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:39:16"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/9 19:47:35"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:47:38"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:47:39"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/10/9 19:47:40"}

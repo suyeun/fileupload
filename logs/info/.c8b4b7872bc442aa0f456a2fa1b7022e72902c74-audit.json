@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/mbp2019/Desktop/Development/workpick-pj/fileupload/logs/info/.c8b4b7872bc442aa0f456a2fa1b7022e72902c74-audit.json",
+    "files": [
+        {
+            "date": 1714390074259,
+            "name": "/Users/mbp2019/Desktop/Development/workpick-pj/fileupload/logs/info/24-04-29.log",
+            "hash": "6429d5e43a49a97af27d910a1a0dd35a0e468a638965f8e64ffe7d8edc3183b3"
+        }
+    ],
+    "hashType": "sha256"
+}

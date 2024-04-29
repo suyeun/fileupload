@@ -1,0 +1,125 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/.147c3eeb7a07a14627b0eb5710bf4be244eda843-audit.json",
+    "files": [
+        {
+            "date": 1696730940514,
+            "name": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/23-10-08.log",
+            "hash": "cb499faafa4330f97e0125e8618af01cb2567ef4a26f896f29663e993d9fbbe0"
+        },
+        {
+            "date": 1696777289478,
+            "name": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/23-10-09.log",
+            "hash": "a4269e5b03f412b26ac2a5e885c9412778ee4ec50d7e3be8b65bcde31a809603"
+        },
+        {
+            "date": 1696905724289,
+            "name": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/23-10-10.log",
+            "hash": "dd17c515cd8deebacc6713cb2852f0ebb961b8501553cb79977c43fc8c451741"
+        },
+        {
+            "date": 1697306525804,
+            "name": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/23-10-15.log",
+            "hash": "0b2dd831bc6f21c9355010704b617f163d61ca270659a4871c7384b037e73f4c"
+        },
+        {
+            "date": 1697542729042,
+            "name": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/23-10-17.log",
+            "hash": "26d175c8f6a116bb8f7eb29e26ed5c02a443590e9c5b11ed897ee971c69fa2e7"
+        },
+        {
+            "date": 1699350272470,
+            "name": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/23-11-07.log",
+            "hash": "eb7bf0310cb4c3b9170b05178fc70dc6a1c6a049867fdccfbb60fc8d9971e0dc"
+        },
+        {
+            "date": 1699840406097,
+            "name": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/23-11-13.log",
+            "hash": "e181c82fcbb0ac3fbb7de412f1f68567059d0b86bfdc7e00d32f17a4aae0c061"
+        },
+        {
+            "date": 1700470037623,
+            "name": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/23-11-20.log",
+            "hash": "37b79bf732a21253425d839320c6daa6b808612887e2cf6fd67b0ec7692b85f5"
+        },
+        {
+            "date": 1700559885354,
+            "name": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/23-11-21.log",
+            "hash": "6f08a7acdc278d92d8930dd8ab7fce5a90d1e06b62976dc1e5821f28ae69fefe"
+        },
+        {
+            "date": 1701084474642,
+            "name": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/23-11-27.log",
+            "hash": "1fd481221042fadc9c0796919c6bfec85437e46f7dd448af3605d533cf8adb94"
+        },
+        {
+            "date": 1701669703608,
+            "name": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/23-12-04.log",
+            "hash": "cd36e4b6911e3f045ae240830d9bf61000eaeee6de1da253755d697ccecd947c"
+        },
+        {
+            "date": 1701757694311,
+            "name": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/23-12-05.log",
+            "hash": "08d5f98aaa319b74767434a59fe8cfc5432b63b2b9378f93808d271e84e85023"
+        },
+        {
+            "date": 1701827753470,
+            "name": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/23-12-06.log",
+            "hash": "9830b0453d0a4f8293b318b821c630c5af808a901c503360b5f2851f668c9ce2"
+        },
+        {
+            "date": 1701939892760,
+            "name": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/23-12-07.log",
+            "hash": "23b34a27b6b805ec21e75c47ee132d73ecdd92bbda0202266b63d25ca6e41641"
+        },
+        {
+            "date": 1702012775130,
+            "name": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/23-12-08.log",
+            "hash": "6c2de6cbd561d40ec18c9f3dc1e1a9f16b16fd043779b468c224323d760d8185"
+        },
+        {
+            "date": 1703236618257,
+            "name": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/23-12-22.log",
+            "hash": "551f020853be678218681618a6a21f9941053c10da7b08b1d8d1b48fd2245220"
+        },
+        {
+            "date": 1703392456769,
+            "name": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/23-12-24.log",
+            "hash": "226882904b2c8a99adf05cf0d820f551565b166f2e367824bc54eec4b68b91e7"
+        },
+        {
+            "date": 1704261897033,
+            "name": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/24-01-03.log",
+            "hash": "9b299247f9a3dad000159698e15678bd2cd7e2fb5f91b036939b802d1b631c5b"
+        },
+        {
+            "date": 1704335959747,
+            "name": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/24-01-04.log",
+            "hash": "37469af70e2bcab1beb48a61b259d673550905232969884e0ff853956d1f26dd"
+        },
+        {
+            "date": 1704705141337,
+            "name": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/24-01-08.log",
+            "hash": "7bc323afa0d054f373cedb3ebe770109cb5fa09afbc006a2209f9b23df4101e2"
+        },
+        {
+            "date": 1705372979756,
+            "name": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/24-01-16.log",
+            "hash": "5a68d2c759ac024e74b528b6496dc2d9ae0cdd745b613e11a423a47bb358e1c7"
+        },
+        {
+            "date": 1705489352599,
+            "name": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/24-01-17.log",
+            "hash": "049f197f5367518f04808977e1d66d86e022bd3aae36ffa220d2143f1fe9f709"
+        },
+        {
+            "date": 1705559723320,
+            "name": "/Users/mbp2019/Desktop/Development/workpick/logs/warn/24-01-18.log",
+            "hash": "47429603589d2b37a2984323d85cd30f36f99d9d0bc89be95f481a5fe63d1c94"
+        }
+    ],
+    "hashType": "sha256"
+}

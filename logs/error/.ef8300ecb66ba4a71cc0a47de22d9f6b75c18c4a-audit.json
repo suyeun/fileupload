@@ -1,0 +1,35 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/error/.ef8300ecb66ba4a71cc0a47de22d9f6b75c18c4a-audit.json",
+    "files": [
+        {
+            "date": 1695002707289,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/error/23-09-18.error.log",
+            "hash": "24f18264aa2211d455bc8bf9745e7e3e76db70d8a4552768235b3acca4fce8b2"
+        },
+        {
+            "date": 1695088029535,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/error/23-09-19.error.log",
+            "hash": "e47c5e9ae11ba840c7c8cc58688a4d0b6e8f75eabd078266f2ae6bf9fff56283"
+        },
+        {
+            "date": 1695181926022,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/error/23-09-20.error.log",
+            "hash": "9a61f880311b38de8d7a898ed0e3e31ec3cf0729ff4cfe0964e991de7802ca61"
+        },
+        {
+            "date": 1695287667753,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/error/23-09-21.error.log",
+            "hash": "1f1a099e7269fa78f0259f8246a765fd87d6d5a4fd1ff81f46506fb47eebf430"
+        },
+        {
+            "date": 1695610191479,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/error/23-09-25.error.log",
+            "hash": "e59fd6bb7ef1c9f79c1ca00230d7ce392edd32f83b4484ce4fc6f7825afe8c30"
+        }
+    ],
+    "hashType": "sha256"
+}

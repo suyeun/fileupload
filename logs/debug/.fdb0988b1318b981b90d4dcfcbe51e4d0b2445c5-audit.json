@@ -1,0 +1,110 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/mbp2019/Desktop/Development/workpick-pj/workpick/logs/debug/.fdb0988b1318b981b90d4dcfcbe51e4d0b2445c5-audit.json",
+    "files": [
+        {
+            "date": 1706078992933,
+            "name": "/Users/mbp2019/Desktop/Development/workpick-pj/workpick/logs/debug/24-01-24.debug.log",
+            "hash": "96d3198baceabb854e82a282dc9c71105a53f8ff8a147575cc0c7efdc44abfcb"
+        },
+        {
+            "date": 1706497132166,
+            "name": "/Users/mbp2019/Desktop/Development/workpick-pj/workpick/logs/debug/24-01-29.debug.log",
+            "hash": "15c8b0d0abc14c87f9aaed42956b79be4ecb50f3a4d205f03508ddd7a2106538"
+        },
+        {
+            "date": 1706698225849,
+            "name": "/Users/mbp2019/Desktop/Development/workpick-pj/workpick/logs/debug/24-01-31.debug.log",
+            "hash": "5f8eb68c0a915bd4f8cb085c8c3333ac17dd4678a461c6bef3ae7641a4bf3f25"
+        },
+        {
+            "date": 1706775821884,
+            "name": "/Users/mbp2019/Desktop/Development/workpick-pj/workpick/logs/debug/24-02-01.debug.log",
+            "hash": "a3512c30b7668ab99935887e7cce12bd2d958d64610ee10edf0c6d5966657ebf"
+        },
+        {
+            "date": 1706855216212,
+            "name": "/Users/mbp2019/Desktop/Development/workpick-pj/workpick/logs/debug/24-02-02.debug.log",
+            "hash": "d4cb7f3a44c8273672d49c8bd377a3de1b900a68296247aa041191ebea89daee"
+        },
+        {
+            "date": 1707204243657,
+            "name": "/Users/mbp2019/Desktop/Development/workpick-pj/workpick/logs/debug/24-02-06.debug.log",
+            "hash": "375a3b5657f9e883ddf63c3cb4ea436444477ee528c4766fd48d257c600e225d"
+        },
+        {
+            "date": 1707907823154,
+            "name": "/Users/mbp2019/Desktop/Development/workpick-pj/workpick/logs/debug/24-02-14.debug.log",
+            "hash": "ab433fd00576d966d9d377ff46106136181d43bed5e582742797b702768e598a"
+        },
+        {
+            "date": 1707979607333,
+            "name": "/Users/mbp2019/Desktop/Development/workpick-pj/workpick/logs/debug/24-02-15.debug.log",
+            "hash": "0eda8b111ca9eaf0025b40a44db39f5ce4b0d7b84c79095fc734c3300cb81d69"
+        },
+        {
+            "date": 1708339711870,
+            "name": "/Users/mbp2019/Desktop/Development/workpick-pj/workpick/logs/debug/24-02-19.debug.log",
+            "hash": "af90623e440a39687812c0f81c245d45a8b8e85911b75f7e5a7ab9ad704952b1"
+        },
+        {
+            "date": 1708951685398,
+            "name": "/Users/mbp2019/Desktop/Development/workpick-pj/workpick/logs/debug/24-02-26.debug.log",
+            "hash": "4d0c1b7afad197847a9cd71b7727e7d446237611bc53609192b5330f89ecfb4c"
+        },
+        {
+            "date": 1709002640904,
+            "name": "/Users/mbp2019/Desktop/Development/workpick-pj/workpick/logs/debug/24-02-27.debug.log",
+            "hash": "69dd178ab8204ae6708f62bfc51d9c386843b84e2c01a9158c63551f688622ed"
+        },
+        {
+            "date": 1709296165624,
+            "name": "/Users/mbp2019/Desktop/Development/workpick-pj/workpick/logs/debug/24-03-01.debug.log",
+            "hash": "72210a589e3b6eb0daedd49eeb7aa4170b2170203a72e5a397b9b4de8a57d3ab"
+        },
+        {
+            "date": 1709376005092,
+            "name": "/Users/mbp2019/Desktop/Development/workpick-pj/workpick/logs/debug/24-03-02.debug.log",
+            "hash": "1227320de5965dfd2ee400b330010c4368779257df8f7ba1fd620074fefc6111"
+        },
+        {
+            "date": 1709547352739,
+            "name": "/Users/mbp2019/Desktop/Development/workpick-pj/workpick/logs/debug/24-03-04.debug.log",
+            "hash": "b27830f510638fef959abe41874217fd716b4a2a848abb48b3ea724d4946adb7"
+        },
+        {
+            "date": 1709564480571,
+            "name": "/Users/mbp2019/Desktop/Development/workpick-pj/workpick/logs/debug/24-03-05.debug.log",
+            "hash": "856d36cfab70ca1298be925dff3416add2a7ecf9b9c71fe38294e77d2c50cb2a"
+        },
+        {
+            "date": 1711976280549,
+            "name": "/Users/mbp2019/Desktop/Development/workpick-pj/workpick/logs/debug/24-04-01.debug.log",
+            "hash": "df307224f7e35e383d68dfc0f947a8f66cc642637911a0cba72702b6559e0e02"
+        },
+        {
+            "date": 1712548482085,
+            "name": "/Users/mbp2019/Desktop/Development/workpick-pj/workpick/logs/debug/24-04-08.debug.log",
+            "hash": "7b07e355a8b78ddd6c3b24da170ffe5a8dc0a8ef0206c93f2809508e77d060ec"
+        },
+        {
+            "date": 1713177488686,
+            "name": "/Users/mbp2019/Desktop/Development/workpick-pj/workpick/logs/debug/24-04-15.debug.log",
+            "hash": "712687ca49c91ef65b0cb4beefa2ac7540adb833af7fa3bed978a6e42c8dbf8b"
+        },
+        {
+            "date": 1713784482361,
+            "name": "/Users/mbp2019/Desktop/Development/workpick-pj/workpick/logs/debug/24-04-22.debug.log",
+            "hash": "88e9312a7406f307f5fac286269820155f005ca8763289bde9a629c9f68de6e6"
+        },
+        {
+            "date": 1714386484918,
+            "name": "/Users/mbp2019/Desktop/Development/workpick-pj/workpick/logs/debug/24-04-29.debug.log",
+            "hash": "67bc7f540a14ae75780e446128f64502cd7175747b6f884126aa152f1bb8678c"
+        }
+    ],
+    "hashType": "sha256"
+}

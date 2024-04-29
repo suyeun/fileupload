@@ -1,0 +1,384 @@
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at ExpressAdapter.listen (/Users/mbp2019/Desktop/Development/workpick2/node_modules/@nestjs/platform-express/adapters/express-adapter.js:88:32)
+    at /Users/mbp2019/Desktop/Development/workpick2/node_modules/@nestjs/core/nest-application.js:180:30
+    at new Promise (<anonymous>)
+    at NestApplication.listen (/Users/mbp2019/Desktop/Development/workpick2/node_modules/@nestjs/core/nest-application.js:170:16)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Mon Oct 02 2023 20:27:49 GMT+0900 (Korean Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-48,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[1.95947265625,2.513671875,2.470703125],"uptime":292995},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick2/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick2","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":735307,"external":12472185,"heapTotal":93110272,"heapUsed":61330920,"rss":135626752},"pid":56939,"uid":503,"version":"v16.19.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1463:16)\n    at listenInCluster (node:net:1511:12)\n    at Server.listen (node:net:1599:7)\n    at ExpressAdapter.listen (/Users/mbp2019/Desktop/Development/workpick2/node_modules/@nestjs/platform-express/adapters/express-adapter.js:88:32)\n    at /Users/mbp2019/Desktop/Development/workpick2/node_modules/@nestjs/core/nest-application.js:180:30\n    at new Promise (<anonymous>)\n    at NestApplication.listen (/Users/mbp2019/Desktop/Development/workpick2/node_modules/@nestjs/core/nest-application.js:170:16)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023/10/2 20:27:49","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1463,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1511,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1599,"method":"listen","native":false},{"column":32,"file":"/Users/mbp2019/Desktop/Development/workpick2/node_modules/@nestjs/platform-express/adapters/express-adapter.js","function":"ExpressAdapter.listen","line":88,"method":"listen","native":false},{"column":30,"file":"/Users/mbp2019/Desktop/Development/workpick2/node_modules/@nestjs/core/nest-application.js","function":null,"line":180,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":16,"file":"/Users/mbp2019/Desktop/Development/workpick2/node_modules/@nestjs/core/nest-application.js","function":"NestApplication.listen","line":170,"method":"listen","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:32:55"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:34:53"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:36:10"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:36:25"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:38:30"}
+debug: [REQ] ::1 POST 404 : /api/v1/users/social {"timestamp":"2023/10/2 20:39:04"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:39:27"}
+debug: [REQ] ::1 POST 404 : /api/v1/users/social {"timestamp":"2023/10/2 20:39:29"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:40:01"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:40:04"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:40:44"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:40:58"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:41:17"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:41:21"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:41:51"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:41:58"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:42:14"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:42:20"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:42:31"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:42:32"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:42:58"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:43:01"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:43:43"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:43:56"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:43:59"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:44:00"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:44:02"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:44:17"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:44:19"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:44:39"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:44:43"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:44:52"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:44:57"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:45:43"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:45:46"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:45:47"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:45:49"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:46:10"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:46:11"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:46:58"}
+error: uncaughtException: Module parse failed: 'return' outside of function (76:0)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_a = typeof typeorm_2.Repository !== "undefined" && typeorm_2.Repository) === "function" ? _a : Object, typeof (_b = typeof typeorm_2.Repository !== "undefined" && typeorm_2.Repository) === "function" ? _b : Object, typeof (_c = typeof typeorm_2.DataSource !== "undefined" && typeorm_2.DataSource) === "function" ? _c : Object])
+| ], UserRepository);
+> return await this.userRepository.find({
+|     select: ['id', 'channelId', 'name', 'email', 'token'],
+|     where: {
+Error: Module parse failed: 'return' outside of function (76:0)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_a = typeof typeorm_2.Repository !== "undefined" && typeorm_2.Repository) === "function" ? _a : Object, typeof (_b = typeof typeorm_2.Repository !== "undefined" && typeorm_2.Repository) === "function" ? _b : Object, typeof (_c = typeof typeorm_2.DataSource !== "undefined" && typeorm_2.DataSource) === "function" ? _c : Object])
+| ], UserRepository);
+> return await this.userRepository.find({
+|     select: ['id', 'channelId', 'name', 'email', 'token'],
+|     where: {
+    at Object.__decorate (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5539:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5851:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5958:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5532:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5851:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5958:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5384:24)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5851:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5958:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5352:14) {"date":"Mon Oct 02 2023 20:47:12 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.61083984375,4.4697265625,7.291015625],"uptime":1108},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick2/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick2","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":454699,"external":11550180,"heapTotal":85639168,"heapUsed":58788224,"rss":133562368},"pid":5106,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: 'return' outside of function (76:0)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|     __metadata(\"design:paramtypes\", [typeof (_a = typeof typeorm_2.Repository !== \"undefined\" && typeorm_2.Repository) === \"function\" ? _a : Object, typeof (_b = typeof typeorm_2.Repository !== \"undefined\" && typeorm_2.Repository) === \"function\" ? _b : Object, typeof (_c = typeof typeorm_2.DataSource !== \"undefined\" && typeorm_2.DataSource) === \"function\" ? _c : Object])\n| ], UserRepository);\n> return await this.userRepository.find({\n|     select: ['id', 'channelId', 'name', 'email', 'token'],\n|     where: {\n    at Object.__decorate (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5539:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5851:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5958:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5532:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5851:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5958:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5384:24)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5851:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5958:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5352:14)","timestamp":"2023/10/2 20:47:12","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"Object.__decorate","line":5539,"method":"__decorate","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":5851,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":5958,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5532,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":5851,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":5958,"method":null,"native":false},{"column":24,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5384,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":5851,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":5958,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5352,"method":null,"native":false}]}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:47:15"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:47:17"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:47:27"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:47:28"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:47:46"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:47:49"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:47:55"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:48:09"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:48:14"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:48:16"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:48:41"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:48:45"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:49:12"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:49:13"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:49:14"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:49:43"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:49:44"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:50:03"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:50:04"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:50:48"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:50:50"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:50:50"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:51:32"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:51:35"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:52:02"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:52:07"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:52:11"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:52:24"}
+debug: [REQ] ::1 POST 500 : /api/v1/users/social {"timestamp":"2023/10/2 20:52:27"}
+debug: [REQ] ::1 POST 500 : /api/v1/users/social {"timestamp":"2023/10/2 20:52:28"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:52:34"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:52:43"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:52:47"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:53:04"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:53:06"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:53:19"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:53:21"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:54:43"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:55:36"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:55:41"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:55:45"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:56:11"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:56:22"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:57:22"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:57:39"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:57:56"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:58:08"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:58:14"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 20:58:33"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 20:59:58"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:00:03"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:00:20"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:00:26"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 21:00:29"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:02:43"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:03:10"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:03:40"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:03:59"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:04:06"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 21:04:14"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:04:57"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:04:58"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:05:38"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 21:05:42"}
+error: uncaughtException: Module parse failed: Unexpected token (100:12)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 "provider";
+|             "google",
+>             ;
+|             return (0, interfaces_1.JsonResponse)(userDatas[0], 200, 'OK');
+|         });
+Error: Module parse failed: Unexpected token (100:12)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 "provider";
+|             "google",
+>             ;
+|             return (0, interfaces_1.JsonResponse)(userDatas[0], 200, 'OK');
+|         });
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5362:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5902:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6009:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5355:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5902:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6009:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5087:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5902:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6009:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5038:14) {"date":"Mon Oct 02 2023 21:07:02 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.224609375,1.85791015625,3.07421875],"uptime":2298},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick2/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick2","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":496978,"external":11555303,"heapTotal":85377024,"heapUsed":58775832,"rss":133038080},"pid":6722,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Unexpected token (100:12)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|                 \"provider\";\n|             \"google\",\n>             ;\n|             return (0, interfaces_1.JsonResponse)(userDatas[0], 200, 'OK');\n|         });\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5362:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5902:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6009:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5355:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5902:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6009:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5087:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5902:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6009:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5038:14)","timestamp":"2023/10/2 21:07:02","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"Object.create.k2","line":5362,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":5902,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6009,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5355,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":5902,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6009,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5087,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":5902,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6009,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5038,"method":null,"native":false}]}
+error: uncaughtException: Module parse failed: Unexpected token (94:12)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 "provider";
+|             "google",
+>             ;
+|             return (0, interfaces_1.JsonResponse)(userDatas[0], 200, 'OK');
+|         });
+Error: Module parse failed: Unexpected token (94:12)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 "provider";
+|             "google",
+>             ;
+|             return (0, interfaces_1.JsonResponse)(userDatas[0], 200, 'OK');
+|         });
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5362:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5902:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6009:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5355:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5902:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6009:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5087:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5902:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6009:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5038:14) {"date":"Mon Oct 02 2023 21:07:05 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.28662109375,1.87646484375,3.07373046875],"uptime":2301},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick2/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick2","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":459822,"external":11555303,"heapTotal":85639168,"heapUsed":58670552,"rss":133758976},"pid":6740,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Unexpected token (94:12)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|                 \"provider\";\n|             \"google\",\n>             ;\n|             return (0, interfaces_1.JsonResponse)(userDatas[0], 200, 'OK');\n|         });\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5362:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5902:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6009:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5355:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5902:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6009:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5087:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5902:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6009:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5038:14)","timestamp":"2023/10/2 21:07:05","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"Object.create.k2","line":5362,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":5902,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6009,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5355,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":5902,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6009,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5087,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":5902,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6009,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5038,"method":null,"native":false}]}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:07:28"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2023/10/2 21:07:37"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:08:18"}
+error: uncaughtException: Post is not defined
+ReferenceError: Post is not defined
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5519:1)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6072:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6179:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5355:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6072:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6179:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5087:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6072:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6179:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5038:14) {"date":"Mon Oct 02 2023 21:09:13 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.7724609375,1.99169921875,2.96484375],"uptime":2429},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick2/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick2","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":185383,"external":12505088,"heapTotal":90636288,"heapUsed":49805848,"rss":135626752},"pid":6886,"uid":503,"version":"v16.19.1"},"stack":"ReferenceError: Post is not defined\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5519:1)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6072:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6179:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5355:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6072:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6179:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5087:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6072:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6179:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5038:14)","timestamp":"2023/10/2 21:09:13","trace":[{"column":1,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5519,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":6072,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6179,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5355,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":6072,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6179,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5087,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":6072,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6179,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5038,"method":null,"native":false}]}
+error: uncaughtException: Post is not defined
+ReferenceError: Post is not defined
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5519:1)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6072:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6179:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5355:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6072:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6179:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5087:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6072:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6179:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5038:14) {"date":"Mon Oct 02 2023 21:09:26 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.6865234375,1.95947265625,2.935546875],"uptime":2442},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick2/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick2","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":1407155,"external":12512298,"heapTotal":86458368,"heapUsed":65725672,"rss":135708672},"pid":6914,"uid":503,"version":"v16.19.1"},"stack":"ReferenceError: Post is not defined\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5519:1)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6072:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6179:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5355:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6072:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6179:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5087:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6072:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6179:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5038:14)","timestamp":"2023/10/2 21:09:26","trace":[{"column":1,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5519,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":6072,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6179,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5355,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":6072,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6179,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5087,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":6072,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6179,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5038,"method":null,"native":false}]}
+error: uncaughtException: Post is not defined
+ReferenceError: Post is not defined
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5518:1)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6071:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6178:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5355:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6071:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6178:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5087:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6071:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6178:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5038:14) {"date":"Mon Oct 02 2023 21:09:52 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.728515625,1.9453125,2.9013671875],"uptime":2468},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick2/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick2","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":185383,"external":12511990,"heapTotal":90374144,"heapUsed":49770448,"rss":132710400},"pid":7005,"uid":503,"version":"v16.19.1"},"stack":"ReferenceError: Post is not defined\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5518:1)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6071:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6178:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5355:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6071:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6178:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5087:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6071:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6178:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5038:14)","timestamp":"2023/10/2 21:09:52","trace":[{"column":1,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5518,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":6071,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6178,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5355,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":6071,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6178,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5087,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":6071,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6178,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5038,"method":null,"native":false}]}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:10:29"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:10:31"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:11:06"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:11:14"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:11:34"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:11:35"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:11:38"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:11:44"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:11:58"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:12:01"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:12:14"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:12:17"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:12:23"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:12:38"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:12:50"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:12:56"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:13:16"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:13:22"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:13:47"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:13:56"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:14:08"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:14:12"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:14:13"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:14:23"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:14:36"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:14:59"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:15:04"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:15:58"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:16:20"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:16:22"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:16:38"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:17:01"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:17:03"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:17:06"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:18:13"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:18:29"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:18:45"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:19:02"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:19:31"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:19:36"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:20:06"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:20:22"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:20:54"}
+error: uncaughtException: Module parse failed: Unexpected token (84:58)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __param(0, (0, common_1.Body)()),
+|     __metadata("design:type", Function),
+>     __metadata("design:paramtypes", [typeof (_d = typeof  !== "undefined" && ) === "function" ? _d : Object, Object]),
+|     __metadata("design:returntype", void 0)
+| ], UserController.prototype, "signout", null);
+Error: Module parse failed: Unexpected token (84:58)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __param(0, (0, common_1.Body)()),
+|     __metadata("design:type", Function),
+>     __metadata("design:paramtypes", [typeof (_d = typeof  !== "undefined" && ) === "function" ? _d : Object, Object]),
+|     __metadata("design:returntype", void 0)
+| ], UserController.prototype, "signout", null);
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5045:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5770:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5877:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5038:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5770:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5877:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:4985:34)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5770:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5877:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:525:14) {"date":"Mon Oct 02 2023 21:20:58 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.064453125,2.076171875,2.46533203125],"uptime":3134},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick2/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick2","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":471049,"external":11566530,"heapTotal":85360640,"heapUsed":58409160,"rss":131088384},"pid":8282,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Unexpected token (84:58)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|     __param(0, (0, common_1.Body)()),\n|     __metadata(\"design:type\", Function),\n>     __metadata(\"design:paramtypes\", [typeof (_d = typeof  !== \"undefined\" && ) === \"function\" ? _d : Object, Object]),\n|     __metadata(\"design:returntype\", void 0)\n| ], UserController.prototype, \"signout\", null);\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5045:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5770:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5877:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5038:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5770:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5877:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:4985:34)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5770:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5877:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:525:14)","timestamp":"2023/10/2 21:20:58","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"Object.create.k2","line":5045,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":5770,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":5877,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5038,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":5770,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":5877,"method":null,"native":false},{"column":34,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":4985,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":5770,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":5877,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":525,"method":null,"native":false}]}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:21:02"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:21:09"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:21:28"}
+error: uncaughtException: Cannot find module './user/create-my-space.dto'
+Error: Cannot find module './user/create-my-space.dto'
+    at webpackMissingModule (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5161:83)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5161:184)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6036:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6143:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5086:31)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6036:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6143:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5038:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6036:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6143:21) {"date":"Mon Oct 02 2023 21:21:36 GMT+0900 (Korean Standard Time)","error":{"code":"MODULE_NOT_FOUND"},"exception":true,"os":{"loadavg":[1.5390625,1.939453125,2.3955078125],"uptime":3172},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick2/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick2","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":439524,"external":11562205,"heapTotal":85655552,"heapUsed":58375984,"rss":133529600},"pid":8346,"uid":503,"version":"v16.19.1"},"stack":"Error: Cannot find module './user/create-my-space.dto'\n    at webpackMissingModule (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5161:83)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5161:184)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6036:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6143:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5086:31)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6036:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6143:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5038:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6036:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6143:21)","timestamp":"2023/10/2 21:21:36","trace":[{"column":83,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"webpackMissingModule","line":5161,"method":null,"native":false},{"column":184,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5161,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":6036,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6143,"method":null,"native":false},{"column":31,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5086,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":6036,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6143,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5038,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":6036,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6143,"method":null,"native":false}]}
+error: uncaughtException: Cannot find module './user/create-my-space.dto'
+Error: Cannot find module './user/create-my-space.dto'
+    at webpackMissingModule (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5161:83)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5161:184)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6036:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6143:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5086:31)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6036:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6143:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5038:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6036:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6143:21) {"date":"Mon Oct 02 2023 21:21:40 GMT+0900 (Korean Standard Time)","error":{"code":"MODULE_NOT_FOUND"},"exception":true,"os":{"loadavg":[1.49560546875,1.923828125,2.38720703125],"uptime":3176},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick2/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick2","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":449102,"external":11555303,"heapTotal":85655552,"heapUsed":58417080,"rss":133660672},"pid":8352,"uid":503,"version":"v16.19.1"},"stack":"Error: Cannot find module './user/create-my-space.dto'\n    at webpackMissingModule (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5161:83)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5161:184)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6036:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6143:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5086:31)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6036:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6143:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5038:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6036:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6143:21)","timestamp":"2023/10/2 21:21:40","trace":[{"column":83,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"webpackMissingModule","line":5161,"method":null,"native":false},{"column":184,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5161,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":6036,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6143,"method":null,"native":false},{"column":31,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5086,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":6036,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6143,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5038,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":6036,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6143,"method":null,"native":false}]}
+error: uncaughtException: Cannot find module './user/create-my-space.dto'
+Error: Cannot find module './user/create-my-space.dto'
+    at webpackMissingModule (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5161:83)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5161:184)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6022:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6129:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5086:31)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6022:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6129:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5038:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6022:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6129:21) {"date":"Mon Oct 02 2023 21:21:45 GMT+0900 (Korean Standard Time)","error":{"code":"MODULE_NOT_FOUND"},"exception":true,"os":{"loadavg":[1.93603515625,2.0078125,2.4140625],"uptime":3181},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick2/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick2","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":439524,"external":4560128,"heapTotal":85655552,"heapUsed":58357792,"rss":133709824},"pid":8363,"uid":503,"version":"v16.19.1"},"stack":"Error: Cannot find module './user/create-my-space.dto'\n    at webpackMissingModule (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5161:83)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5161:184)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6022:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6129:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5086:31)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6022:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6129:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5038:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6022:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6129:21)","timestamp":"2023/10/2 21:21:45","trace":[{"column":83,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"webpackMissingModule","line":5161,"method":null,"native":false},{"column":184,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5161,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":6022,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6129,"method":null,"native":false},{"column":31,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5086,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":6022,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6129,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5038,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":6022,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6129,"method":null,"native":false}]}
+error: uncaughtException: Cannot find module './user/create-my-space.dto'
+Error: Cannot find module './user/create-my-space.dto'
+    at webpackMissingModule (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5161:83)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5161:184)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5981:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6088:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5086:31)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5981:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6088:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5038:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5981:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6088:21) {"date":"Mon Oct 02 2023 21:21:49 GMT+0900 (Korean Standard Time)","error":{"code":"MODULE_NOT_FOUND"},"exception":true,"os":{"loadavg":[1.93603515625,2.0078125,2.4140625],"uptime":3185},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick2/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick2","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":459822,"external":11555303,"heapTotal":85393408,"heapUsed":58572272,"rss":133398528},"pid":8409,"uid":503,"version":"v16.19.1"},"stack":"Error: Cannot find module './user/create-my-space.dto'\n    at webpackMissingModule (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5161:83)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5161:184)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5981:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6088:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5086:31)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5981:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6088:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5038:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5981:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6088:21)","timestamp":"2023/10/2 21:21:49","trace":[{"column":83,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"webpackMissingModule","line":5161,"method":null,"native":false},{"column":184,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5161,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":5981,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6088,"method":null,"native":false},{"column":31,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5086,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":5981,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6088,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5038,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":5981,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6088,"method":null,"native":false}]}
+error: uncaughtException: Cannot find module './user/create-my-space.dto'
+Error: Cannot find module './user/create-my-space.dto'
+    at webpackMissingModule (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5161:83)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5161:184)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5954:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6061:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5086:31)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5954:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6061:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5038:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5954:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6061:21) {"date":"Mon Oct 02 2023 21:21:52 GMT+0900 (Korean Standard Time)","error":{"code":"MODULE_NOT_FOUND"},"exception":true,"os":{"loadavg":[1.86083984375,1.99072265625,2.40576171875],"uptime":3188},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick2/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick2","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":599358,"external":11566530,"heapTotal":85377024,"heapUsed":58848080,"rss":134594560},"pid":8443,"uid":503,"version":"v16.19.1"},"stack":"Error: Cannot find module './user/create-my-space.dto'\n    at webpackMissingModule (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5161:83)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5161:184)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5954:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6061:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5086:31)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5954:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6061:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5038:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:5954:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick2/dist/main.js:6061:21)","timestamp":"2023/10/2 21:21:52","trace":[{"column":83,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"webpackMissingModule","line":5161,"method":null,"native":false},{"column":184,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5161,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":5954,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6061,"method":null,"native":false},{"column":31,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5086,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":5954,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6061,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":null,"line":5038,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"__webpack_require__","line":5954,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick2/dist/main.js","function":"fn","line":6061,"method":null,"native":false}]}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:21:58"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:22:33"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:22:41"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:22:52"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:22:56"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:25:12"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:25:15"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:25:18"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:25:27"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:25:31"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:25:38"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:25:41"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/2 21:25:46"}

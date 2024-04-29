@@ -1,0 +1,260 @@
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 10:55:50"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 10:56:49"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 10:56:49"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 10:57:59"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 10:57:59"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 12:34:27"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 12:35:27"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 12:35:27"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 12:35:33"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 12:36:12"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 12:36:13"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 12:36:18"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 12:36:45"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 12:36:59"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 12:37:24"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 12:37:47"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 12:37:57"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 12:38:13"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 12:38:34"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 12:38:37"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 12:48:21"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 14:11:57"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 14:12:18"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:13:17"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:13:17"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:14:27"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:14:27"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 14:15:09"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 14:15:41"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 14:15:52"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 14:19:28"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 14:19:56"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:20:56"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:20:56"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 14:21:00"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 14:24:41"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:25:40"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:25:40"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:26:49"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:26:49"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:28:00"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:28:00"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:29:09"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:29:09"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:30:19"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:30:19"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:31:28"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:31:28"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:32:38"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:32:38"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:33:48"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:33:48"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:34:58"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:34:58"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:36:08"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:36:08"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:37:18"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:37:18"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:38:28"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:38:28"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:39:38"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:39:38"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:40:48"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:40:48"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:41:57"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:41:57"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:43:07"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:43:07"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 14:43:19"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 14:43:46"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 14:43:50"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 14:44:24"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 14:44:26"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 14:44:27"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:45:27"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:45:27"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:46:36"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:46:36"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:47:46"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:47:46"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:48:56"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:48:56"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:50:06"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:50:06"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 14:50:22"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 14:50:26"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:51:25"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:51:25"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:52:34"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:52:34"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:53:44"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:53:44"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:54:54"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:54:54"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:56:05"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:56:05"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 14:57:14"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 14:57:14"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:06:01"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:12:49"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 15:13:48"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 15:13:48"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 15:14:58"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 15:14:58"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:15:02"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 15:16:02"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 15:16:02"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:16:21"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:16:34"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:17:02"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:17:22"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:17:37"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:17:48"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 15:18:47"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 15:18:47"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:19:57"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 15:20:57"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 15:20:57"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:22:03"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:22:26"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:22:58"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:50:32"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 15:51:32"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 15:51:32"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:51:44"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:52:21"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 15:53:20"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 15:53:20"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:57:38"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:57:42"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:57:54"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:58:12"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:58:30"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:58:44"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:59:05"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:59:18"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:59:50"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:59:52"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 15:59:55"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 16:00:55"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 16:00:55"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:01:29"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 16:02:29"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 16:02:29"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:03:14"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:03:18"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:03:22"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:03:47"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:04:01"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 16:05:01"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 16:05:01"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:05:05"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:05:24"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:05:34"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:06:00"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:06:33"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:06:37"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:06:41"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:07:41"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:07:58"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:08:32"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:08:34"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:09:04"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:09:49"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:10:09"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:10:12"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:10:41"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:10:55"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:11:15"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:11:20"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:11:26"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:11:41"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:11:43"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:11:55"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:12:30"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:12:38"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:12:50"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:13:10"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:13:25"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:13:48"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:55:22"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 16:56:21"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 16:56:21"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:56:31"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 16:57:30"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 16:57:30"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:57:48"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:58:29"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:58:43"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:58:46"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 16:59:30"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:00:05"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:00:16"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:00:28"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:00:41"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:00:44"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:00:52"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:01:06"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:01:21"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:01:26"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:01:28"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:01:35"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:01:38"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:01:41"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:02:02"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 17:03:01"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 17:03:01"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:04:42"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:04:44"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:04:49"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:05:16"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:17:44"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:18:12"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:18:24"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 17:19:24"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 17:19:24"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 17:20:34"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 17:20:34"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:20:36"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:21:37"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:22:13"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 17:23:12"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 17:23:12"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:23:36"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:23:53"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 17:24:28"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 19:28:16"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 19:29:16"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 19:29:16"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 19:29:43"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 19:29:48"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 19:30:46"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 19:31:23"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 19:31:56"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 19:32:52"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 19:33:45"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 19:33:57"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 19:34:56"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 19:34:56"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 19:35:24"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 19:35:50"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 19:36:50"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 19:36:50"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 19:37:59"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 19:37:59"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 19:39:09"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 19:39:09"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 19:40:19"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 19:40:19"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 19:40:53"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 19:41:23"}
+warn: try to re-connect RedisWebCacheModule after 10s... {"timestamp":"2023/9/26 19:42:23"}
+warn: try to re-connect redisClientProvider after 10s... {"timestamp":"2023/9/26 19:42:23"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 19:44:16"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 19:45:10"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 19:46:39"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 19:47:16"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 19:47:34"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 19:48:19"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/9/26 19:50:33"}

@@ -1,0 +1,125 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/.39283981c0b3b500369d70ad908efaaece91950a-audit.json",
+    "files": [
+        {
+            "date": 1692164387065,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/2023-08-16.debug.log",
+            "hash": "1ba085a9cbeb4048e2cc5dfe3f5a22374b66050f746a16702dcdb72a1b9683aa"
+        },
+        {
+            "date": 1692249419383,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/2023-08-17.debug.log",
+            "hash": "0e3b8ebe1ee5948040f08bda6fe9e9545d65ff8b6f2408d1a92f60a3c33cd7af"
+        },
+        {
+            "date": 1692318139375,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/2023-08-18.debug.log",
+            "hash": "a236cc288e547e79f1643c06352651632f800b69b2be0d7b627630b7dbf9bf2c"
+        },
+        {
+            "date": 1692585255319,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/2023-08-21.debug.log",
+            "hash": "e4475bf8c151b46703b4a3a0394d1c86a929ceae45dfdcc1da83c1a02c554b5c"
+        },
+        {
+            "date": 1692682558380,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/2023-08-22.debug.log",
+            "hash": "d6bd27ad720ef30084f2c88ff4de18a0f2e8fd64b4f23ee12b51c5d22d79d588"
+        },
+        {
+            "date": 1692771617188,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/2023-08-23.debug.log",
+            "hash": "84e6e44f4a8c748d741d11715ffddd1f9437fa087f711e39369f3774e3f6957c"
+        },
+        {
+            "date": 1692812248946,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/2023-08-24.debug.log",
+            "hash": "91b0e0e395de5481717650c89b6eb6acdd675cd4b163829df7b2e98f364a02f1"
+        },
+        {
+            "date": 1692934676334,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/2023-08-25.debug.log",
+            "hash": "b030edf4856e53383b2761d3e485d9cfc2f79fbd83b98ebf4734821a8d490116"
+        },
+        {
+            "date": 1693219080541,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/2023-08-28.debug.log",
+            "hash": "62fb9e1e21081c824724aeb2a410fb592ce1b7fc3a3714272fce665d4f10d511"
+        },
+        {
+            "date": 1693274946406,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/2023-08-29.debug.log",
+            "hash": "025e483c9940000a990f9da8367f4e4fa8c57d2916e8679389df17bcb3498bb5"
+        },
+        {
+            "date": 1693361068935,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/2023-08-30.debug.log",
+            "hash": "1fc211ca02fc6573a1abe72d45a1d6046f456e26e74b74f47b8fb96bf0524890"
+        },
+        {
+            "date": 1693471161632,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/2023-08-31.debug.log",
+            "hash": "c7317705d17da95effaf28440ad0120e7bfd24b854fa0166afb5a53318841348"
+        },
+        {
+            "date": 1693552232226,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/2023-09-01.debug.log",
+            "hash": "e1338599f3a97515312c9a29949a6be7cb91cc7398e12acb2aa18900c8494788"
+        },
+        {
+            "date": 1693794858758,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/2023-09-04.debug.log",
+            "hash": "032b8659ea5568727d47488df25d49b32ba2d52858f4c8b266d055cedff428a3"
+        },
+        {
+            "date": 1693879759266,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/2023-09-05.debug.log",
+            "hash": "660298957d45f5f34239b2721a8223faf44b8f43f3645a7100ebec79051975bf"
+        },
+        {
+            "date": 1693935837083,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/2023-09-06.debug.log",
+            "hash": "845683612caa21fb8cf3da1857571f0b1843f95eebc94363f840c82d2d703f1e"
+        },
+        {
+            "date": 1694051470752,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/2023-09-07.debug.log",
+            "hash": "36ec3862ed93bfe3d564a125e2bf1d775a099ae6ef3bc1ac7e30d815e2833d66"
+        },
+        {
+            "date": 1694151203236,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/2023-09-08.debug.log",
+            "hash": "fce47b5dd05c1e7a5dc557570a4450d6d32114d135dc80ddca71d3d2f5cb6e8d"
+        },
+        {
+            "date": 1694409589675,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/2023-09-11.debug.log",
+            "hash": "3e7265cc135bfd91a3fb3eaefc3b06706d99899d6a19ae9d594833a7376b4e0c"
+        },
+        {
+            "date": 1694491104482,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/2023-09-12.debug.log",
+            "hash": "304da79a8c35a45eee14e42771b29a332132d1127ac9bf080851da3da59cb706"
+        },
+        {
+            "date": 1694573810153,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/2023-09-13.debug.log",
+            "hash": "5469b44876313fd13608c35ca367a3b8348c7a00921e0049c4eaa444ea35e79f"
+        },
+        {
+            "date": 1694674050410,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/2023-09-14.debug.log",
+            "hash": "946d1f54aada8364eaa762e67e0e898f445866d722709f200e40d8a395af79ed"
+        },
+        {
+            "date": 1694743151394,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/debug/2023-09-15.debug.log",
+            "hash": "be4fa6d273b75a1e34beabae51bb2d83220806a8dae9466e942002c222f5ea2a"
+        }
+    ],
+    "hashType": "sha256"
+}

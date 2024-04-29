@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/.0ba77c322b487ef630538abb3143b3bb791e4f2e-audit.json",
+    "files": [
+        {
+            "date": 1695627264318,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/23-09-25.log",
+            "hash": "16119102cf4e8aa8fa9e706306d76ebece62dbf1c07d45b48a748a0c2c03cbde"
+        },
+        {
+            "date": 1695693348052,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/23-09-26.log",
+            "hash": "c61ffc1db7c3fd35640691ba665648ebaea61b532a8e7cc5d135a5c34c99d242"
+        },
+        {
+            "date": 1695794742405,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/23-09-27.log",
+            "hash": "204b3a2a4cc4c19f7311eb8b9bf989f994ef46248b472babdd4c6a90dfe0ce90"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,0 +1,17 @@
+info: Nest.js API-Server ready to http://localhost:3001/ {"timestamp":"2023/12/5 15:28:15"}
+debug: [REQ] ::1 GET 404 : /kakao {"timestamp":"2023/12/5 15:28:27"}
+info: Nest.js API-Server ready to http://localhost:3001/ {"timestamp":"2023/12/5 15:29:33"}
+info: Nest.js API-Server ready to http://localhost:3001/ {"timestamp":"2023/12/5 15:32:30"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/5 16:41:59"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2023/12/5 16:42:12"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2023/12/5 17:19:19"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2023/12/5 17:19:30"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/5 17:20:28"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/5 17:21:02"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/5 17:21:32"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2023/12/5 17:21:34"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2023/12/5 17:21:47"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2023/12/5 17:22:08"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/5 21:47:11"}
+debug: [REQ] ::1 POST 200 : /api/v1/work/save {"timestamp":"2023/12/5 21:47:14"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/5 21:51:33"}

@@ -1,0 +1,43 @@
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/17 20:38:50"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/17 20:39:20"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/17 20:39:30"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/17 20:39:40"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/17 20:39:42"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/17 20:39:42"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/17 20:40:00"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/17 20:40:02"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/17 20:40:05"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/earn {"timestamp":"2023/10/17 20:40:11"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/17 20:40:16"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/17 20:40:45"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/17 20:40:47"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/17 20:40:57"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/17 20:40:58"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/earn {"timestamp":"2023/10/17 20:41:03"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/17 20:41:14"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/17 20:41:30"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/17 20:41:37"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/17 20:41:41"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/earn {"timestamp":"2023/10/17 20:41:45"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/17 20:41:51"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/earn {"timestamp":"2023/10/17 20:41:57"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/17 20:42:05"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/earn {"timestamp":"2023/10/17 20:42:10"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/17 20:42:16"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/earn {"timestamp":"2023/10/17 20:43:32"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/earn {"timestamp":"2023/10/17 20:43:34"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/earn {"timestamp":"2023/10/17 20:43:37"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/17 20:44:15"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/17 20:44:17"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/17 20:44:18"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/17 20:44:19"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/17 20:44:20"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/17 20:44:36"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/17 20:44:38"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/17 20:44:39"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/17 20:44:40"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/17 20:44:51"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/17 20:44:52"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/17 20:44:54"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/earn {"timestamp":"2023/10/17 20:44:57"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/17 20:45:00"}

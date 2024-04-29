@@ -1,0 +1,72 @@
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:11:29"}
+debug: [REQ] ::1 POST 403 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:11:54"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:13:39"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:13:52"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:13:53"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:15:42"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:15:43"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:16:31"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:16:35"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:17:04"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:17:17"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:17:34"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:18:07"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:18:24"}
+debug: [REQ] ::1 POST 500 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:19:57"}
+debug: [REQ] ::1 POST 500 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:20:00"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:20:03"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:20:10"}
+debug: [REQ] ::1 POST 500 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:20:14"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:20:45"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:26:46"}
+debug: [REQ] ::1 POST 403 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:26:56"}
+debug: [REQ] ::1 POST 403 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:27:04"}
+debug: [REQ] ::1 POST 500 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:27:20"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:27:47"}
+debug: [REQ] ::1 POST 500 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:27:49"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:28:09"}
+debug: [REQ] ::1 POST 500 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:28:11"}
+debug: [REQ] ::1 POST 500 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:28:13"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:28:29"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:29:14"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:29:18"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:29:25"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:30:48"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:31:04"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:31:33"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:32:18"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:34:31"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:34:39"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:34:45"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:34:58"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:35:35"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:36:12"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:36:14"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:36:29"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:36:41"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:36:49"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:36:59"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:40:13"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:40:25"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:40:42"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:40:50"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:40:54"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:41:03"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:41:05"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:41:12"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:41:38"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:42:58"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:43:00"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:43:23"}
+debug: [REQ] ::1 POST 500 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:43:25"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:43:53"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:43:54"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:44:11"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:44:13"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:44:18"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:44:28"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/1/17 21:44:51"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:44:53"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:45:02"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:45:13"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2024/1/17 21:45:24"}

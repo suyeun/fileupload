@@ -1,0 +1,186 @@
+
+### [공간 리스트]
+POST http://192.168.1.57:9081/api/v2/poi
+Content-Type: application/json
+Authorization: Bearer  dummy_token_dummy_12345
+
+[요청 형식]
+{
+  "type" : "main",
+  "lat" : "37.57204",
+  "lon" : "126.97889",
+  "radius": 5,
+  "order" : 0,
+  "lastId" : 0
+}
+
+[성공 예시]
+{
+  "result": 200,
+  "data": {
+    "banners": [
+      {
+        "title": "LG 베스트샵 서초본점",
+        "description": "삶에 행복을 더하고 생활 공간에 가치를 더하는 LG전자 베스트샵",
+        "thumbnail": "https://storage.mirrorcity.io/test/room/thumbnail/main_lg.png",
+        "schemaUrl": "mirrorcity://space/join?rid=215"
+      }
+    ],
+    "mainList": [
+      {
+        "roomId": "271",
+        "roomLevel": 1,
+        "superSet": "0",
+        "title": "한양대학교_외부",
+        "description": "한양대학교_외부",
+        "thumbnail": "https://mirrorcity-live.s3.ap-northeast-2.amazonaws.com/test/room/thumbnail/HY_MO_01.jpg",
+        "address": "서울특별시 성동구 왕십리로 222 한양대학교",
+        "galleryUrl": [
+          "https://storage.mirrorcity.io/test/room/gallery/HY_MO_01.jpg",
+          "https://storage.mirrorcity.io/test/room/gallery/HY_MO_02.jpg",
+          "https://storage.mirrorcity.io/test/room/gallery/HY_MO_03.jpg"
+        ],
+        "provide": [
+          {
+            "icon": "https://mirrorcity-live.s3.ap-northeast-2.amazonaws.com/test/room/icon/ic_function_sit.png",
+            "title": "앉기"
+          },
+          {
+            "icon": "https://mirrorcity-live.s3.ap-northeast-2.amazonaws.com/test/room/icon/ic_function_chat.png",
+            "title": "채팅"
+          },
+          {
+            "icon": "https://mirrorcity-live.s3.ap-northeast-2.amazonaws.com/test/room/icon/ic_function_voice.png",
+            "title": "음성채팅"
+          },
+          {
+            "icon": "https://mirrorcity-live.s3.ap-northeast-2.amazonaws.com/test/room/icon/ic_function_emoji.png",
+            "title": "이모티콘"
+          },
+          {
+            "icon": "https://mirrorcity-live.s3.ap-northeast-2.amazonaws.com/test/room/icon/ic_function_motion.png",
+            "title": "모션"
+          },
+          {
+            "icon": "https://mirrorcity-live.s3.ap-northeast-2.amazonaws.com/test/room/icon/ic_fuction_course.png",
+            "title": "수강신청"
+          }
+        ],
+        "totalVisitCnt": 0,
+        "totalMarkCnt": 0
+      },
+
+      .....
+
+    ]
+  },
+}
+
+
+### [공간-하위(월드) 리스트]
+POST http:/192.168.1.57:9081/api/v2/account/login
+Content-Type: application/json
+Authorization: Bearer  dummy_token_dummy_12345
+
+[요청 형식]
+{
+  "type" : "sub",
+  "lat" : "37.57204",
+  "lon" : "126.97889",
+  "radius": 5,
+  "order" : 0,
+  "lastId" : 0
+}
+
+
+[성공예시]
+{
+  "result": 200,
+  "data": [
+    {
+      "roomId": "271",
+      "roomLevel": 1,
+      "superSet": "0",
+      "title": "한양대학교_외부",
+      "description": "한양대학교_외부",
+      "thumbnail": "https://mirrorcity-live.s3.ap-northeast-2.amazonaws.com/test/room/thumbnail/HY_MO_01.jpg",
+      "address": "서울특별시 성동구 왕십리로 222 한양대학교",
+      "galleryUrl": [
+        "https://storage.mirrorcity.io/test/room/gallery/HY_MO_01.jpg",
+        "https://storage.mirrorcity.io/test/room/gallery/HY_MO_02.jpg",
+        "https://storage.mirrorcity.io/test/room/gallery/HY_MO_03.jpg"
+      ],
+      "provide": [
+        {
+          "icon": "https://mirrorcity-live.s3.ap-northeast-2.amazonaws.com/test/room/icon/ic_function_sit.png",
+          "title": "앉기"
+        },
+        {
+          "icon": "https://mirrorcity-live.s3.ap-northeast-2.amazonaws.com/test/room/icon/ic_function_chat.png",
+          "title": "채팅"
+        },
+        {
+          "icon": "https://mirrorcity-live.s3.ap-northeast-2.amazonaws.com/test/room/icon/ic_function_voice.png",
+          "title": "음성채팅"
+        },
+        {
+          "icon": "https://mirrorcity-live.s3.ap-northeast-2.amazonaws.com/test/room/icon/ic_function_emoji.png",
+          "title": "이모티콘"
+        },
+        {
+          "icon": "https://mirrorcity-live.s3.ap-northeast-2.amazonaws.com/test/room/icon/ic_function_motion.png",
+          "title": "모션"
+        },
+        {
+          "icon": "https://mirrorcity-live.s3.ap-northeast-2.amazonaws.com/test/room/icon/ic_fuction_course.png",
+          "title": "수강신청"
+        }
+      ],
+      "totalVisitCnt": 0,
+      "totalMarkCnt": 0
+    },
+    {
+      "roomId": "201",
+      "roomLevel": 1,
+      "superSet": "271",
+      "title": "한양대학교_총장실",
+      "description": "한양대학교_총장실",
+      "thumbnail": "https://mirrorcity-live.s3.ap-northeast-2.amazonaws.com/test/room/thumbnail/main_hanyang.png",
+      "address": "서울 성동구 왕십리로 222 한양대학교",
+      "galleryUrl": [
+        "https://storage.mirrorcity.io/test/room/gallery/Hanyang_00.png",
+        "https://storage.mirrorcity.io/test/room/gallery/Hanyang_01.png",
+        "https://storage.mirrorcity.io/test/room/gallery/Hanyang_02.png"
+      ],
+      "provide": [
+        {
+          "icon": "https://mirrorcity-live.s3.ap-northeast-2.amazonaws.com/test/room/icon/ic_function_sit.png",
+          "title": "앉기"
+        },
+        {
+          "icon": "https://mirrorcity-live.s3.ap-northeast-2.amazonaws.com/test/room/icon/ic_function_chat.png",
+          "title": "채팅"
+        },
+        {
+          "icon": "https://mirrorcity-live.s3.ap-northeast-2.amazonaws.com/test/room/icon/ic_function_voice.png",
+          "title": "음성채팅"
+        },
+        {
+          "icon": "https://mirrorcity-live.s3.ap-northeast-2.amazonaws.com/test/room/icon/ic_function_emoji.png",
+          "title": "이모티콘"
+        },
+        {
+          "icon": "https://mirrorcity-live.s3.ap-northeast-2.amazonaws.com/test/room/icon/ic_function_motion.png",
+          "title": "모션"
+        },
+        {
+          "icon": "https://mirrorcity-live.s3.ap-northeast-2.amazonaws.com/test/room/icon/ic_fuction_course.png",
+          "title": "수강신청"
+        }
+      ],
+      "totalVisitCnt": 0,
+      "totalMarkCnt": 0
+    },
+    ...
+  ]
+}

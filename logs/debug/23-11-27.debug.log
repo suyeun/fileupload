@@ -1,0 +1,92 @@
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 20:27:55"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 20:29:12"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 20:29:27"}
+error: uncaughtException: Module parse failed: 'return' outside of function (99:0)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_f = typeof repositories_1.CalendarRepository !== "undefined" && repositories_1.CalendarRepository) === "function" ? _f : Object])
+| ], PayService);
+> return (0, interfaces_1.JsonResponse)(result, 200, "OK");
+| async;
+| update(body, CALENDAR_DTO.SaveDTO, userId, number);
+Error: Module parse failed: 'return' outside of function (99:0)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     __metadata("design:paramtypes", [typeof (_f = typeof repositories_1.CalendarRepository !== "undefined" && repositories_1.CalendarRepository) === "function" ? _f : Object])
+| ], PayService);
+> return (0, interfaces_1.JsonResponse)(result, 200, "OK");
+| async;
+| update(body, CALENDAR_DTO.SaveDTO, userId, number);
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8471:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9166:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9273:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8464:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9166:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9273:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8414:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9166:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9273:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8389:14) {"date":"Mon Nov 27 2023 20:29:47 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[4.2333984375,3.56787109375,3.369140625],"uptime":4345612},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":635333,"external":15006454,"heapTotal":85917696,"heapUsed":63441160,"rss":118784000},"pid":25920,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: 'return' outside of function (99:0)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|     __metadata(\"design:paramtypes\", [typeof (_f = typeof repositories_1.CalendarRepository !== \"undefined\" && repositories_1.CalendarRepository) === \"function\" ? _f : Object])\n| ], PayService);\n> return (0, interfaces_1.JsonResponse)(result, 200, \"OK\");\n| async;\n| update(body, CALENDAR_DTO.SaveDTO, userId, number);\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8471:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9166:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9273:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8464:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9166:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9273:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8414:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9166:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9273:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8389:14)","timestamp":"2023/11/27 20:29:47","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.create.k2","line":8471,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9166,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9273,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8464,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9166,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9273,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8414,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9166,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9273,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":8389,"method":null,"native":false}]}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 20:29:49"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 20:29:51"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 20:30:17"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 20:30:25"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 20:31:26"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 20:31:47"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 20:32:06"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 20:32:20"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 20:33:00"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 20:43:16"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 20:45:39"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 20:46:11"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 20:46:34"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 20:47:31"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 20:49:53"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 20:50:10"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 20:50:52"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 20:50:53"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 20:54:05"}
+debug: [REQ] ::1 POST 403 : /api/v1/main/calculate-salary {"timestamp":"2023/11/27 20:54:57"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 20:56:11"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 20:56:36"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 20:57:54"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 20:58:16"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 20:58:48"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 20:59:19"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 21:00:15"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 21:01:42"}
+debug: [REQ] ::1 POST 403 : /api/v1/main/calculate-salary {"timestamp":"2023/11/27 21:02:00"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 21:02:14"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 21:02:15"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 21:02:45"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 21:02:47"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 21:02:48"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 21:03:20"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 21:03:23"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/work-history {"timestamp":"2023/11/27 21:03:24"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 21:03:30"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 21:03:31"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 21:03:32"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 21:03:32"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 21:03:32"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 21:03:33"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 21:03:35"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 21:05:27"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 21:05:39"}
+debug: [REQ] ::1 POST 404 : /api/v1/work/pay-stub/list {"timestamp":"2023/11/27 21:05:40"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 21:05:42"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 21:05:54"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 21:05:55"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 21:06:08"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 21:06:09"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 21:08:37"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 21:08:51"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 21:08:52"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 21:10:38"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 21:10:41"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 21:11:26"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 21:11:31"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/11/27 21:11:50"}
+debug: [REQ] ::1 POST 200 : /api/v1/pay-stub/list {"timestamp":"2023/11/27 21:11:51"}

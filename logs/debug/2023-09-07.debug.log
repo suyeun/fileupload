@@ -1,0 +1,11 @@
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"service":"SEERSLAB"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/load {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"service":"SEERSLAB"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"service":"SEERSLAB"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"service":"SEERSLAB"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"service":"SEERSLAB"}

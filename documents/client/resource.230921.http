@@ -1,0 +1,369 @@
+### = SERVICE ============================================================
+GET http://localhost:9081/
+
+
+### GET | /api/v2/resource/service | {session.owner-id} | 서비스 목록 조회
+GET http://localhost:9081/api/v2/service
+Content-Type: application/json
+
+
+### GET /api/v2/service/detail/:category/:serviceId 서비스 상세 조회 (다음 버전 기능을 위한 API, 사용 X, 230921)
+GET http://localhost:9081/api/v2/service/detail/package/1
+Content-Type: application/json
+
+
+### POST /api/v2/resource/service | {owner}  | PARAM{제목,분류} | 서비스 생성
+POST http://localhost:9081/api/v2/service
+Content-Type: application/json
+
+{
+  "subject": "SAMPLE SERVICE",
+  "category": "package"
+}
+
+
+### = RESOURCE ============================================================
+GET http://localhost:9081/
+
+
+### GET /api/v2/resource/entry | PARAMS{분류} | 리소스 분류별 조회 (다음 버전 기능을 위한 API, 사용 X, 230921)
+GET http://localhost:9081/api/v2/resource/entry?type=package
+
+
+
+### POST /api/v2/resource/entry | BODY{attribute} | 리소스 등록(superset=attribute)/subset 없음
+POST http://localhost:9081/api/v2/resource/entry
+Content-Type: application/json
+
+{
+  "attribute": {
+    "type": 0,
+    "bundleKey": "closet_001.asset",
+    "assetKeys": [
+      {
+        "key": "closet_001"
+      },
+      {
+        "key": "closet_002"
+      }
+    ]
+  },
+  "category": "attribute",
+  "path": "c:/upload/closet_001.asset",
+  "serviceId": 1
+}
+
+### POST /api/v2/resource/entry | BODY{attribute, subset} | 리소스 등록(package 타잎)
+POST http://localhost:9081/api/v2/resource/entry
+Content-Type: application/json
+
+{
+  "attribute": {
+    "type": 0,
+    "bundleKey": "closet_002.asset",
+    "assetKeys": [
+      {
+        "key": "closet_001"
+      },
+      {
+        "key": "closet_002"
+      }
+    ]
+  },
+  "category": "package",
+  "path": "c:/upload/closet_002.asset",
+  "serviceId": 1,
+  "subset": [
+    {
+      "key": "thumbnail",
+      "items": [
+        "closet_001.png"
+      ]
+    },
+    {
+      "key": "testFiles",
+      "items": [
+        "test_e001.dat",
+        "test_e002.dat"
+      ]
+    }
+  ]
+}
+
+
+
+### /api/v2/resource/entry 카테고리 입력 테스트
+POST http://localhost:9081/api/v2/resource/entry
+Content-Type: application/json
+
+
+{
+  "attribute": {
+    "type": "furniture"
+  },
+  "category": "space-asset",
+  "path": "",
+  "userIdx": 0,
+  "serviceId": 1,
+  "subset": [
+    {
+      "key": "furniture",
+      "items": [
+        {
+          "filename": "armchair_004.prefab",
+          "name": "armchair_004",
+          "grade": 1,
+          "type": 0,
+          "category": "가구",
+          "subcategory": "의자",
+          "memo": "자식 오브젝트 박스 콜라이더 남아있음",
+          "issue": "p"
+        },
+        {
+          "filename": "armchair_015.prefab",
+          "name": "armchair_015",
+          "grade": 2,
+          "type": 0,
+          "category": "가구",
+          "subcategory": "의자",
+          "memo": "피벗 박혀있음 설치 X",
+          "issue": "p"
+        }
+      ]
+    }
+  ]
+}
+
+###
+
+
+
+
+### Send POST request resource-api ex-part
+POST http://localhost:9081/api/v1/resource/test
+Content-Type: application/json
+
+{
+  "attribute": {
+    "type": 34,
+    "bundleKey": "closet_001.dat",
+    "assetKeys": [
+      {
+        "key": "closet_001"
+      }
+    ]
+  },
+  "assetType": "assetsItem",
+  "assetPath": "https://naver.com/file.bin",
+  "userIdx": 1234567891,
+  "serviceId": 1234567891
+}
+
+
+### /api/v2/resource/detail 리소스 디테일
+GET http://localhost:9081/api/v2/resource/detail?sid=1&type=space-asset
+
+
+
+### /api/v2/resource/detail 리소스 디테일
+GET http://dev-mirrorcity-poi.mtown-dev.eks-main-t.mirrorcity.io/api/v2/resource/detail?sid=1&type=space-asset
+
+
+
+
+
+
+
+
+### 서비스 목록 /api/v2/resource/service
+GET https://dev-mirrorcity-poi.mtown-dev.eks-main-t.mirrorcity.io/api/v2/resource/service
+
+### 서비스 상세 /api/v2/resource/service/:type(asset_type, category)/serviceId
+GET http://192.168.1.57:9081/api/v2/resource/service/detail/package/2
+
+### 서비스 상세 /api/v2/resource/service/:type(asset_type, category)/serviceId
+GET https://dev-mirrorcity-poi.mtown-dev.eks-main-t.mirrorcity.io/api/v2/resource/service/detail/package/1
+
+### 자원 전체 목록 /api/v2/resource/entry
+GET http://192.168.1.57:8081/api/v2/resource/entry
+
+### 자원 전체 목록 /api/v2/resource/entry
+GET https://dev-mirrorcity-poi.mtown-dev.eks-main-t.mirrorcity.io/api/v2/resource/detail?sid=1&type=package
+
+
+
+### 자원 타잎 목록 /api/v2/resource/types/:type | (resource|service, attribute|item, entity|data)
+GET http://192.168.1.57:9081/api/v2/resource/types/service
+
+### 자원 타잎 목록 /api/v2/resource/types/:type | (resource|service, attribute|item, entity|data)
+GET http://192.168.1.57:9081/api/v2/resource/types/superset
+
+### 자원 타잎 목록 /api/v2/resource/types/:type | (resource|service, attribute|item, entity|data)
+GET http://192.168.1.57:9081/api/v2/resource/types/item
+
+
+
+### 자원 타잎 목록 /api/v2/resource/types/:type | (resource|service, attribute|item, entity|data)
+GET https://dev-mirrorcity-poi.mtown-dev.eks-main-t.mirrorcity.io/api/v2/resource/types/service
+
+### 자원 타잎 목록 /api/v2/resource/types/:type | (resource|service, attribute|item, entity|data)
+GET http://192.168.1.57:9081/api/v2/resource/types/superset
+
+### 자원 타잎 목록 /api/v2/resource/types/:type | (resource|service, attribute|item, entity|data)
+GET http://192.168.1.57:9081/api/v2/resource/types/item
+
+
+
+
+### Send GET /api/v2/resource/entry
+GET http://192.168.1.57:8081/api/v2/resource/detail?sid=1&type=package
+
+### 서비스 생성 /api/v2/resource/service
+POST http://192.168.1.57:8081/api/v2/resource/service
+Content-Type: application/json
+
+{
+  "subject": "resource package service test",
+  "category": "package"
+}
+
+
+
+### Send POST request resource-api ex-part | type 값은 typelist의 값과 동일
+GET  http://192.168.1.57:8081/api/v2/resource/entry?type=package&page=1&size=1
+
+
+
+
+### Send POST request resource-api ex-part
+POST http://192.168.1.57:8081/api/v2/resource/entry
+Content-Type: application/json
+
+{
+  "attribute": {
+    "type": 0,
+    "bundleKey": "closet_001.asset",
+    "assetKeys": [
+      {
+        "key": "closet_001"
+      },
+      {
+        "key": "closet_002"
+      }
+    ]
+  },
+  "category": "package",
+  "path": "c:/upload/closet_001.asset",
+  "serviceId": 1234567890
+}
+
+
+### Send POST request resource-api ex-full
+POST http://192.168.1.57:8081/api/v2/resource/entry
+Content-Type: application/json
+
+{
+  "attribute": {
+    "type": 0,
+    "bundleKey": "closet_002.asset",
+    "assetKeys": [
+      {
+        "key": "closet_001"
+      },
+      {
+        "key": "closet_002"
+      }
+    ]
+  },
+  "category": "package",
+  "path": "c:/upload/closet_002.asset",
+  "serviceId": 1,
+  "subset": [
+    {
+      "key": "thumbnail",
+      "items": [
+        "closet_001.png"
+      ]
+    },
+    {
+      "key": "testFiles",
+      "items": [
+        "test_e001.dat",
+        "test_e002.dat"
+      ]
+    }
+  ]
+}
+
+
+### POST Files upload test 009
+POST http://192.168.1.57:8081/api/v2/resource/files
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="files"; filename="sample.json"
+Content-Type: multipart/form-data
+
+< ../../documents/sample.json
+--boundary
+#Content-Disposition: form-data; name="files"; filename="sample.json"
+#Content-Type: multipart/form-data
+#
+#< ../../documents/sample.json
+#--boundary
+#Content-Disposition: form-data; name="data"
+#Content-Type: application/json
+
+{ "hello": "world", "value": 1234 }
+--boundary--
+
+
+
+
+### Send POST request resource-api ex-part
+POST http://192.168.1.57:8081/api/v2/resource/test
+Content-Type: application/json
+
+{
+  "attribute": {
+    "type": 34,
+    "bundleKey": "closet_001.dat",
+    "assetKeys": [
+      {
+        "key": "closet_001"
+      }
+    ]
+  },
+  "assetType": "assetsItem",
+  "assetPath": "https://naver.com/file.bin",
+  "userIdx": 1234567891,
+  "serviceId": 1234567891
+}
+
+
+
+
+
+### Send POST request resource-api ex-part
+POST http://192.168.1.57:8081/api/v2/resource/test
+Content-Type: application/json
+
+{
+  "attribute": {"spaceId": "asdasdasda",
+    "bundleData": [
+      {
+        "bundleId": "asdasdasd",
+        "version": 123123123123,
+        "bundleKey": "ttttt",
+        "assetKey": [
+          "aaaaa"
+        ],
+        "package": "",
+        "path": "",
+        "thumbnailId": ""
+      }
+    ]
+  },
+  "assetType": "assetsItem",
+  "assetPath": "https://naver.com/file.bin"
+}

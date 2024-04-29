@@ -1,0 +1,217 @@
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1463:16)
+    at listenInCluster (node:net:1511:12)
+    at Server.listen (node:net:1599:7)
+    at ExpressAdapter.listen (/Users/mbp2019/Desktop/Development/workpick/node_modules/@nestjs/platform-express/adapters/express-adapter.js:88:32)
+    at /Users/mbp2019/Desktop/Development/workpick/node_modules/@nestjs/core/nest-application.js:180:30
+    at new Promise (<anonymous>)
+    at NestApplication.listen (/Users/mbp2019/Desktop/Development/workpick/node_modules/@nestjs/core/nest-application.js:170:16)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Tue Oct 10 2023 11:42:05 GMT+0900 (Korean Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-48,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[3.73583984375,3.05712890625,3.16064453125],"uptime":166755},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":197465,"external":1217621,"heapTotal":94306304,"heapUsed":58348296,"rss":140541952},"pid":9271,"uid":503,"version":"v16.19.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1463:16)\n    at listenInCluster (node:net:1511:12)\n    at Server.listen (node:net:1599:7)\n    at ExpressAdapter.listen (/Users/mbp2019/Desktop/Development/workpick/node_modules/@nestjs/platform-express/adapters/express-adapter.js:88:32)\n    at /Users/mbp2019/Desktop/Development/workpick/node_modules/@nestjs/core/nest-application.js:180:30\n    at new Promise (<anonymous>)\n    at NestApplication.listen (/Users/mbp2019/Desktop/Development/workpick/node_modules/@nestjs/core/nest-application.js:170:16)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023/10/10 11:42:05","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1463,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1511,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1599,"method":"listen","native":false},{"column":32,"file":"/Users/mbp2019/Desktop/Development/workpick/node_modules/@nestjs/platform-express/adapters/express-adapter.js","function":"ExpressAdapter.listen","line":88,"method":"listen","native":false},{"column":30,"file":"/Users/mbp2019/Desktop/Development/workpick/node_modules/@nestjs/core/nest-application.js","function":null,"line":180,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":16,"file":"/Users/mbp2019/Desktop/Development/workpick/node_modules/@nestjs/core/nest-application.js","function":"NestApplication.listen","line":170,"method":"listen","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 11:42:16"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 11:48:27"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 11:49:57"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/calculate-salary {"timestamp":"2023/10/10 11:50:07"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 11:50:29"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/calculate-salary {"timestamp":"2023/10/10 11:50:30"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 11:50:38"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 11:50:44"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 11:51:19"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/calculate-salary {"timestamp":"2023/10/10 11:51:20"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 11:52:30"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 11:52:45"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 11:53:09"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 11:53:10"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 11:53:25"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 11:53:31"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 11:54:06"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/calculate-salary {"timestamp":"2023/10/10 11:54:27"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 11:55:00"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/calculate-salary {"timestamp":"2023/10/10 11:55:13"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 11:56:11"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 11:56:28"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/calculate-salary {"timestamp":"2023/10/10 11:56:30"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 15:00:15"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2023/10/10 15:01:03"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2023/10/10 15:02:35"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 15:02:57"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2023/10/10 15:02:58"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/calculate-salary {"timestamp":"2023/10/10 15:10:10"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 15:15:19"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/me {"timestamp":"2023/10/10 15:15:25"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 15:16:17"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 15:21:42"}
+debug: [REQ] ::1 POST 403 : /api/v1/points/random {"timestamp":"2023/10/10 15:22:17"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/10 15:22:28"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/10 15:22:28"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/10 15:22:29"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/10 15:22:30"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/10 15:22:30"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/10 15:22:31"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/10 15:22:31"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/10 15:22:31"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/10 15:22:33"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/earn {"timestamp":"2023/10/10 15:22:39"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/earn {"timestamp":"2023/10/10 15:22:41"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/earn {"timestamp":"2023/10/10 15:22:41"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/earn {"timestamp":"2023/10/10 15:22:42"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 15:23:54"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 15:24:09"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 15:24:12"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 15:24:38"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 15:24:49"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 15:25:00"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 15:25:04"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 15:25:15"}
+debug: [REQ] ::1 POST 500 : /api/v1/points/random {"timestamp":"2023/10/10 15:25:20"}
+debug: [REQ] ::1 POST 500 : /api/v1/points/random {"timestamp":"2023/10/10 15:25:21"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 15:25:53"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 15:25:55"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 15:25:59"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 15:26:10"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 15:27:27"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 15:27:43"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 15:27:45"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/10 15:27:48"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/10 15:27:49"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/10 15:27:50"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/10 15:28:15"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/10 15:28:17"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/10 15:28:18"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/10 15:28:18"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/10 15:28:19"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/10 15:28:20"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/10 15:28:21"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/earn {"timestamp":"2023/10/10 15:28:31"}
+debug: [REQ] ::1 POST 200 : /api/v1/points/random {"timestamp":"2023/10/10 15:28:34"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 15:30:43"}
+debug: [REQ] ::1 POST 403 : /api/v1/points/random {"timestamp":"2023/10/10 16:54:05"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2023/10/10 16:55:42"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/calculate-salary {"timestamp":"2023/10/10 16:56:08"}
+debug: [REQ] ::1 POST 200 : /api/v1/work/list {"timestamp":"2023/10/10 16:58:04"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/calculate-salary {"timestamp":"2023/10/10 17:00:52"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/calculate-salary {"timestamp":"2023/10/10 17:31:55"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:32:44"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:33:03"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:33:15"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:33:16"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:33:20"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:33:24"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:33:30"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:33:37"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:33:55"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:34:13"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:34:25"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:34:32"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:34:57"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:37:02"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:37:34"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:38:13"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:40:17"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:40:33"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:40:37"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:40:39"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:40:45"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:41:01"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:41:04"}
+debug: [REQ] ::1 POST 200 : /api/v1/work/save {"timestamp":"2023/10/10 17:42:05"}
+debug: [REQ] ::1 POST 200 : /api/v1/work/save {"timestamp":"2023/10/10 17:42:18"}
+debug: [REQ] ::1 POST 200 : /api/v1/work/save {"timestamp":"2023/10/10 17:42:29"}
+error: uncaughtException: Module parse failed: 'return' outside of function (76:4)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| });
+| if (raw) {
+>     return raw[0].ID || undefined;
+| }
+| else {
+Error: Module parse failed: 'return' outside of function (76:4)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| });
+| if (raw) {
+>     return raw[0].ID || undefined;
+| }
+| else {
+    at Object.__decorate (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:4891:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8912:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9019:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:4883:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8912:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9019:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:4803:24)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8912:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9019:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:4771:14) {"date":"Tue Oct 10 2023 17:44:23 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[3.72119140625,2.94140625,2.7880859375],"uptime":188493},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":269725,"external":14591318,"heapTotal":84590592,"heapUsed":56522952,"rss":132071424},"pid":24757,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: 'return' outside of function (76:4)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n| });\n| if (raw) {\n>     return raw[0].ID || undefined;\n| }\n| else {\n    at Object.__decorate (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:4891:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8912:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9019:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:4883:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8912:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9019:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:4803:24)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8912:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9019:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:4771:14)","timestamp":"2023/10/10 17:44:23","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.__decorate","line":4891,"method":"__decorate","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8912,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9019,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":4883,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8912,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9019,"method":null,"native":false},{"column":24,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":4803,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8912,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9019,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":4771,"method":null,"native":false}]}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:44:26"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:44:33"}
+debug: [REQ] ::1 POST 200 : /api/v1/work/save {"timestamp":"2023/10/10 17:45:21"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:47:11"}
+error: uncaughtException: Module parse failed: Unterminated string constant (64:174)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 };
+|             //  "workId": 60, "todayPay": 오늘 번돈, "totalPay": 여태까지 번돈- workStartDay, workDay 기준으로 해야함
+>             const getTotalPay = yield this.dtService.getTotalPay(work.pay, work.startDay, work.workDay, work.startTime, work.endTime, work.breakTime, work.payType || 'HOUR', ',, work.paybackDay);
+|             console.log("getTotalPay!!!", getTotalPay);
+|             //오늘 번돈
+Error: Module parse failed: Unterminated string constant (64:174)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 };
+|             //  "workId": 60, "todayPay": 오늘 번돈, "totalPay": 여태까지 번돈- workStartDay, workDay 기준으로 해야함
+>             const getTotalPay = yield this.dtService.getTotalPay(work.pay, work.startDay, work.workDay, work.startTime, work.endTime, work.breakTime, work.payType || 'HOUR', ',, work.paybackDay);
+|             console.log("getTotalPay!!!", getTotalPay);
+|             //오늘 번돈
+    at Object.__decorate (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5925:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8861:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8968:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5915:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8861:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8968:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5833:24)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8861:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8968:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5801:14) {"date":"Tue Oct 10 2023 17:47:35 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.73095703125,2.49755859375,2.63720703125],"uptime":188685},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":269725,"external":14588305,"heapTotal":84852736,"heapUsed":56914200,"rss":132808704},"pid":24984,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Unterminated string constant (64:174)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|                 };\n|             //  \"workId\": 60, \"todayPay\": 오늘 번돈, \"totalPay\": 여태까지 번돈- workStartDay, workDay 기준으로 해야함\n>             const getTotalPay = yield this.dtService.getTotalPay(work.pay, work.startDay, work.workDay, work.startTime, work.endTime, work.breakTime, work.payType || 'HOUR', ',, work.paybackDay);\n|             console.log(\"getTotalPay!!!\", getTotalPay);\n|             //오늘 번돈\n    at Object.__decorate (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5925:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8861:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8968:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5915:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8861:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8968:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5833:24)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8861:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:8968:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5801:14)","timestamp":"2023/10/10 17:47:35","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.__decorate","line":5925,"method":"__decorate","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8861,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":8968,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":5915,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8861,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":8968,"method":null,"native":false},{"column":24,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":5833,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":8861,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":8968,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":5801,"method":null,"native":false}]}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:47:37"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:47:52"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:47:53"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:48:11"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:48:19"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:48:24"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:48:48"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:51:14"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:52:04"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:52:33"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:52:44"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:53:14"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:53:31"}
+debug: [REQ] ::1 POST 500 : /api/v1/main/list {"timestamp":"2023/10/10 17:53:39"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:53:59"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 17:54:05"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/list {"timestamp":"2023/10/10 17:54:07"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 18:03:42"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 18:05:17"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 18:05:21"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/calculate-salary {"timestamp":"2023/10/10 18:05:33"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/calculate-salary {"timestamp":"2023/10/10 18:05:34"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/calculate-salary {"timestamp":"2023/10/10 18:06:02"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/calculate-salary {"timestamp":"2023/10/10 18:07:28"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/calculate-salary {"timestamp":"2023/10/10 18:07:29"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/calculate-salary {"timestamp":"2023/10/10 18:07:30"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/calculate-salary {"timestamp":"2023/10/10 18:07:31"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/calculate-salary {"timestamp":"2023/10/10 18:07:34"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/calculate-salary {"timestamp":"2023/10/10 18:07:50"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 18:09:14"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 18:09:20"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 18:09:37"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/calculate-salary {"timestamp":"2023/10/10 18:09:43"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/calculate-salary {"timestamp":"2023/10/10 18:09:44"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 18:09:57"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 18:10:31"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 18:12:23"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/10/10 18:12:28"}

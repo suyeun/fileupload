@@ -1,0 +1,75 @@
+### Favorites ========================================================================
+POST http://dev-mirrorcity-poi.mtown-dev.eks-main-t.mirrorcity.io/api/v1/main/list
+Content-Type: application/x-www-form-urlencoded
+
+{
+    "accessToken": "581fcb666cf0619b6ff45ee919500af898e082b576e775b9e778412b42ac7af839",
+    "ip" : "211.38.43.53",
+	"command": {
+        "lat" : "37.48943391251956",
+        "lon" : "127.02431139344573",
+        "radius": 1,
+		"order" : 0,
+		"lastId" : 0
+	}
+}
+
+
+### Favorites ========================================================================
+POST http://localhost:9081/api/v2/favorites
+Content-Type: multipart/form-data;
+
+### GET 즐겨찾기 목록 검색 /api/v2/favorites/list/{페이지_번호}/{데이타_카운트}
+POST http://localhost:9081/api/v2/favorites/list
+Content-Type: application/json
+Authorization: Bearer dummy_token_$#21 /Bearer;
+
+{
+  "page": 0,
+  "quantity": 2
+}
+
+### POST 즐겨찾기 정보 /api/v2/favorites/list/
+POST http://localhost:9081/api/v2/favorites/detail
+Content-Type: application/json
+Authorization: Bearer dummy_token_$#21 /Bearer
+
+{
+  "favoritesId": 1
+}
+
+### POST 즐겨찾기 등록 /api/v2/favorites/add | Params{ data:Custom-Object }
+POST http://localhost:9081/api/v2/favorites/add
+Content-Type: application/json
+Authorization: Bearer dummy_token_$#21 /Bearer
+
+{
+  "favoritesId": 71
+}
+
+
+### POST 즐겨찾기 수정 /api/v2/favorites/update
+POST http://localhost:9081/api/v2/favorites/update
+Content-Type: application/json
+Authorization: Bearer dummy_token_$#21 /Bearer
+
+{
+  "favoritesId": 1,
+  "data": {
+    "customValues": "data update test",
+    "roomId": 12,
+    "comment": "즐겨찾기 수정",
+    "lat": 3.4,
+    "lot": 1.2
+  }
+}
+
+### POST 즐겨찾기 삭제 /api/v2/favorites/update
+POST http://localhost:9081/api/v2/favorites/update
+Content-Type: application/json
+Authorization: Bearer dummy_token_$#21 /Bearer
+
+{
+  "favoritesId": 1,
+  "deleted": 1
+}

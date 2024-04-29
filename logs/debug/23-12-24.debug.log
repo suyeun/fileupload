@@ -1,0 +1,106 @@
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 13:34:17"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 13:34:36"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 13:34:59"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 13:35:23"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 13:42:18"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 13:42:19"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 13:42:36"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 13:43:23"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 13:43:44"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 13:44:35"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 13:45:14"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 13:50:19"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 13:50:49"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 13:50:56"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 13:51:00"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 13:52:45"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 13:52:50"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 13:53:11"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 13:53:43"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 13:53:50"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 13:54:03"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 13:56:24"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 13:56:38"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 13:56:42"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 13:56:45"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 13:57:12"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2023/12/24 13:57:23"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2023/12/24 13:57:33"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 13:57:52"}
+debug: [REQ] ::1 POST 200 : /api/v1/calendar/save {"timestamp":"2023/12/24 13:57:53"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 13:58:17"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 13:58:31"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 13:59:02"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 13:59:08"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 13:59:11"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 13:59:17"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 13:59:38"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:00:04"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 14:00:06"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:00:22"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:00:36"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 14:00:38"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:00:47"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 14:00:49"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:01:36"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 14:01:38"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:02:21"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 14:02:23"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:02:32"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 14:02:37"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:03:15"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:03:22"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 14:03:22"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:04:05"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 14:04:06"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:04:30"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 14:04:32"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:05:45"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 14:05:46"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:08:13"}
+error: uncaughtException: Module parse failed: Unexpected token (227:38)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             async;
+|             findAll(userId, number);
+>             Promise < entities_1.Main[] | undefined > {
+|                 const: getToDay = this.dtService.getToDay(),
+|                 const: workList = yield this.dataSource.getRepository(entities_1.Work).find({
+Error: Module parse failed: Unexpected token (227:38)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             async;
+|             findAll(userId, number);
+>             Promise < entities_1.Main[] | undefined > {
+|                 const: getToDay = this.dtService.getToDay(),
+|                 const: workList = yield this.dataSource.getRepository(entities_1.Work).find({
+    at Object.__decorate (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6058:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9044:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9151:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6048:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9044:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9151:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5965:24)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9044:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9151:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5933:14) {"date":"Sun Dec 24 2023 14:09:11 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[3.32080078125,2.5654296875,2.6416015625],"uptime":428626},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":562241,"external":15013697,"heapTotal":85377024,"heapUsed":61890776,"rss":134119424},"pid":83790,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Unexpected token (227:38)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             async;\n|             findAll(userId, number);\n>             Promise < entities_1.Main[] | undefined > {\n|                 const: getToDay = this.dtService.getToDay(),\n|                 const: workList = yield this.dataSource.getRepository(entities_1.Work).find({\n    at Object.__decorate (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6058:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9044:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9151:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:6048:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9044:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9151:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5965:24)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9044:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:9151:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick/dist/main.js:5933:14)","timestamp":"2023/12/24 14:09:11","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"Object.__decorate","line":6058,"method":"__decorate","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9044,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9151,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":6048,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9044,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9151,"method":null,"native":false},{"column":24,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":5965,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"__webpack_require__","line":9044,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":"fn","line":9151,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick/dist/main.js","function":null,"line":5933,"method":null,"native":false}]}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:09:19"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:09:47"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:11:59"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:12:10"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 14:12:24"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:13:20"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:13:27"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:13:33"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:13:44"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 14:13:46"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:14:29"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 14:15:00"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 14:15:39"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:16:02"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 14:16:04"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:16:46"}
+debug: [REQ] ::1 POST 200 : /api/v1/main/check-in-out {"timestamp":"2023/12/24 14:16:48"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2023/12/24 14:17:13"}

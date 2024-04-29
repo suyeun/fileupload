@@ -1,0 +1,125 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/.c31b0aefa8cdaca5c8007dd0b0261ddfce946676-audit.json",
+    "files": [
+        {
+            "date": 1692164387066,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/2023-08-16.log",
+            "hash": "e913fdf0264dc2dbc708a6ff41e7fb39cae0bd8a22c6a3db730e60112e15a809"
+        },
+        {
+            "date": 1692249419384,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/2023-08-17.log",
+            "hash": "eb53fc0e254d2a7b2a4763de77eef652b6e23c842d08647f35600cc18c5c80ef"
+        },
+        {
+            "date": 1692318139376,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/2023-08-18.log",
+            "hash": "4ae1cb941902310e5934cf4855b730810d76c740a337cb395314223853121d52"
+        },
+        {
+            "date": 1692585255320,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/2023-08-21.log",
+            "hash": "2204e84970d2c6e82d3e78d1de2f0407cc48f0103cc00c567721ea41b31d04db"
+        },
+        {
+            "date": 1692682558381,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/2023-08-22.log",
+            "hash": "a7ad4f0b4880bb44f8b951b65678a499024d7c85b0d57b84c99b462de36e755e"
+        },
+        {
+            "date": 1692771617193,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/2023-08-23.log",
+            "hash": "82b79fc88d0b7c4963add727411ef488f0dc0558c9bae6c060d9c7ca39ba0989"
+        },
+        {
+            "date": 1692812248971,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/2023-08-24.log",
+            "hash": "52e570d1fe7c1220febc2acce2a33eb2fac50c381e5c3eb8fb7bd928aca1f834"
+        },
+        {
+            "date": 1692934676335,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/2023-08-25.log",
+            "hash": "2e5c912e7ddca87f3c928a46dfa05bf69686a260ce2f2e15c8af3207f7a807de"
+        },
+        {
+            "date": 1693219080542,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/2023-08-28.log",
+            "hash": "56ddcdc33a5c168605bb5d203e3d812d4154c342113075af0c0d08fcab9f8a58"
+        },
+        {
+            "date": 1693274946407,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/2023-08-29.log",
+            "hash": "53d200c1cdec69791c1d553a797b57184f0e807d619c316fbe9f937167326741"
+        },
+        {
+            "date": 1693361068936,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/2023-08-30.log",
+            "hash": "7498b6022c353882b7d66326d286c0c3f96b8b5dd39ea2853320b0906e595bb0"
+        },
+        {
+            "date": 1693471161633,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/2023-08-31.log",
+            "hash": "9b0d3b30f504ca120a53a13ecbee1303b9a6cbc06296afef19395f32690cb545"
+        },
+        {
+            "date": 1693552232227,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/2023-09-01.log",
+            "hash": "a04cfa25b70c1870b32b81196c00baee3eeb08c0520babdbbf5f046bb1e1e76e"
+        },
+        {
+            "date": 1693794858759,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/2023-09-04.log",
+            "hash": "ecc4fde657d11e8c560f9b1668344ad5d39d250e92f873a3d439b594dd52fc4b"
+        },
+        {
+            "date": 1693879759267,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/2023-09-05.log",
+            "hash": "c75acb065fa90e4f264cb10b0a77441f12a5e25997b6dc7e93cc8b8eeee18d94"
+        },
+        {
+            "date": 1693935837118,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/2023-09-06.log",
+            "hash": "37609efb0f28306ce15320f8d354fd7ae27e2eef8d1954ab618aa1b28d4ec177"
+        },
+        {
+            "date": 1694051470753,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/2023-09-07.log",
+            "hash": "2a450e1f6775e0c25daa56342a205ee995ebb3aa67fa2a001329783fae48573e"
+        },
+        {
+            "date": 1694151203236,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/2023-09-08.log",
+            "hash": "36815b91682d484fb1947961a90767ba0436a43c6c8f7443c8299b21efd12025"
+        },
+        {
+            "date": 1694409589676,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/2023-09-11.log",
+            "hash": "7e413aacfd2061a81147683397b9a180d2bb9b5ac78635df14b78cb404599843"
+        },
+        {
+            "date": 1694491104498,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/2023-09-12.log",
+            "hash": "9bbd6978a9f2078a99a0324130d55e3be26a765dd80317eae0374db1b82cd239"
+        },
+        {
+            "date": 1694573810154,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/2023-09-13.log",
+            "hash": "9e26ce0b57d2c2051dd1227c9f553446cc45ad8092ab45913a4455608970a1da"
+        },
+        {
+            "date": 1694674050411,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/2023-09-14.log",
+            "hash": "84a0bda44b3d3799d29839bc744afd9e505d78f7afe8185dfce7645f1d9294fa"
+        },
+        {
+            "date": 1694743151396,
+            "name": "/Users/mbp2019/Desktop/Development/mirrorcity/mirrortown.poi/logs/info/2023-09-15.log",
+            "hash": "3a1865ba4be63f659cdd8a734c902255bdac4dc8c70457467e11b2d8b4ee14b1"
+        }
+    ],
+    "hashType": "sha256"
+}

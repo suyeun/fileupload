@@ -1,0 +1,19 @@
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/2/15 15:46:48"}
+debug: [REQ] ::1 POST 500 : /api/v1/users/social {"timestamp":"2024/2/15 15:47:16"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/2/15 15:47:48"}
+debug: [REQ] ::1 POST 500 : /api/v1/users/social {"timestamp":"2024/2/15 15:47:53"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/2/15 15:48:12"}
+debug: [REQ] ::1 POST 500 : /api/v1/users/social {"timestamp":"2024/2/15 15:48:15"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/2/15 15:48:29"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/2/15 15:48:32"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2024/2/15 15:48:32"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/2/15 20:20:14"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/2/15 20:20:39"}
+debug: [REQ] ::1 POST 500 : /api/v1/admin/users/pushData {"timestamp":"2024/2/15 20:20:44"}
+debug: [REQ] ::1 POST 500 : /api/v1/admin/users/pushData {"timestamp":"2024/2/15 20:20:45"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/2/15 20:20:50"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/2/15 20:20:54"}
+debug: [REQ] ::1 POST 200 : /api/v1/admin/users/pushData {"timestamp":"2024/2/15 20:20:54"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/2/15 20:24:33"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/2/15 20:24:35"}
+debug: [REQ] ::1 POST 200 : /api/v1/admin/users/pushData {"timestamp":"2024/2/15 20:24:35"}

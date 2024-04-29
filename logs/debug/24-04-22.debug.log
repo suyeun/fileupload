@@ -1,0 +1,104 @@
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:14:43"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:31:04"}
+debug: [JsonResponse] 20001 INVALID_INPUT {"timestamp":"2024/4/22 20:31:15"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/guest {"timestamp":"2024/4/22 20:31:15"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/4/22 20:31:19"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/guest {"timestamp":"2024/4/22 20:31:19"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:32:27"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:32:30"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:33:22"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:33:45"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:33:47"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:34:02"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:34:18"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:34:36"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/4/22 20:34:42"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/guest {"timestamp":"2024/4/22 20:34:42"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:35:23"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:35:41"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/4/22 20:35:43"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/guest {"timestamp":"2024/4/22 20:35:43"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:37:58"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:38:07"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:38:09"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:38:18"}
+debug: [JsonResponse] 20003 PAYLOAD NOT FOUND {"timestamp":"2024/4/22 20:38:25"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/social {"timestamp":"2024/4/22 20:38:25"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:39:08"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:39:19"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/4/22 20:39:21"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/guest {"timestamp":"2024/4/22 20:39:21"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/4/22 20:39:27"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/guest {"timestamp":"2024/4/22 20:39:27"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:40:49"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/4/22 20:41:03"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/guest {"timestamp":"2024/4/22 20:41:03"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:41:24"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:42:34"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:43:51"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:44:19"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:44:25"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:44:56"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:45:04"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:45:27"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:46:08"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:46:16"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:46:37"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:46:51"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/4/22 20:46:53"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/guest {"timestamp":"2024/4/22 20:46:53"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/4/22 20:47:02"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/guest {"timestamp":"2024/4/22 20:47:02"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/4/22 20:47:03"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/guest {"timestamp":"2024/4/22 20:47:03"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/4/22 20:47:04"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/guest {"timestamp":"2024/4/22 20:47:04"}
+error: uncaughtException: Module parse failed: Identifier 'userObjects' has already been declared (131:22)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             if (findUser.length > 0) {
+|                 const userObjects = findUser[0];
+>                 const userObjects = {};
+|                 userObjects.id = createdUser[0].id;
+|                 userObjects.deviceId = createdUser[0].DEVICE_ID;
+Error: Module parse failed: Identifier 'userObjects' has already been declared (131:22)
+File was processed with these loaders:
+ * ./node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             if (findUser.length > 0) {
+|                 const userObjects = findUser[0];
+>                 const userObjects = {};
+|                 userObjects.id = createdUser[0].id;
+|                 userObjects.deviceId = createdUser[0].DEVICE_ID;
+    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:2568:7)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10123:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10230:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:2561:14)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10123:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10230:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:2386:20)
+    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10123:33)
+    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10230:21)
+    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:2337:14) {"date":"Mon Apr 22 2024 20:47:41 GMT+0900 (Korean Standard Time)","error":{},"exception":true,"os":{"loadavg":[3.943359375,3.57177734375,3.41064453125],"uptime":607848},"process":{"argv":["/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js"],"cwd":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick","execPath":"/Users/mbp2019/.nvm/versions/node/v16.19.1/bin/node","gid":20,"memoryUsage":{"arrayBuffers":857963,"external":12942673,"heapTotal":78675968,"heapUsed":55121288,"rss":127205376},"pid":13690,"uid":503,"version":"v16.19.1"},"stack":"Error: Module parse failed: Identifier 'userObjects' has already been declared (131:22)\nFile was processed with these loaders:\n * ./node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|             if (findUser.length > 0) {\n|                 const userObjects = findUser[0];\n>                 const userObjects = {};\n|                 userObjects.id = createdUser[0].id;\n|                 userObjects.deviceId = createdUser[0].DEVICE_ID;\n    at Object.create.k2 (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:2568:7)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10123:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10230:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:2561:14)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10123:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10230:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:2386:20)\n    at __webpack_require__ (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10123:33)\n    at fn (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:10230:21)\n    at Object.<anonymous> (/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js:2337:14)","timestamp":"2024/4/22 20:47:41","trace":[{"column":7,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"Object.create.k2","line":2568,"method":"k2","native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10123,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10230,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":2561,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10123,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10230,"method":null,"native":false},{"column":20,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":2386,"method":null,"native":false},{"column":33,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"__webpack_require__","line":10123,"method":null,"native":false},{"column":21,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":"fn","line":10230,"method":null,"native":false},{"column":14,"file":"/Users/mbp2019/Desktop/Development/workpick-pj/workpick/dist/main.js","function":null,"line":2337,"method":null,"native":false}]}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:47:49"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:48:36"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:48:38"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/4/22 20:48:41"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/guest {"timestamp":"2024/4/22 20:48:41"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:49:00"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/4/22 20:49:02"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/guest {"timestamp":"2024/4/22 20:49:02"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:49:23"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/4/22 20:49:26"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/guest {"timestamp":"2024/4/22 20:49:26"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:49:41"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:50:03"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/4/22 20:50:08"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/guest {"timestamp":"2024/4/22 20:50:08"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/4/22 20:50:18"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/guest {"timestamp":"2024/4/22 20:50:18"}
+debug: [JsonResponse] 200 OK {"timestamp":"2024/4/22 20:50:19"}
+debug: [REQ] ::1 POST 200 : /api/v1/users/guest {"timestamp":"2024/4/22 20:50:19"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:50:28"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/22 20:50:30"}

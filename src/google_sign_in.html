@@ -1,0 +1,28 @@
+<head>
+  <!-- 생략... -->
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <title>pro-pro11</title>
+</head>
+<html>
+  <body>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script>
+      function handleCredentialResponse(response) {
+        console.log("Encoded JWT ID token: " + response.credential);
+      }
+      window.onload = function () {
+        google.accounts.id.initialize({
+          client_id:
+            "676232833118-cf0gqqvjbe619ed1653lffmhfqhc5ls3.apps.googleusercontent.com",
+          callback: handleCredentialResponse,
+        });
+        google.accounts.id.renderButton(document.getElementById("buttonDiv"), {
+          theme: "outline",
+          size: "large",
+        });
+        google.accounts.id.prompt();
+      };
+    </script>
+    <div id="buttonDiv"></div>
+  </body>
+</html>
