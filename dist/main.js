@@ -233,12 +233,12 @@ const core_1 = __webpack_require__(5);
 const platform_express_1 = __webpack_require__(6);
 const logger_config_1 = __importDefault(__webpack_require__(7));
 const app_module_1 = __webpack_require__(12);
-const exception_common_1 = __webpack_require__(85);
-const dotenv_config_1 = __webpack_require__(86);
+const exception_common_1 = __webpack_require__(97);
+const dotenv_config_1 = __webpack_require__(98);
 const path = __importStar(__webpack_require__(11));
 function bootstrap() {
     return __awaiter(this, void 0, void 0, function* () {
-        const app = (yield Promise.resolve().then(() => __importStar(__webpack_require__(88)))).default;
+        const app = (yield Promise.resolve().then(() => __importStar(__webpack_require__(100)))).default;
         const appNest = yield core_1.NestFactory.create(app_module_1.AppModule, new platform_express_1.ExpressAdapter(app));
         const port = Number(process.env["APP_PORT"]) || 3001;
         // Exception filter
@@ -464,11 +464,11 @@ exports.AppModule = void 0;
 const common_1 = __webpack_require__(4);
 const config_1 = __webpack_require__(13);
 const DomainModules = __importStar(__webpack_require__(14));
-const typeorm_config_1 = __webpack_require__(77);
-const filter_module_1 = __webpack_require__(79);
-const app_controller_1 = __webpack_require__(81);
-const logger_middleware_1 = __webpack_require__(83);
-const interceptor_module_1 = __webpack_require__(84);
+const typeorm_config_1 = __webpack_require__(89);
+const filter_module_1 = __webpack_require__(91);
+const app_controller_1 = __webpack_require__(93);
+const logger_middleware_1 = __webpack_require__(95);
+const interceptor_module_1 = __webpack_require__(96);
 let AppModule = exports.AppModule = class AppModule {
     configure(consumer) {
         consumer
@@ -527,7 +527,7 @@ __exportStar(__webpack_require__(16), exports);
 __exportStar(__webpack_require__(18), exports);
 __exportStar(__webpack_require__(19), exports);
 __exportStar(__webpack_require__(35), exports);
-__exportStar(__webpack_require__(91), exports);
+__exportStar(__webpack_require__(78), exports);
 
 
 /***/ }),
@@ -1283,14 +1283,14 @@ const common_1 = __webpack_require__(4);
 const typeorm_1 = __webpack_require__(36);
 const Entities = __importStar(__webpack_require__(37));
 //import { Work } from '../work/work.entity';
-const Controllers = __importStar(__webpack_require__(40));
-const Repositories = __importStar(__webpack_require__(49));
-const Services = __importStar(__webpack_require__(47));
+const Controllers = __importStar(__webpack_require__(41));
+const Repositories = __importStar(__webpack_require__(50));
+const Services = __importStar(__webpack_require__(48));
 const Modules = __importStar(__webpack_require__(14));
-const google_auth_library_1 = __webpack_require__(68);
-const oauth2_service_1 = __webpack_require__(67);
-const jwt_service_1 = __webpack_require__(71);
-const kakao_strategy_1 = __webpack_require__(74);
+const google_auth_library_1 = __webpack_require__(69);
+const oauth2_service_1 = __webpack_require__(68);
+const jwt_service_1 = __webpack_require__(72);
+const kakao_strategy_1 = __webpack_require__(75);
 let UserModule = exports.UserModule = class UserModule {
 };
 exports.UserModule = UserModule = __decorate([
@@ -1347,6 +1347,7 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 __exportStar(__webpack_require__(38), exports);
+__exportStar(__webpack_require__(40), exports);
 
 
 /***/ }),
@@ -1462,6 +1463,123 @@ module.exports = require("typeorm");
 
 "use strict";
 
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var _a, _b, _c, _d;
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.ExcelData = void 0;
+const typeorm_1 = __webpack_require__(39);
+let ExcelData = exports.ExcelData = class ExcelData {
+};
+__decorate([
+    (0, typeorm_1.PrimaryGeneratedColumn)({
+        name: "ID",
+        type: "int",
+        comment: "아이디",
+    }),
+    __metadata("design:type", Number)
+], ExcelData.prototype, "id", void 0);
+__decorate([
+    (0, typeorm_1.Column)({
+        name: "MONTH",
+        comment: "정산월",
+    }),
+    __metadata("design:type", String)
+], ExcelData.prototype, "month", void 0);
+__decorate([
+    (0, typeorm_1.Column)({
+        name: "COMPANY_CNT",
+        comment: "업체수",
+    }),
+    __metadata("design:type", Number)
+], ExcelData.prototype, "companyCnt", void 0);
+__decorate([
+    (0, typeorm_1.Column)({
+        name: "USER_CNT",
+        comment: "인원수",
+    }),
+    __metadata("design:type", Number)
+], ExcelData.prototype, "userCnt", void 0);
+__decorate([
+    (0, typeorm_1.Column)({
+        name: "AMOUNT",
+        comment: "청구금액",
+    }),
+    __metadata("design:type", Number)
+], ExcelData.prototype, "amount", void 0);
+__decorate([
+    (0, typeorm_1.Column)({
+        name: "CHARGE",
+        comment: "수수료",
+    }),
+    __metadata("design:type", Number)
+], ExcelData.prototype, "charge", void 0);
+__decorate([
+    (0, typeorm_1.Column)({
+        name: "DEPOSIT",
+        comment: "입금일자",
+    }),
+    __metadata("design:type", typeof (_a = typeof Date !== "undefined" && Date) === "function" ? _a : Object)
+], ExcelData.prototype, "deposit", void 0);
+__decorate([
+    (0, typeorm_1.Column)({
+        name: "SETTLEMENT",
+        comment: "정산수수료 금액",
+    }),
+    __metadata("design:type", Number)
+], ExcelData.prototype, "settlement", void 0);
+__decorate([
+    (0, typeorm_1.Column)({
+        name: "STATUS",
+        comment: "정산 상태",
+    }),
+    __metadata("design:type", String)
+], ExcelData.prototype, "status", void 0);
+__decorate([
+    (0, typeorm_1.Column)({ name: "KINDS", comment: "종류" }),
+    __metadata("design:type", String)
+], ExcelData.prototype, "kinds", void 0);
+__decorate([
+    (0, typeorm_1.Column)({
+        name: "AMOUNT_DAY",
+        comment: "정산 수수료 정산일자",
+    }),
+    __metadata("design:type", typeof (_b = typeof Date !== "undefined" && Date) === "function" ? _b : Object)
+], ExcelData.prototype, "amountDay", void 0);
+__decorate([
+    (0, typeorm_1.CreateDateColumn)({ name: "REG_DT", default: () => "CURRENT_TIMESTAMP" }),
+    __metadata("design:type", typeof (_c = typeof Date !== "undefined" && Date) === "function" ? _c : Object)
+], ExcelData.prototype, "regDt", void 0);
+__decorate([
+    (0, typeorm_1.UpdateDateColumn)({
+        name: "UPDATE_DT",
+        default: () => "CURRENT_TIMESTAMP",
+        onUpdate: "CURRENT_TIMESTAMP",
+    }),
+    __metadata("design:type", typeof (_d = typeof Date !== "undefined" && Date) === "function" ? _d : Object)
+], ExcelData.prototype, "updateDt", void 0);
+__decorate([
+    (0, typeorm_1.Column)({ name: "DELETED", default: false }),
+    __metadata("design:type", Boolean)
+], ExcelData.prototype, "deleted", void 0);
+exports.ExcelData = ExcelData = __decorate([
+    (0, typeorm_1.Entity)({ name: "TB_FUN_DATA" })
+], ExcelData);
+
+
+/***/ }),
+/* 41 */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     var desc = Object.getOwnPropertyDescriptor(m, k);
@@ -1478,11 +1596,11 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 //@index('./*.ts', f => f.path !== `./index` ? `export * from '${f.path}';` : "")
-__exportStar(__webpack_require__(41), exports);
+__exportStar(__webpack_require__(42), exports);
 
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -1526,8 +1644,8 @@ var _a, _b;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.UserController = void 0;
 const common_1 = __webpack_require__(4);
-const USER_DTO = __importStar(__webpack_require__(42));
-const services_1 = __webpack_require__(47);
+const USER_DTO = __importStar(__webpack_require__(43));
+const services_1 = __webpack_require__(48);
 let UserController = exports.UserController = class UserController {
     constructor(userService) {
         this.userService = userService;
@@ -1552,7 +1670,7 @@ exports.UserController = UserController = __decorate([
 
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -1573,12 +1691,12 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 //@index('./**/*.ts', f => f.path !== `./index` ? `export * from '${f.path}';` : "")
-__exportStar(__webpack_require__(43), exports);
-__exportStar(__webpack_require__(46), exports);
+__exportStar(__webpack_require__(44), exports);
+__exportStar(__webpack_require__(47), exports);
 
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -1594,8 +1712,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.UserSocialDTO = void 0;
-const class_transformer_1 = __webpack_require__(44);
-const class_validator_1 = __webpack_require__(45);
+const class_transformer_1 = __webpack_require__(45);
+const class_validator_1 = __webpack_require__(46);
 class Command {
 }
 class UserSocialDTO {
@@ -1610,21 +1728,21 @@ __decorate([
 
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("class-transformer");
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("class-validator");
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -1640,8 +1758,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.PortOneDTO = void 0;
-const class_transformer_1 = __webpack_require__(44);
-const class_validator_1 = __webpack_require__(45);
+const class_transformer_1 = __webpack_require__(45);
+const class_validator_1 = __webpack_require__(46);
 class Command {
 }
 class PortOneDTO {
@@ -1656,7 +1774,7 @@ __decorate([
 
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -1677,11 +1795,11 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 //@index('./*.ts', f => f.path !== `./index` ? `export * from '${f.path}';` : "")
-__exportStar(__webpack_require__(48), exports);
+__exportStar(__webpack_require__(49), exports);
 
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -1709,10 +1827,10 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.UserService = void 0;
 const common_1 = __webpack_require__(4);
 const constants_1 = __webpack_require__(25);
-const repositories_1 = __webpack_require__(49);
-const interfaces_1 = __webpack_require__(51);
-const oauth2_service_1 = __webpack_require__(67);
-const jwt_service_1 = __webpack_require__(71);
+const repositories_1 = __webpack_require__(50);
+const interfaces_1 = __webpack_require__(52);
+const oauth2_service_1 = __webpack_require__(68);
+const jwt_service_1 = __webpack_require__(72);
 let UserService = exports.UserService = class UserService {
     constructor(userRepository, oAuthService, jwtService) {
         this.userRepository = userRepository;
@@ -1780,7 +1898,7 @@ exports.UserService = UserService = __decorate([
 
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -1801,11 +1919,11 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 //@index('./*.ts', f => f.path !== `./index` ? `export * from '${f.path}';` : "")
-__exportStar(__webpack_require__(50), exports);
+__exportStar(__webpack_require__(51), exports);
 
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -1942,7 +2060,7 @@ exports.UserRepository = UserRepository = __decorate([
 
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -1963,12 +2081,12 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 //@index('./**/*.ts', f => f.path !== "index.ts" ? `export * from '${f.path}';` : "")
-__exportStar(__webpack_require__(52), exports);
-__exportStar(__webpack_require__(66), exports);
+__exportStar(__webpack_require__(53), exports);
+__exportStar(__webpack_require__(67), exports);
 
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -1979,7 +2097,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.responseJson = exports.JsonResponse = void 0;
 const common_1 = __webpack_require__(4);
-const utils_1 = __webpack_require__(53);
+const utils_1 = __webpack_require__(54);
 const logger_config_1 = __importDefault(__webpack_require__(7));
 function JsonResponse(data, status = common_1.HttpStatus.OK, text) {
     logger_config_1.default.debug(`[JsonResponse] ${status} ${text}`);
@@ -1998,7 +2116,7 @@ exports.responseJson = responseJson;
 
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -2019,18 +2137,18 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 //@index('./**/*.ts', f => f.path !== "index.ts" ? `export * from '${f.path}';` : "")
-__exportStar(__webpack_require__(54), exports);
 __exportStar(__webpack_require__(55), exports);
 __exportStar(__webpack_require__(56), exports);
-__exportStar(__webpack_require__(58), exports);
-__exportStar(__webpack_require__(60), exports);
+__exportStar(__webpack_require__(57), exports);
+__exportStar(__webpack_require__(59), exports);
 __exportStar(__webpack_require__(61), exports);
-__exportStar(__webpack_require__(63), exports);
-__exportStar(__webpack_require__(65), exports);
+__exportStar(__webpack_require__(62), exports);
+__exportStar(__webpack_require__(64), exports);
+__exportStar(__webpack_require__(66), exports);
 
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(__unused_webpack_module, exports) {
 
 "use strict";
@@ -2304,7 +2422,7 @@ CTime.Day = (_f = class {
 
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(__unused_webpack_module, exports) {
 
 "use strict";
@@ -2396,7 +2514,7 @@ exports.CElastic = CElastic;
 
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -2426,7 +2544,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.CElasticConnect = void 0;
-const Elastic = __importStar(__webpack_require__(57));
+const Elastic = __importStar(__webpack_require__(58));
 class CElasticConnect {
     /**
      *
@@ -2459,14 +2577,14 @@ exports.CElasticConnect = CElasticConnect;
 
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("@elastic/elasticsearch");
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -2476,7 +2594,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.healthcheck = void 0;
-const v8_1 = __importDefault(__webpack_require__(59));
+const v8_1 = __importDefault(__webpack_require__(60));
 const healthcheck = () => {
     const processId = process.pid;
     const initialMemory = v8_1.default.getHeapStatistics().total_available_size;
@@ -2492,14 +2610,14 @@ exports.healthcheck = healthcheck;
 
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("v8");
 
 /***/ }),
-/* 60 */
+/* 61 */
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -2535,7 +2653,7 @@ exports.localDatetime = localDatetime;
 
 
 /***/ }),
-/* 61 */
+/* 62 */
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
@@ -2543,7 +2661,7 @@ exports.localDatetime = localDatetime;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.strEncoder = exports.getLogger = void 0;
 const common_1 = __webpack_require__(4);
-const node_buffer_1 = __webpack_require__(62);
+const node_buffer_1 = __webpack_require__(63);
 function getLogger(loggingPrefix) {
     return new common_1.Logger(loggingPrefix !== null && loggingPrefix !== void 0 ? loggingPrefix : 'Unknown');
 }
@@ -2558,21 +2676,21 @@ exports.strEncoder = strEncoder;
 
 
 /***/ }),
-/* 62 */
+/* 63 */
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("node:buffer");
 
 /***/ }),
-/* 63 */
+/* 64 */
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.stringToJson = exports.objectToJson = exports.toJsonPrint = void 0;
-const stream_1 = __webpack_require__(64);
+const stream_1 = __webpack_require__(65);
 const toJsonPrint = (jsonData, pretty = true) => {
     const readableStream = new stream_1.Readable();
     if (pretty)
@@ -2595,14 +2713,14 @@ exports.stringToJson = stringToJson;
 
 
 /***/ }),
-/* 64 */
+/* 65 */
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("stream");
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -2643,7 +2761,7 @@ exports.Dict = Dict;
 
 
 /***/ }),
-/* 66 */
+/* 67 */
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
@@ -2726,7 +2844,7 @@ exports.exceptionSQL = exceptionSQL;
 
 
 /***/ }),
-/* 67 */
+/* 68 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -2756,9 +2874,9 @@ var _a;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.OAuthService = void 0;
 const common_1 = __webpack_require__(4);
-const google_auth_library_1 = __webpack_require__(68);
-const verify_apple_id_token_1 = __importDefault(__webpack_require__(69));
-const axios_1 = __importDefault(__webpack_require__(70));
+const google_auth_library_1 = __webpack_require__(69);
+const verify_apple_id_token_1 = __importDefault(__webpack_require__(70));
+const axios_1 = __importDefault(__webpack_require__(71));
 //refactoring 필요 2023.10.02
 let OAuthService = exports.OAuthService = class OAuthService {
     constructor(client) {
@@ -2860,28 +2978,28 @@ exports.OAuthService = OAuthService = __decorate([
 
 
 /***/ }),
-/* 68 */
+/* 69 */
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("google-auth-library");
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("verify-apple-id-token");
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("axios");
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -2921,8 +3039,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.JwtService = void 0;
 const common_1 = __webpack_require__(4);
-const jwt_1 = __webpack_require__(72);
-const crypto = __importStar(__webpack_require__(73));
+const jwt_1 = __webpack_require__(73);
+const crypto = __importStar(__webpack_require__(74));
 let JwtService = exports.JwtService = class JwtService {
     constructor() {
         this.jwtService = new jwt_1.JwtService({
@@ -2954,21 +3072,21 @@ exports.JwtService = JwtService = __decorate([
 
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("@nestjs/jwt");
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("crypto");
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -2996,10 +3114,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.KakaoStrategy = void 0;
-const passport_1 = __webpack_require__(75);
-const passport_kakao_1 = __webpack_require__(76);
+const passport_1 = __webpack_require__(76);
+const passport_kakao_1 = __webpack_require__(77);
 const common_1 = __webpack_require__(4);
-const axios_1 = __importDefault(__webpack_require__(70));
+const axios_1 = __importDefault(__webpack_require__(71));
 let KakaoStrategy = exports.KakaoStrategy = class KakaoStrategy extends (0, passport_1.PassportStrategy)(passport_kakao_1.Strategy, "kakao") {
     constructor() {
         super({
@@ -3032,461 +3150,21 @@ exports.KakaoStrategy = KakaoStrategy = __decorate([
 
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("@nestjs/passport");
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("passport-kakao");
 
 /***/ }),
-/* 77 */
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.OrmDataSource = void 0;
-const config_1 = __webpack_require__(13);
-const typeorm_1 = __webpack_require__(36);
-const type_defines_1 = __webpack_require__(78);
-const common_1 = __webpack_require__(4);
-const utils_1 = __webpack_require__(53);
-const logger = new common_1.Logger("OrmDataSource");
-exports.OrmDataSource = typeorm_1.TypeOrmModule.forRootAsync({
-    imports: [config_1.ConfigModule],
-    inject: [config_1.ConfigService],
-    useFactory: (config) => {
-        logger.debug((0, utils_1.objectToJson)(config));
-        logger.debug(`DataSource Load Path : ${__dirname + "/src/entities/*.entity{.ts,.js}"}`);
-        const isSchemaSync = config.get("DB_SCHEMA_SYNC") === "true";
-        return {
-            provide: "DATA_SOURCE",
-            type: config.get("DATABASE_TYPE"),
-            host: config.get("MYSQL_HOST"),
-            port: config.get("MYSQL_PORT"),
-            username: config.get("MYSQL_USER"),
-            password: config.get("MYSQL_PASSWORD"),
-            database: config.get("MYSQL_DATABASE"),
-            multipleStatements: true,
-            synchronize: isSchemaSync,
-            migrationsRun: isSchemaSync,
-            autoLoadEntities: true,
-            poolSize: 2,
-            supportBigNumbers: true,
-            extra: {
-                connectionLimit: 8,
-            },
-            reconnect: true,
-            reconnectInterval: 300,
-            keepConnectionAlive: true,
-            wait_timeout: 950,
-            retryAttempts: 2,
-            retryDelay: 5000,
-            timezone: type_defines_1.TimeZone_KR,
-            charset: "utf8mb4_unicode_ci",
-            logging: "all",
-            entities: [__dirname + "/src/entities/*.entity{.ts,.js}"],
-            // entities: [...Object.values(ResourceEntity), ...Object.values(MainEntity), ...Object.values(PushEntity)],
-        };
-    },
-});
-
-
-/***/ }),
 /* 78 */
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-
-/**
- * @Auth : GG
- * Convenience bundle of required type definitions
- */
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.RedisReTryCount = exports.TimeZone_KR = void 0;
-exports.TimeZone_KR = '+09:00';
-exports.RedisReTryCount = 3;
-
-
-/***/ }),
-/* 79 */
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.FilterModule = void 0;
-const core_1 = __webpack_require__(5);
-const filter_request_1 = __webpack_require__(80);
-exports.FilterModule = [
-    {
-        provide: core_1.APP_FILTER,
-        useClass: filter_request_1.FilterRequest,
-    },
-];
-
-
-/***/ }),
-/* 80 */
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
-
-"use strict";
-
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.FilterRequest = void 0;
-const common_1 = __webpack_require__(4);
-let FilterRequest = exports.FilterRequest = class FilterRequest {
-    constructor() {
-        this.logger = new common_1.Logger(this.constructor.name);
-    }
-    intercept(context, next) {
-        const response = context.switchToHttp().getResponse();
-        response.removeHeader('X-Powered-By');
-        this.logger.debug('[FILTER] Before...\nAuthorizationFilter.intercept() extends NestInterceptor');
-        return next.handle().pipe();
-    }
-};
-exports.FilterRequest = FilterRequest = __decorate([
-    (0, common_1.Injectable)()
-], FilterRequest);
-
-
-/***/ }),
-/* 81 */
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
-
-"use strict";
-
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.AppController = void 0;
-const common_1 = __webpack_require__(4);
-const interceptor_common_1 = __webpack_require__(82);
-let AppController = exports.AppController = class AppController {
-    constructor() { }
-    start() {
-        const date = new Date().toLocaleString();
-        return { service: "index", value: `Nest.js ${date}` };
-    }
-    denyFavicon() {
-        return { code: 204 };
-    }
-    healthcheck() { }
-};
-__decorate([
-    (0, common_1.Get)(),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", void 0)
-], AppController.prototype, "start", null);
-__decorate([
-    (0, common_1.Get)("/favicon.ico"),
-    (0, common_1.HttpCode)(204),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", Object)
-], AppController.prototype, "denyFavicon", null);
-__decorate([
-    (0, common_1.Get)("/api/v2/healthcheck"),
-    (0, common_1.UseInterceptors)(interceptor_common_1.CachedInterceptor),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
-    __metadata("design:returntype", Object)
-], AppController.prototype, "healthcheck", null);
-exports.AppController = AppController = __decorate([
-    (0, common_1.Controller)(),
-    __metadata("design:paramtypes", [])
-], AppController);
-
-
-/***/ }),
-/* 82 */
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
-
-"use strict";
-
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.CachedInterceptor = void 0;
-const common_1 = __webpack_require__(4);
-const rxjs_1 = __webpack_require__(23);
-const utils_1 = __webpack_require__(53);
-/**  @author GG
- *   @description inbound request interceptor
- *
- *   @param context current execution context object
- *   @param next next handler call */
-let CachedInterceptor = exports.CachedInterceptor = class CachedInterceptor {
-    constructor() {
-        this.logger = new common_1.Logger(this.constructor.name);
-        this.intercept = (context, next) => {
-            const request = context.switchToHttp().getRequest();
-            const beginDate = Date.now();
-            context.switchToHttp().getResponse().removeHeader('X-Powered-By');
-            // this.logger.debug('[RUN] CachedInterceptor(NestInterceptor)@intercept()');
-            if (context.switchToHttp().getRequest().url.includes('favicon')) {
-                context.switchToHttp().getResponse().status(204);
-                /**
-                 * todo : 이후 하드코드된 부분을 요청을 동적제어 방식으로 수정 해야함
-                 *        white-list, black-list 중 선택 할 것
-                 *        상시 차단과 한시적인 특화 차단의 경우를 분리해서 모듈화 할것  */
-                this.logger.debug(`blocked -> ${request.url} / ${request.ip}`);
-                return (0, rxjs_1.of)(204);
-                // throw ForbiddenException;
-            }
-            /** todo : URL Filter - white-list, black-list 모듈화 할것 */
-            if (request.url.includes('healthcheck')) {
-                this.logger.debug(`request URL -> ${request.url}`);
-                return (0, rxjs_1.of)((0, utils_1.healthcheck)());
-            }
-            return next.handle().pipe((0, rxjs_1.tap)(() => {
-                const rapTime = Date.now() - beginDate;
-                if (rapTime > 100) {
-                    this.logger.warn(`long request - ${rapTime}ms`);
-                }
-                else {
-                    this.logger.debug(`to complete - ${rapTime}ms`);
-                }
-            }), (0, rxjs_1.map)((rsData) => {
-                if (rsData) {
-                    return rsData;
-                }
-                else {
-                    // 표준 응답 구조가 아닌 경우
-                    return {
-                        status: 200,
-                        command: rsData,
-                        // failedMessage: 'error message..',
-                    };
-                }
-            }));
-        };
-    }
-};
-exports.CachedInterceptor = CachedInterceptor = __decorate([
-    (0, common_1.Injectable)()
-], CachedInterceptor);
-
-
-/***/ }),
-/* 83 */
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
-
-"use strict";
-
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.LoggerMiddleware = void 0;
-const common_1 = __webpack_require__(4);
-const logger_config_1 = __importDefault(__webpack_require__(7));
-let LoggerMiddleware = exports.LoggerMiddleware = class LoggerMiddleware {
-    use(req, res, next) {
-        res.on('finish', () => {
-            logger_config_1.default.debug(`[REQ] ${req.ip} ${req.method} ${res.statusCode} : ${req.originalUrl}`);
-        });
-        next();
-    }
-};
-exports.LoggerMiddleware = LoggerMiddleware = __decorate([
-    (0, common_1.Injectable)()
-], LoggerMiddleware);
-
-
-/***/ }),
-/* 84 */
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.InterceptorModule = void 0;
-const core_1 = __webpack_require__(5);
-const interceptor_common_1 = __webpack_require__(82);
-exports.InterceptorModule = [
-    {
-        provide: core_1.APP_INTERCEPTOR,
-        useClass: interceptor_common_1.CachedInterceptor,
-    },
-];
-
-
-/***/ }),
-/* 85 */
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
-
-"use strict";
-
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.HttpExceptionFilter = void 0;
-const common_1 = __webpack_require__(4);
-const utils_1 = __webpack_require__(53);
-let HttpExceptionFilter = exports.HttpExceptionFilter = class HttpExceptionFilter {
-    /**
-     * @description Common HTTP Exception
-     *
-     * @param exception current exception object
-     * @param host ArgumentsHost -> handler & arguments getter
-     * (Express : Response, Request, Next )
-     */
-    catch(exception, host) {
-        const ctx = host.switchToHttp();
-        const response = ctx.getResponse();
-        const status = exception === null ? common_1.HttpStatus.BAD_REQUEST : exception.getStatus();
-        const timestamp = (0, utils_1.localDatetime)();
-        /** @description HttpException data usage */
-        const res = exception.getResponse();
-        this.errorPrint(ctx, status, timestamp);
-        response.status(status).json({
-            status: common_1.HttpStatus.OK === status,
-            result: status,
-            message: res.message,
-            timestamp: timestamp,
-        });
-    }
-    errorPrint(ctx, status, timestamp) {
-        const { method, originalUrl, params, query, body, headers } = ctx.getRequest();
-        (0, utils_1.toJsonPrint)({
-            request: `CODE|${status} METHOD|${method} PATH|${originalUrl}`,
-            data: 'GET' === method ? { params: params, query: query } : { params: params, body: body },
-            headers: headers,
-            timestamp: timestamp,
-        });
-    }
-};
-exports.HttpExceptionFilter = HttpExceptionFilter = __decorate([
-    (0, common_1.Catch)(common_1.HttpException)
-], HttpExceptionFilter);
-
-
-/***/ }),
-/* 86 */
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
-
-"use strict";
-
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.configDotenv = void 0;
-const dotenv_1 = __importDefault(__webpack_require__(87));
-const app_root_path_1 = __webpack_require__(10);
-const path_1 = __webpack_require__(11);
-const logger_config_1 = __importDefault(__webpack_require__(7));
-const configDotenv = () => {
-    const { NODE_ENV: env } = process.env;
-    let envPath = '';
-    switch (env) {
-        case 'development':
-            envPath = (0, path_1.join)(app_root_path_1.path, 'envs', '.env.local');
-            break;
-        case 'production':
-            envPath = (0, path_1.join)(app_root_path_1.path, 'envs', '.env.production');
-            break;
-        case 'test':
-            envPath = (0, path_1.join)(app_root_path_1.path, 'envs', '.env.test');
-            break;
-        default:
-            logger_config_1.default.error(`${env} is not a valid environment`);
-            throw new Error();
-    }
-    dotenv_1.default.config(); // load .env
-    dotenv_1.default.config({ path: envPath }); // load .env.{env}
-};
-exports.configDotenv = configDotenv;
-
-
-/***/ }),
-/* 87 */
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("dotenv");
-
-/***/ }),
-/* 88 */
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
-
-"use strict";
-
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-const compression_1 = __importDefault(__webpack_require__(89));
-const express_1 = __importDefault(__webpack_require__(90));
-//import helmet from 'helmet';
-const app = (0, express_1.default)();
-app.use((0, compression_1.default)());
-//app
-//  .use(helmet())
-//  .use(helmet.hsts()) // (SSL/TLS-HTTP) 연결을 적용하는 Strict-Transport-Security 헤더를 설정
-//  .use(helmet.ieNoOpen()) //IE8 이상에 대해 X-Download-Options를 설정
-//  .use(helmet.noSniff()) // X-Content-Type-Options 선언된 콘텐츠 유형으로부터 벗어난 응답에 브라우저의 MIME 가로채기를 방지
-//  .use(helmet.xssFilter()) // X-XSS-Protection을 설정하여 대부분의 최신 웹 브라우저에서 XSS(Cross-site scripting) 필터를 사용
-//  .use(helmet.hidePoweredBy()); // X-Powered-By 헤더를 제거
-// .use(helmet.contentSecurityPolicy())
-app.use(express_1.default.json());
-app.use(express_1.default.urlencoded({ extended: true }));
-exports["default"] = app;
-
-
-/***/ }),
-/* 89 */
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("compression");
-
-/***/ }),
-/* 90 */
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("express");
-
-/***/ }),
-/* 91 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -3525,11 +3203,11 @@ exports.ExcelModule = void 0;
 const common_1 = __webpack_require__(4);
 const typeorm_1 = __webpack_require__(36);
 const Entities = __importStar(__webpack_require__(37));
-const Controllers = __importStar(__webpack_require__(92));
-const Repositories = __importStar(__webpack_require__(96));
-const Services = __importStar(__webpack_require__(94));
+const Controllers = __importStar(__webpack_require__(79));
+const Repositories = __importStar(__webpack_require__(83));
+const Services = __importStar(__webpack_require__(81));
 const Modules = __importStar(__webpack_require__(14));
-const dt_service_1 = __webpack_require__(98);
+const dt_service_1 = __webpack_require__(85);
 let ExcelModule = exports.ExcelModule = class ExcelModule {
 };
 exports.ExcelModule = ExcelModule = __decorate([
@@ -3554,7 +3232,7 @@ exports.ExcelModule = ExcelModule = __decorate([
 
 
 /***/ }),
-/* 92 */
+/* 79 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -3575,11 +3253,11 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 //@index('./*.ts', f => f.path !== `./index` ? `export * from '${f.path}';` : "")
-__exportStar(__webpack_require__(93), exports);
+__exportStar(__webpack_require__(80), exports);
 
 
 /***/ }),
-/* 93 */
+/* 80 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -3632,10 +3310,10 @@ var _a;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.PointController = void 0;
 const common_1 = __webpack_require__(4);
-const services_1 = __webpack_require__(94);
-const auth_guard_1 = __webpack_require__(100);
+const services_1 = __webpack_require__(81);
+const auth_guard_1 = __webpack_require__(87);
 const platform_express_1 = __webpack_require__(6);
-const XLSX = __importStar(__webpack_require__(101));
+const XLSX = __importStar(__webpack_require__(88));
 let PointController = exports.PointController = class PointController {
     constructor(excelService) {
         this.excelService = excelService;
@@ -3719,7 +3397,7 @@ exports.PointController = PointController = __decorate([
 
 
 /***/ }),
-/* 94 */
+/* 81 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -3740,11 +3418,11 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 //@index('./*.ts', f => f.path !== `./index` ? `export * from '${f.path}';` : "")
-__exportStar(__webpack_require__(95), exports);
+__exportStar(__webpack_require__(82), exports);
 
 
 /***/ }),
-/* 95 */
+/* 82 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -3772,8 +3450,8 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.ExcelService = void 0;
 const common_1 = __webpack_require__(4);
 const constants_1 = __webpack_require__(25);
-const repositories_1 = __webpack_require__(96);
-const interfaces_1 = __webpack_require__(51);
+const repositories_1 = __webpack_require__(83);
+const interfaces_1 = __webpack_require__(52);
 let ExcelService = exports.ExcelService = class ExcelService {
     constructor(excelRepository) {
         this.excelRepository = excelRepository;
@@ -3800,7 +3478,7 @@ exports.ExcelService = ExcelService = __decorate([
 
 
 /***/ }),
-/* 96 */
+/* 83 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -3821,12 +3499,12 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 //@index('./*.ts', f => f.path !== `./index` ? `export * from '${f.path}';` : "")
-__exportStar(__webpack_require__(97), exports);
-__exportStar(__webpack_require__(50), exports);
+__exportStar(__webpack_require__(84), exports);
+__exportStar(__webpack_require__(51), exports);
 
 
 /***/ }),
-/* 97 */
+/* 84 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -3850,7 +3528,7 @@ const common_1 = __webpack_require__(4);
 const typeorm_1 = __webpack_require__(36);
 const typeorm_2 = __webpack_require__(39);
 const entities_1 = __webpack_require__(37);
-const dt_service_1 = __webpack_require__(98);
+const dt_service_1 = __webpack_require__(85);
 let ExcelRepository = exports.ExcelRepository = class ExcelRepository {
     constructor(userRepository, dataSource, dtService) {
         this.userRepository = userRepository;
@@ -3866,7 +3544,7 @@ exports.ExcelRepository = ExcelRepository = __decorate([
 
 
 /***/ }),
-/* 98 */
+/* 85 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -3883,7 +3561,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.DtService = void 0;
 const common_1 = __webpack_require__(4);
-const moment_1 = __importDefault(__webpack_require__(99));
+const moment_1 = __importDefault(__webpack_require__(86));
 let DtService = exports.DtService = class DtService {
     //  private readonly jwtService: NestJwtService;
     //constructor() {}
@@ -4141,14 +3819,14 @@ exports.DtService = DtService = __decorate([
 
 
 /***/ }),
-/* 99 */
+/* 86 */
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("moment");
 
 /***/ }),
-/* 100 */
+/* 87 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -4175,9 +3853,9 @@ var _a, _b;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.TokenAuthGuard = void 0;
 const common_1 = __webpack_require__(4);
-const user_repository_1 = __webpack_require__(50);
+const user_repository_1 = __webpack_require__(51);
 const core_1 = __webpack_require__(5);
-const utils_1 = __webpack_require__(53);
+const utils_1 = __webpack_require__(54);
 const logger = new common_1.Logger("TokenAuthGuard");
 let TokenAuthGuard = exports.TokenAuthGuard = class TokenAuthGuard {
     constructor(reflector, userRepository) {
@@ -4228,11 +3906,451 @@ exports.TokenAuthGuard = TokenAuthGuard = __decorate([
 
 
 /***/ }),
-/* 101 */
+/* 88 */
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("xlsx");
+
+/***/ }),
+/* 89 */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.OrmDataSource = void 0;
+const config_1 = __webpack_require__(13);
+const typeorm_1 = __webpack_require__(36);
+const type_defines_1 = __webpack_require__(90);
+const common_1 = __webpack_require__(4);
+const utils_1 = __webpack_require__(54);
+const logger = new common_1.Logger("OrmDataSource");
+exports.OrmDataSource = typeorm_1.TypeOrmModule.forRootAsync({
+    imports: [config_1.ConfigModule],
+    inject: [config_1.ConfigService],
+    useFactory: (config) => {
+        logger.debug((0, utils_1.objectToJson)(config));
+        logger.debug(`DataSource Load Path : ${__dirname + "/src/entities/*.entity{.ts,.js}"}`);
+        const isSchemaSync = config.get("DB_SCHEMA_SYNC") === "true";
+        return {
+            provide: "DATA_SOURCE",
+            type: config.get("DATABASE_TYPE"),
+            host: config.get("MYSQL_HOST"),
+            port: config.get("MYSQL_PORT"),
+            username: config.get("MYSQL_USER"),
+            password: config.get("MYSQL_PASSWORD"),
+            database: config.get("MYSQL_DATABASE"),
+            multipleStatements: true,
+            synchronize: isSchemaSync,
+            migrationsRun: isSchemaSync,
+            autoLoadEntities: true,
+            poolSize: 2,
+            supportBigNumbers: true,
+            extra: {
+                connectionLimit: 8,
+            },
+            reconnect: true,
+            reconnectInterval: 300,
+            keepConnectionAlive: true,
+            wait_timeout: 950,
+            retryAttempts: 2,
+            retryDelay: 5000,
+            timezone: type_defines_1.TimeZone_KR,
+            charset: "utf8mb4_unicode_ci",
+            logging: "all",
+            entities: [__dirname + "/src/entities/*.entity{.ts,.js}"],
+            // entities: [...Object.values(ResourceEntity), ...Object.values(MainEntity), ...Object.values(PushEntity)],
+        };
+    },
+});
+
+
+/***/ }),
+/* 90 */
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+/**
+ * @Auth : GG
+ * Convenience bundle of required type definitions
+ */
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.RedisReTryCount = exports.TimeZone_KR = void 0;
+exports.TimeZone_KR = '+09:00';
+exports.RedisReTryCount = 3;
+
+
+/***/ }),
+/* 91 */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.FilterModule = void 0;
+const core_1 = __webpack_require__(5);
+const filter_request_1 = __webpack_require__(92);
+exports.FilterModule = [
+    {
+        provide: core_1.APP_FILTER,
+        useClass: filter_request_1.FilterRequest,
+    },
+];
+
+
+/***/ }),
+/* 92 */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.FilterRequest = void 0;
+const common_1 = __webpack_require__(4);
+let FilterRequest = exports.FilterRequest = class FilterRequest {
+    constructor() {
+        this.logger = new common_1.Logger(this.constructor.name);
+    }
+    intercept(context, next) {
+        const response = context.switchToHttp().getResponse();
+        response.removeHeader('X-Powered-By');
+        this.logger.debug('[FILTER] Before...\nAuthorizationFilter.intercept() extends NestInterceptor');
+        return next.handle().pipe();
+    }
+};
+exports.FilterRequest = FilterRequest = __decorate([
+    (0, common_1.Injectable)()
+], FilterRequest);
+
+
+/***/ }),
+/* 93 */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.AppController = void 0;
+const common_1 = __webpack_require__(4);
+const interceptor_common_1 = __webpack_require__(94);
+let AppController = exports.AppController = class AppController {
+    constructor() { }
+    start() {
+        const date = new Date().toLocaleString();
+        return { service: "index", value: `Nest.js ${date}` };
+    }
+    denyFavicon() {
+        return { code: 204 };
+    }
+    healthcheck() { }
+};
+__decorate([
+    (0, common_1.Get)(),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", void 0)
+], AppController.prototype, "start", null);
+__decorate([
+    (0, common_1.Get)("/favicon.ico"),
+    (0, common_1.HttpCode)(204),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", Object)
+], AppController.prototype, "denyFavicon", null);
+__decorate([
+    (0, common_1.Get)("/api/v2/healthcheck"),
+    (0, common_1.UseInterceptors)(interceptor_common_1.CachedInterceptor),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", Object)
+], AppController.prototype, "healthcheck", null);
+exports.AppController = AppController = __decorate([
+    (0, common_1.Controller)(),
+    __metadata("design:paramtypes", [])
+], AppController);
+
+
+/***/ }),
+/* 94 */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.CachedInterceptor = void 0;
+const common_1 = __webpack_require__(4);
+const rxjs_1 = __webpack_require__(23);
+const utils_1 = __webpack_require__(54);
+/**  @author GG
+ *   @description inbound request interceptor
+ *
+ *   @param context current execution context object
+ *   @param next next handler call */
+let CachedInterceptor = exports.CachedInterceptor = class CachedInterceptor {
+    constructor() {
+        this.logger = new common_1.Logger(this.constructor.name);
+        this.intercept = (context, next) => {
+            const request = context.switchToHttp().getRequest();
+            const beginDate = Date.now();
+            context.switchToHttp().getResponse().removeHeader('X-Powered-By');
+            // this.logger.debug('[RUN] CachedInterceptor(NestInterceptor)@intercept()');
+            if (context.switchToHttp().getRequest().url.includes('favicon')) {
+                context.switchToHttp().getResponse().status(204);
+                /**
+                 * todo : 이후 하드코드된 부분을 요청을 동적제어 방식으로 수정 해야함
+                 *        white-list, black-list 중 선택 할 것
+                 *        상시 차단과 한시적인 특화 차단의 경우를 분리해서 모듈화 할것  */
+                this.logger.debug(`blocked -> ${request.url} / ${request.ip}`);
+                return (0, rxjs_1.of)(204);
+                // throw ForbiddenException;
+            }
+            /** todo : URL Filter - white-list, black-list 모듈화 할것 */
+            if (request.url.includes('healthcheck')) {
+                this.logger.debug(`request URL -> ${request.url}`);
+                return (0, rxjs_1.of)((0, utils_1.healthcheck)());
+            }
+            return next.handle().pipe((0, rxjs_1.tap)(() => {
+                const rapTime = Date.now() - beginDate;
+                if (rapTime > 100) {
+                    this.logger.warn(`long request - ${rapTime}ms`);
+                }
+                else {
+                    this.logger.debug(`to complete - ${rapTime}ms`);
+                }
+            }), (0, rxjs_1.map)((rsData) => {
+                if (rsData) {
+                    return rsData;
+                }
+                else {
+                    // 표준 응답 구조가 아닌 경우
+                    return {
+                        status: 200,
+                        command: rsData,
+                        // failedMessage: 'error message..',
+                    };
+                }
+            }));
+        };
+    }
+};
+exports.CachedInterceptor = CachedInterceptor = __decorate([
+    (0, common_1.Injectable)()
+], CachedInterceptor);
+
+
+/***/ }),
+/* 95 */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.LoggerMiddleware = void 0;
+const common_1 = __webpack_require__(4);
+const logger_config_1 = __importDefault(__webpack_require__(7));
+let LoggerMiddleware = exports.LoggerMiddleware = class LoggerMiddleware {
+    use(req, res, next) {
+        res.on('finish', () => {
+            logger_config_1.default.debug(`[REQ] ${req.ip} ${req.method} ${res.statusCode} : ${req.originalUrl}`);
+        });
+        next();
+    }
+};
+exports.LoggerMiddleware = LoggerMiddleware = __decorate([
+    (0, common_1.Injectable)()
+], LoggerMiddleware);
+
+
+/***/ }),
+/* 96 */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.InterceptorModule = void 0;
+const core_1 = __webpack_require__(5);
+const interceptor_common_1 = __webpack_require__(94);
+exports.InterceptorModule = [
+    {
+        provide: core_1.APP_INTERCEPTOR,
+        useClass: interceptor_common_1.CachedInterceptor,
+    },
+];
+
+
+/***/ }),
+/* 97 */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.HttpExceptionFilter = void 0;
+const common_1 = __webpack_require__(4);
+const utils_1 = __webpack_require__(54);
+let HttpExceptionFilter = exports.HttpExceptionFilter = class HttpExceptionFilter {
+    /**
+     * @description Common HTTP Exception
+     *
+     * @param exception current exception object
+     * @param host ArgumentsHost -> handler & arguments getter
+     * (Express : Response, Request, Next )
+     */
+    catch(exception, host) {
+        const ctx = host.switchToHttp();
+        const response = ctx.getResponse();
+        const status = exception === null ? common_1.HttpStatus.BAD_REQUEST : exception.getStatus();
+        const timestamp = (0, utils_1.localDatetime)();
+        /** @description HttpException data usage */
+        const res = exception.getResponse();
+        this.errorPrint(ctx, status, timestamp);
+        response.status(status).json({
+            status: common_1.HttpStatus.OK === status,
+            result: status,
+            message: res.message,
+            timestamp: timestamp,
+        });
+    }
+    errorPrint(ctx, status, timestamp) {
+        const { method, originalUrl, params, query, body, headers } = ctx.getRequest();
+        (0, utils_1.toJsonPrint)({
+            request: `CODE|${status} METHOD|${method} PATH|${originalUrl}`,
+            data: 'GET' === method ? { params: params, query: query } : { params: params, body: body },
+            headers: headers,
+            timestamp: timestamp,
+        });
+    }
+};
+exports.HttpExceptionFilter = HttpExceptionFilter = __decorate([
+    (0, common_1.Catch)(common_1.HttpException)
+], HttpExceptionFilter);
+
+
+/***/ }),
+/* 98 */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.configDotenv = void 0;
+const dotenv_1 = __importDefault(__webpack_require__(99));
+const app_root_path_1 = __webpack_require__(10);
+const path_1 = __webpack_require__(11);
+const logger_config_1 = __importDefault(__webpack_require__(7));
+const configDotenv = () => {
+    const { NODE_ENV: env } = process.env;
+    let envPath = '';
+    switch (env) {
+        case 'development':
+            envPath = (0, path_1.join)(app_root_path_1.path, 'envs', '.env.local');
+            break;
+        case 'production':
+            envPath = (0, path_1.join)(app_root_path_1.path, 'envs', '.env.production');
+            break;
+        case 'test':
+            envPath = (0, path_1.join)(app_root_path_1.path, 'envs', '.env.test');
+            break;
+        default:
+            logger_config_1.default.error(`${env} is not a valid environment`);
+            throw new Error();
+    }
+    dotenv_1.default.config(); // load .env
+    dotenv_1.default.config({ path: envPath }); // load .env.{env}
+};
+exports.configDotenv = configDotenv;
+
+
+/***/ }),
+/* 99 */
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("dotenv");
+
+/***/ }),
+/* 100 */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const compression_1 = __importDefault(__webpack_require__(101));
+const express_1 = __importDefault(__webpack_require__(102));
+//import helmet from 'helmet';
+const app = (0, express_1.default)();
+app.use((0, compression_1.default)());
+//app
+//  .use(helmet())
+//  .use(helmet.hsts()) // (SSL/TLS-HTTP) 연결을 적용하는 Strict-Transport-Security 헤더를 설정
+//  .use(helmet.ieNoOpen()) //IE8 이상에 대해 X-Download-Options를 설정
+//  .use(helmet.noSniff()) // X-Content-Type-Options 선언된 콘텐츠 유형으로부터 벗어난 응답에 브라우저의 MIME 가로채기를 방지
+//  .use(helmet.xssFilter()) // X-XSS-Protection을 설정하여 대부분의 최신 웹 브라우저에서 XSS(Cross-site scripting) 필터를 사용
+//  .use(helmet.hidePoweredBy()); // X-Powered-By 헤더를 제거
+// .use(helmet.contentSecurityPolicy())
+app.use(express_1.default.json());
+app.use(express_1.default.urlencoded({ extended: true }));
+exports["default"] = app;
+
+
+/***/ }),
+/* 101 */
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("compression");
+
+/***/ }),
+/* 102 */
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("express");
 
 /***/ })
 /******/ 	]);
@@ -4296,7 +4414,7 @@ module.exports = require("xlsx");
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("b509d85b292fb1b090ff")
+/******/ 		__webpack_require__.h = () => ("3a0af4569799cb7df6ac")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */

@@ -553,3 +553,11 @@ info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/29
 debug: [REQ] ::1 POST 201 : /api/v1/file/upload {"timestamp":"2024/4/29 21:19:22"}
 info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/29 21:20:07"}
 info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/29 21:20:13"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/29 21:35:40"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/29 21:36:08"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/29 21:44:35"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/29 21:44:56"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/29 21:45:32"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/29 21:46:26"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/29 21:47:15"}
+info: Nest.js API-Server ready to http://localhost:3000/ {"timestamp":"2024/4/29 21:47:39"}
