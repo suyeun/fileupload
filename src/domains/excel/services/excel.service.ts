@@ -5,24 +5,88 @@ import { JsonResponse } from "../../shared/interfaces";
 import { ExcelData } from "../interfaces";
 import { nanoid } from "nanoid";
 import * as CALENDAR_DTO from "../dto";
-import { AwsClient } from "google-auth-library";
-
+import * as XLSX from "xlsx";
 @Injectable()
 export class ExcelService {
   constructor(private readonly excelRepository: ExcelRepository) {}
 
-  async random(userId: number) {
-    const accId = userId || 1;
+  async random(file: any) {
+    interface DataEntry {
+      month: number;
+      companyCnt: number;
+      userCnt: number;
+      amount: number;
+      charge: number;
+      deposit: Date;
+      settlement: number;
+      amountDay: Date;
+    }
 
-    const result = [
-      10, 12, 13, 14, 15, 11, 16, 10, 17, 18, 11, 19, 10, 11, 20, 21, 10, 22,
-      11, 23, 24, 11, 25, 26,
-    ];
-    const randomValue = result[Math.floor(Math.random() * result.length)];
-    const point = randomValue;
-    if (!point)
-      return JsonResponse([], ERROR_CODE.INVALID_INPUT, "INVALID_INPUT");
+    const workbook = XLSX.read(file.buffer, {
+      type: "buffer",
+      cellDates: true,
+      dateNF: "yyyy-mm-dd",
+    });
 
-    return JsonResponse({ point }, 200, "OK");
+    // 첫번째 sheet 의 이름을 조회합니다.
+    const sheetName = workbook.SheetNames[0];
+
+    if (!sheetName) return;
+    // 첫번째 sheet 를 사용합니다.
+    const worksheet = workbook.Sheets[sheetName];
+    if (!worksheet) return;
+
+    const rawData = XLSX.utils.sheet_to_json(worksheet, {
+      raw: false,
+      header: 1,
+      range: 2,
+    });
+    let check = 0;
+    const data: DataEntry[] = rawData.map((row: any) => {
+      const [
+        month,
+        companyCnt,
+        userCnt,
+        amount,
+        charge,
+        deposit,
+        settlement,
+        amountDay,
+      ] = row;
+
+      const fields = [
+        month,
+        companyCnt,
+        userCnt,
+        amount,
+        charge,
+        deposit,
+        settlement,
+        amountDay,
+      ];
+      for (const value of fields) {
+        if (value === null || value === undefined || value === "") {
+          check = check + 1;
+        }
+      }
+      const depositDate = new Date(deposit);
+      depositDate.setHours(depositDate.getHours() + 9);
+      const amountDayDate = new Date(amountDay);
+      amountDayDate.setHours(amountDayDate.getHours() + 9);
+      return {
+        month,
+        companyCnt,
+        userCnt,
+        amount,
+        charge,
+        deposit: depositDate,
+        settlement,
+        amountDay: amountDayDate,
+      };
+    });
+
+    //if (check > 0)
+    //  return JsonResponse({}, ERROR_CODE.INVALID_INPUT, "INVALID_INPUT");
+    return JsonResponse(data, NETWORK_ERROR_CODE.SUCCESS, "SUCCESS");
   }
 }
