@@ -16,6 +16,8 @@ import { ExcelService } from "../services";
 import { TokenAuthGuard } from "../../shared/guards/auth.guard";
 import { FileInterceptor } from "@nestjs/platform-express";
 import * as XLSX from "xlsx";
+import { ERROR_CODE, NETWORK_ERROR_CODE } from "../../../constants";
+import { JsonResponse } from "../../shared/interfaces";
 
 @UseGuards(TokenAuthGuard)
 @Controller("api/v1/file")
@@ -33,6 +35,17 @@ export class PointController {
   @Post("upload")
   @UseInterceptors(FileInterceptor("file"))
   async handleExcel(@UploadedFile() file: any) {
+    interface DataEntry {
+      month: number;
+      companyCnt: number;
+      userCnt: number;
+      amount: number;
+      charge: number;
+      deposit: Date;
+      settlement: number;
+      amountDay: Date;
+    }
+
     const workbook = XLSX.read(file.buffer, {
       type: "buffer",
       cellDates: true,
@@ -44,52 +57,60 @@ export class PointController {
 
     if (!sheetName) return;
     // 첫번째 sheet 를 사용합니다.
-    const sheet = workbook.Sheets[sheetName];
-    if (!sheet) return;
+    const worksheet = workbook.Sheets[sheetName];
+    if (!worksheet) return;
 
-    // sheet 의 정보를 json array 로 변환합니다.
-    const rows = XLSX.utils.sheet_to_json(sheet, {
-      // cell 에 값이 비어있으면 '' 을 기본값으로 설정합니다.
-      defval: null,
+    const rawData = XLSX.utils.sheet_to_json(worksheet, {
+      raw: false,
+      header: 1,
+      range: 2,
     });
-    const data = rows.slice(1); // Extract rows 3 to the last row
-    const jsonData = (data as Record<string, any>[]).map(
-      (row: Record<string, any>) => {
-        const values = Object.keys(row).map((key: string) => row[key]);
+    let check = 0;
+    const data: DataEntry[] = rawData.map((row: any) => {
+      const [
+        month,
+        companyCnt,
+        userCnt,
+        amount,
+        charge,
+        deposit,
+        settlement,
+        amountDay,
+      ] = row;
 
-        console.log("deposit", values[7]);
-        if (values.length < 8) return;
-        const [
-          month,
-          companyCnt,
-          userCnt,
-          amount,
-          charge,
-          deposit,
-          settlement,
-          amountDay,
-        ] = values;
-
-        //const dateValue = XLSX.utils.format_cell(dateCell);
-        //const date = XLSX.SSF.parse_date_code(dateValue);
-        return {
-          month,
-          companyCnt,
-          userCnt,
-          amount,
-          charge,
-          deposit,
-          settlement,
-          amountDay,
-        };
+      const fields = [
+        month,
+        companyCnt,
+        userCnt,
+        amount,
+        charge,
+        deposit,
+        settlement,
+        amountDay,
+      ];
+      for (const value of fields) {
+        if (value === null || value === undefined || value === "") {
+          check = check + 1;
+        }
       }
-    );
-    console.log("jsonData", jsonData);
-    for (const row of rows as Record<string, any>[]) {
-      const values = Object.keys(row).map((key: string) => row[key]);
-      // console.log("sheetName!!!!!", values);
-      const [name, age, phone] = values;
-    }
-    return true;
+      const depositDate = new Date(deposit);
+      depositDate.setHours(depositDate.getHours() + 9);
+      const amountDayDate = new Date(amountDay);
+      amountDayDate.setHours(amountDayDate.getHours() + 9);
+      return {
+        month,
+        companyCnt,
+        userCnt,
+        amount,
+        charge,
+        deposit: depositDate,
+        settlement,
+        amountDay: amountDayDate,
+      };
+    });
+
+    //if (check > 0)
+    //  return JsonResponse({}, ERROR_CODE.INVALID_INPUT, "INVALID_INPUT");
+    return JsonResponse(data, NETWORK_ERROR_CODE.SUCCESS, "SUCCESS");
   }
 }
