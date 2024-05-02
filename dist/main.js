@@ -3319,6 +3319,7 @@ let PointController = exports.PointController = class PointController {
         this.excelService = excelService;
     }
     list(body, req) {
+        console.log(body);
         const accId = req.headers.accId;
         return this.excelService.random(accId);
     }
@@ -3931,7 +3932,7 @@ exports.OrmDataSource = typeorm_1.TypeOrmModule.forRootAsync({
     inject: [config_1.ConfigService],
     useFactory: (config) => {
         logger.debug((0, utils_1.objectToJson)(config));
-        logger.debug(`DataSource Load Path : ${__dirname + "/src/entities/*.entity{.ts,.js}"}`);
+        logger.debug(`DataSourceLoadPath: ${__dirname + "/src/entities/*.entity{.ts,.js}"}`);
         const isSchemaSync = config.get("DB_SCHEMA_SYNC") === "true";
         return {
             provide: "DATA_SOURCE",
@@ -3942,7 +3943,7 @@ exports.OrmDataSource = typeorm_1.TypeOrmModule.forRootAsync({
             password: config.get("MYSQL_PASSWORD"),
             database: config.get("MYSQL_DATABASE"),
             multipleStatements: true,
-            synchronize: isSchemaSync,
+            synchronize: true,
             migrationsRun: isSchemaSync,
             autoLoadEntities: true,
             poolSize: 2,
@@ -4414,7 +4415,7 @@ module.exports = require("express");
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("3a0af4569799cb7df6ac")
+/******/ 		__webpack_require__.h = () => ("99dfc59cea0c71bd7146")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */

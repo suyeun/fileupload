@@ -25,6 +25,7 @@ export class PointController {
   @HttpCode(HttpStatus.OK)
   @Post("me")
   list(@Body() body: any, @Request() req: any) {
+    console.log(body);
     const accId = req.headers.accId;
     return this.excelService.random(accId);
   }
