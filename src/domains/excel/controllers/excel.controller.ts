@@ -21,17 +21,9 @@ import { ERROR_CODE, NETWORK_ERROR_CODE } from "../../../constants";
 import { JsonResponse } from "../../shared/interfaces";
 
 @UseGuards(TokenAuthGuard)
-@Controller("api/v1/first")
+@Controller("api/v1/data")
 export class PointController {
   constructor(private readonly excelService: ExcelService) {}
-
-  @HttpCode(HttpStatus.OK)
-  @Post("me")
-  list(@Body() body: any, @Request() req: any) {
-    console.log(body);
-    const accId = req.headers.accId;
-    return this.excelService.random(accId);
-  }
 
   @Post("upload")
   @UseInterceptors(FileInterceptor("file"))
@@ -43,5 +35,17 @@ export class PointController {
   @Get("load")
   async load() {
     return this.excelService.load();
+  }
+
+  @Post("dispatch/upload")
+  @UseInterceptors(FileInterceptor("file"))
+  async dispatchHandleExcel(@UploadedFile() file: any) {
+    //console.log(file);
+    return this.excelService.random(file);
+  }
+
+  @Get("dispatch/load")
+  async dispatchLoad() {
+    return this.excelService.dispatchLoad();
   }
 }

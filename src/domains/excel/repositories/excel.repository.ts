@@ -1,7 +1,7 @@
 import { Injectable } from "@nestjs/common";
 import { InjectRepository } from "@nestjs/typeorm";
 import { DataSource, Repository } from "typeorm";
-import { User, ExcelData } from "../../../entities";
+import { User, ExcelData, Dispatch } from "../../../entities";
 import { DtService } from "../../shared/services/dt.service";
 
 @Injectable()
@@ -12,6 +12,9 @@ export class ExcelRepository {
 
     @InjectRepository(ExcelData)
     private readonly excelDataRepository: Repository<ExcelData>,
+
+    @InjectRepository(Dispatch)
+    private readonly dispatchRepository: Repository<Dispatch>,
 
     private readonly dataSource: DataSource,
 
@@ -93,6 +96,73 @@ export class ExcelRepository {
         status: "DONE",
       },
     });
+
+    return res;
+  }
+  //month. name, personnelCount,amount,
+  //commission, commissionPaymentStandard, claimPeriod, depositDate, taxInvoice,
+  // issueDate, settlementCommission,settlementDate
+
+  async dispatchCreateExcelData(
+    month: string,
+    name: string,
+    personnelCount: number,
+    amount: string,
+    commission: string,
+    commissionPaymentStandard: string,
+    claimPeriod: string,
+    depositDate: Date,
+    taxInvoice: string,
+    issueDate: Date,
+    settlementCommission: string,
+    settlementDate: Date
+  ): Promise<any> {
+    const existingData = await this.dispatchRepository.findOne({
+      where: {
+        month,
+        name,
+      },
+    });
+
+    if (existingData) {
+      existingData.month = month;
+      existingData.name = name;
+      existingData.personnelCount = personnelCount;
+      existingData.amount = amount;
+      existingData.commission = commission;
+      existingData.commissionPaymentStandard = commissionPaymentStandard;
+      existingData.claimPeriod = claimPeriod;
+      existingData.depositDate = depositDate;
+      existingData.taxInvoice = taxInvoice;
+      existingData.issueDate = issueDate;
+      existingData.settlementCommission = settlementCommission;
+      existingData.settlementDate = settlementDate;
+
+      const result = await this.dispatchRepository.save(existingData);
+
+      return result;
+    } else {
+      const newData = await this.dispatchRepository.save({
+        month,
+        name,
+        personnelCount,
+        amount,
+        commission,
+        commissionPaymentStandard,
+        claimPeriod,
+        depositDate,
+        taxInvoice,
+        issueDate,
+        settlementCommission,
+        settlementDate,
+      });
+      console.log("newData", newData);
+      return newData;
+    }
+  }
+
+  async dispatchLoad(): Promise<any> {
+    const res = await this.dispatchRepository.find();
 
     return res;
   }

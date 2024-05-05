@@ -71,7 +71,7 @@ export class Dispatch {
   })
   settlementCommission!: string;
 
-  @Column({ name: "SETTLEMENT_DATE", type: "date" })
+  @Column({ name: "SETTLEMENT_DATE", type: "date", comment: "정산일자" })
   settlementDate!: Date;
 
   @CreateDateColumn({ name: "REG_DT", default: () => "CURRENT_TIMESTAMP" })
