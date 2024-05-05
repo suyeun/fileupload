@@ -35,7 +35,7 @@
 module.exports = {
   apps: [
     {
-      name: "server",
+      name: "fun_server",
       script: "./dist/src/main.js",
       instances: 0,
       exec_mode: "cluster",
