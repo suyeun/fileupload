@@ -8,6 +8,7 @@ import {
   UseGuards,
   UploadedFile,
   UseInterceptors,
+  Get,
 } from "@nestjs/common";
 
 import * as POINT_DTO from "../dto";
@@ -20,7 +21,7 @@ import { ERROR_CODE, NETWORK_ERROR_CODE } from "../../../constants";
 import { JsonResponse } from "../../shared/interfaces";
 
 @UseGuards(TokenAuthGuard)
-@Controller("api/v1/file")
+@Controller("api/v1/first")
 export class PointController {
   constructor(private readonly excelService: ExcelService) {}
 
@@ -37,5 +38,10 @@ export class PointController {
   async handleExcel(@UploadedFile() file: any) {
     //console.log(file);
     return this.excelService.random(file);
+  }
+
+  @Get("load")
+  async load() {
+    return this.excelService.load();
   }
 }

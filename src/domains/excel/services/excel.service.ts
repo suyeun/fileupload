@@ -12,13 +12,13 @@ export class ExcelService {
 
   async random(file: any) {
     interface DataEntry {
-      month: number;
+      month: string;
       companyCnt: number;
       userCnt: number;
-      amount: number;
-      charge: number;
+      amount: string;
+      charge: string;
       deposit: Date;
-      settlement: number;
+      settlement: string;
       amountDay: Date;
     }
 
@@ -41,7 +41,7 @@ export class ExcelService {
       header: 1,
       range: 2,
     });
-    let check = 0;
+
     const data: DataEntry[] = rawData.map((row: any) => {
       const [
         month,
@@ -64,25 +64,12 @@ export class ExcelService {
         settlement,
         amountDay,
       ];
-      for (const value of fields) {
-        if (value === null || value === undefined || value === "") {
-          check = check + 1;
-        }
-      }
+
       const depositDate = new Date(deposit);
       depositDate.setHours(depositDate.getHours() + 9);
       const amountDayDate = new Date(amountDay);
       amountDayDate.setHours(amountDayDate.getHours() + 9);
-      this.excelRepository.createExcelData(
-        month.trim(),
-        companyCnt.trim(),
-        userCnt.trim(),
-        amount.trim(),
-        charge.trim(),
-        depositDate,
-        settlement.trim(),
-        amountDayDate
-      );
+
       return {
         month,
         companyCnt,
@@ -95,8 +82,38 @@ export class ExcelService {
       };
     });
 
-    //if (check > 0)
-    //  return JsonResponse({}, ERROR_CODE.INVALID_INPUT, "INVALID_INPUT");
-    return JsonResponse(data, NETWORK_ERROR_CODE.SUCCESS, "SUCCESS");
+    const res = await Promise.all(
+      data.map(async (entry) => {
+        if (
+          !entry.month ||
+          !entry.amount ||
+          !entry.charge ||
+          !entry.deposit ||
+          !entry.amountDay
+        )
+          return;
+
+        const result = await this.excelRepository.createExcelData(
+          entry.month.toString(),
+          entry.companyCnt,
+          entry.userCnt,
+          entry.amount,
+          entry.charge,
+          entry.deposit,
+          entry.settlement,
+          entry.amountDay,
+          "first",
+          "DONE"
+        );
+        return result;
+      })
+    );
+
+    return JsonResponse(res, NETWORK_ERROR_CODE.SUCCESS, "SUCCESS");
+  }
+
+  async load() {
+    const res = await this.excelRepository.load();
+    return JsonResponse(res, NETWORK_ERROR_CODE.SUCCESS, "SUCCESS");
   }
 }

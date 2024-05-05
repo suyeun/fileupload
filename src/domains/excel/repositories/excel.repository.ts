@@ -40,22 +40,60 @@ export class ExcelRepository {
     month: string,
     companyCnt: number,
     userCnt: number,
-    amount: number,
-    charge: number,
+    amount: string,
+    charge: string,
     deposit: Date,
-    settlement: number,
-    amountDay: Date
+    settlement: string,
+    amountDay: Date,
+    kinds: string,
+    status: string
   ): Promise<any> {
-    const result = await this.excelDataRepository.insert({
-      month,
-      companyCnt,
-      userCnt,
-      amount,
-      charge,
-      deposit,
-      settlement,
-      amountDay,
+    const existingData = await this.excelDataRepository.findOne({
+      where: {
+        month,
+        companyCnt,
+        userCnt,
+      },
     });
-    return result;
+
+    if (existingData) {
+      existingData.amount = amount;
+      existingData.charge = charge;
+      existingData.deposit = deposit;
+      existingData.settlement = settlement;
+      existingData.amountDay = amountDay;
+      existingData.kinds = kinds;
+      existingData.status = status;
+
+      const result = await this.excelDataRepository.save(existingData);
+
+      return result;
+    } else {
+      const newData = await this.excelDataRepository.save({
+        month,
+        companyCnt,
+        userCnt,
+        amount,
+        charge,
+        deposit,
+        settlement,
+        amountDay,
+        kinds,
+        status,
+      });
+      console.log("newData", newData);
+      return newData;
+    }
+  }
+
+  async load(): Promise<any> {
+    const res = await this.excelDataRepository.find({
+      where: {
+        kinds: "first",
+        status: "DONE",
+      },
+    });
+
+    return res;
   }
 }

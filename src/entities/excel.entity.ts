@@ -37,13 +37,13 @@ export class ExcelData {
     name: "AMOUNT",
     comment: "청구금액",
   })
-  amount?: number;
+  amount?: string;
 
   @Column({
     name: "CHARGE",
     comment: "수수료",
   })
-  charge?: number;
+  charge?: string;
 
   @Column({
     name: "DEPOSIT",
@@ -55,7 +55,7 @@ export class ExcelData {
     name: "SETTLEMENT",
     comment: "정산수수료 금액",
   })
-  settlement?: number;
+  settlement?: string;
 
   @Column({
     name: "STATUS",

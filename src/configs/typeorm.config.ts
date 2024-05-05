@@ -26,7 +26,7 @@ export const OrmDataSource = TypeOrmModule.forRootAsync({
       password: config.get<string>("MYSQL_PASSWORD"),
       database: config.get<string>("MYSQL_DATABASE"),
       multipleStatements: true, // multiple statement queries, result array
-      synchronize: true,
+      synchronize: isSchemaSync,
       migrationsRun: isSchemaSync,
       autoLoadEntities: true,
       poolSize: 2,
