@@ -73,6 +73,16 @@ export class ExcelService {
       depositDate.setHours(depositDate.getHours() + 9);
       const amountDayDate = new Date(amountDay);
       amountDayDate.setHours(amountDayDate.getHours() + 9);
+      this.excelRepository.createExcelData(
+        month.trim(),
+        companyCnt.trim(),
+        userCnt.trim(),
+        amount.trim(),
+        charge.trim(),
+        depositDate,
+        settlement.trim(),
+        amountDayDate
+      );
       return {
         month,
         companyCnt,

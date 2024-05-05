@@ -14,6 +14,7 @@ import { DtService } from "../shared/services/dt.service";
 @Module({
   imports: [
     TypeOrmModule.forFeature([Entities.User]),
+    TypeOrmModule.forFeature([Entities.ExcelData]),
     forwardRef(() => Modules.SharedModule),
   ],
   controllers: [...Object.values(Controllers)],
