@@ -13,7 +13,6 @@ export class ExcelService {
   async random(file: any) {
     interface DataEntry {
       month: string;
-      name: string;
       companyCnt: number;
       userCnt: number;
       amount: string;
@@ -46,7 +45,6 @@ export class ExcelService {
     const data: DataEntry[] = rawData.map((row: any) => {
       const [
         month,
-        name,
         companyCnt,
         userCnt,
         amount,
@@ -58,7 +56,6 @@ export class ExcelService {
 
       const fields = [
         month,
-        name,
         companyCnt,
         userCnt,
         amount,
@@ -67,7 +64,6 @@ export class ExcelService {
         settlement,
         amountDay,
       ];
-
       const depositDate = new Date(deposit);
       depositDate.setHours(depositDate.getHours() + 9);
       const amountDayDate = new Date(amountDay);
@@ -75,7 +71,6 @@ export class ExcelService {
 
       return {
         month,
-        name,
         companyCnt,
         userCnt,
         amount,
@@ -101,7 +96,7 @@ export class ExcelService {
           entry.month.toString(),
           entry.companyCnt,
           entry.userCnt,
-          entry.amount,
+          entry.amount.toString(),
           entry.charge,
           entry.deposit,
           entry.settlement,
