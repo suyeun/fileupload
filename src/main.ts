@@ -20,7 +20,7 @@ async function bootstrap() {
     AppModule,
     new ExpressAdapter(app)
   );
-  const port = Number(process.env["APP_PORT"]) || 3003;
+  const port = Number(process.env["APP_PORT"]) || 3001;
 
   // Exception filter
   appNest.useGlobalFilters(new HttpExceptionFilter());
