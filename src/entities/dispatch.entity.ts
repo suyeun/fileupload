@@ -14,7 +14,7 @@ export class Dispatch {
     comment: "아이디",
   })
   id!: number;
-  //정산 월, 거래처명,인원수,청구금액,수수료,수수료 지급기준,청구기간,입금일자,세금계산서, 발행일,정산 수수료,정산일자
+  //정산월, 거래처명, 인원수, 청구금액, 수수료, 수수료 지급기준, 청구기간, 입금일자, 세금계산서 발행일, 정산 수수료, 정산일자
   @Column({ name: "MONTH", type: "varchar", length: 10, comment: "정산월" })
   month!: string;
 
@@ -46,23 +46,23 @@ export class Dispatch {
   @Column({
     name: "CLAIM_PERIOD",
     type: "varchar",
-    length: 100,
+    length: 250,
     comment: "청구기간",
   })
   claimPeriod!: string;
 
+  @Column({
+    name: "TYPE",
+    type: "varchar",
+    length: 10,
+    comment: "서류 타입 파견(A), 채용대행(B)",
+  })
+  type!: string;
+
   @Column({ name: "DEPOSIT_DATE", type: "date", comment: "입금일자" })
   depositDate!: Date;
 
-  @Column({
-    name: "TAX_INVOICE",
-    type: "varchar",
-    length: 100,
-    comment: "세금계산서",
-  })
-  taxInvoice!: string;
-
-  @Column({ name: "ISSUE_DATE", type: "date", comment: "발행일" })
+  @Column({ name: "ISSUE_DATE", type: "date", comment: "세금계산서 발행일" })
   issueDate!: Date;
 
   @Column({

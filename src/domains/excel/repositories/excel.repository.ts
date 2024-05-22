@@ -112,7 +112,7 @@ export class ExcelRepository {
     commissionPaymentStandard: string,
     claimPeriod: string,
     depositDate: Date,
-    taxInvoice: string,
+    type: string,
     issueDate: Date,
     settlementCommission: string,
     settlementDate: Date
@@ -133,7 +133,7 @@ export class ExcelRepository {
       existingData.commissionPaymentStandard = commissionPaymentStandard;
       existingData.claimPeriod = claimPeriod;
       existingData.depositDate = depositDate;
-      existingData.taxInvoice = taxInvoice;
+      existingData.type = type;
       existingData.issueDate = issueDate;
       existingData.settlementCommission = settlementCommission;
       existingData.settlementDate = settlementDate;
@@ -151,7 +151,7 @@ export class ExcelRepository {
         commissionPaymentStandard,
         claimPeriod,
         depositDate,
-        taxInvoice,
+        type,
         issueDate,
         settlementCommission,
         settlementDate,

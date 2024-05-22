@@ -29,23 +29,11 @@ export class PointController {
   @UseInterceptors(FileInterceptor("file"))
   async handleExcel(@UploadedFile() file: any) {
     //console.log(file);
-    return this.excelService.random(file);
+    return this.excelService.upload(file);
   }
 
   @Get("load")
   async load() {
     return this.excelService.load();
-  }
-
-  @Post("dispatch/upload")
-  @UseInterceptors(FileInterceptor("file"))
-  async dispatchHandleExcel(@UploadedFile() file: any) {
-    //console.log(file);
-    return this.excelService.random(file);
-  }
-
-  @Get("dispatch/load")
-  async dispatchLoad() {
-    return this.excelService.dispatchLoad();
   }
 }
