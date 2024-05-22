@@ -89,6 +89,63 @@ export class ExcelRepository {
     }
   }
 
+  async createExcelDispatchData(
+    month: string,
+    name: string,
+    personnelCount: number,
+    amount: string,
+    commission: string,
+    commissionPaymentStandard: string,
+    claimPeriod: string,
+    depositDate: Date,
+    issueDate: Date,
+    settlementCommission: string,
+    settlementDate: Date,
+    type: string
+  ): Promise<any> {
+    const existingData = await this.dispatchRepository.findOne({
+      where: {
+        month,
+        name,
+        personnelCount,
+      },
+    });
+
+    if (existingData) {
+      existingData.amount = amount;
+      existingData.name = name;
+      existingData.commission = commission;
+      existingData.commissionPaymentStandard = commissionPaymentStandard;
+      existingData.claimPeriod = claimPeriod;
+      existingData.depositDate = depositDate;
+      existingData.issueDate = issueDate;
+      existingData.settlementCommission = settlementCommission;
+      existingData.settlementDate = settlementDate;
+      existingData.type = type;
+
+      const result = await this.dispatchRepository.save(existingData);
+
+      return result;
+    } else {
+      const newData = await this.dispatchRepository.save({
+        month,
+        name,
+        personnelCount,
+        amount,
+        commission,
+        commissionPaymentStandard,
+        claimPeriod,
+        depositDate,
+        issueDate,
+        settlementCommission,
+        settlementDate,
+        type,
+      });
+      console.log("newData", newData);
+      return newData;
+    }
+  }
+
   async load(): Promise<any> {
     const res = await this.excelDataRepository.find({
       where: {

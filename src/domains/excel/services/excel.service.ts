@@ -21,12 +21,15 @@ export class ExcelService {
     const sheetName = workbook.SheetNames[0];
     const sheetNameOne = workbook.SheetNames[1];
     const sheetNameTwo = workbook.SheetNames[2];
+
     if (sheetNameOne) {
-      await this.createExcelData(sheetNameOne, "A");
+      const worksheetOne = workbook.Sheets[sheetNameOne];
+      await this.createExcelData(worksheetOne, "A");
     }
 
     if (sheetNameTwo) {
-      await this.createExcelData(sheetNameTwo, "B");
+      const worksheetTwo = workbook.Sheets[sheetNameTwo];
+      await this.createExcelData(worksheetTwo, "B");
     }
 
     if (!sheetName) return;
@@ -109,8 +112,8 @@ export class ExcelService {
     return JsonResponse(res, NETWORK_ERROR_CODE.SUCCESS, "SUCCESS");
   }
 
-  async createExcelData(worksheetOne: any, type: string) {
-    const rawData = XLSX.utils.sheet_to_json(worksheetOne, {
+  async createExcelData(worksheet: any, type: string) {
+    const rawData = XLSX.utils.sheet_to_json(worksheet, {
       raw: false,
       header: 1,
       range: 2,
@@ -148,12 +151,45 @@ export class ExcelService {
         commissionPaymentStandard,
         claimPeriod,
         depositDate: deposit,
-        issueDate: issueDay,
+        issueDate,
         settlementCommission,
         settlementDate: settlement,
         type: type,
       };
     });
+    const res = await Promise.all(
+      data.map(async (entry) => {
+        if (
+          !entry.month ||
+          !entry.name ||
+          !entry.personnelCount ||
+          !entry.amount ||
+          !entry.commission ||
+          !entry.commissionPaymentStandard ||
+          !entry.claimPeriod ||
+          !entry.depositDate ||
+          !entry.issueDate ||
+          !entry.settlementCommission ||
+          !entry.settlementDate
+        )
+          return;
+        const result = await this.excelRepository.createExcelDispatchData(
+          entry.month.toString(),
+          entry.name,
+          entry.personnelCount,
+          entry.amount.toString(),
+          entry.commission,
+          entry.commissionPaymentStandard,
+          entry.claimPeriod,
+          entry.depositDate,
+          entry.issueDate,
+          entry.settlementCommission,
+          entry.settlementDate,
+          type
+        );
+        return result;
+      })
+    );
   }
 
   async load() {
