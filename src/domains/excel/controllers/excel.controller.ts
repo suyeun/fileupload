@@ -36,4 +36,14 @@ export class PointController {
   async load() {
     return this.excelService.load();
   }
+
+  @Get("load/one")
+  async loadOne() {
+    return this.excelService.loadDispatch("A");
+  }
+
+  @Get("load/two")
+  async loadTwo() {
+    return this.excelService.loadDispatch("B");
+  }
 }

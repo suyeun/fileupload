@@ -196,4 +196,9 @@ export class ExcelService {
     const res = await this.excelRepository.load();
     return JsonResponse(res, NETWORK_ERROR_CODE.SUCCESS, "SUCCESS");
   }
+
+  async loadDispatch(type: string) {
+    const res = await this.excelRepository.dispatchLoad(type);
+    return JsonResponse(res, NETWORK_ERROR_CODE.SUCCESS, "SUCCESS");
+  }
 }

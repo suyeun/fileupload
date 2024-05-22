@@ -218,8 +218,12 @@ export class ExcelRepository {
     }
   }
 
-  async dispatchLoad(): Promise<any> {
-    const res = await this.dispatchRepository.find();
+  async dispatchLoad(type: string): Promise<any> {
+    const res = await this.dispatchRepository.find({
+      where: {
+        type: type,
+      },
+    });
 
     return res;
   }
