@@ -178,6 +178,7 @@ export class ExcelRepository {
       where: {
         month,
         name,
+        type,
       },
     });
 
