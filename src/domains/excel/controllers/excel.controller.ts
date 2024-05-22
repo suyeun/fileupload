@@ -8,6 +8,7 @@ import {
   UseGuards,
   UploadedFile,
   UseInterceptors,
+  Query,
   Get,
 } from "@nestjs/common";
 
@@ -24,9 +25,10 @@ import { JsonResponse } from "../../shared/interfaces";
 @Controller("api/v1/data")
 export class PointController {
   constructor(private readonly excelService: ExcelService) {}
+
   @Get("list")
-  async findAll() {
-    return this.excelService.findAll();
+  async findAll(@Query("filter") filter: string) {
+    return this.excelService.findAll(filter);
   }
 
   @Post("upload")

@@ -10,7 +10,7 @@ import * as XLSX from "xlsx";
 export class ExcelService {
   constructor(private readonly excelRepository: ExcelRepository) {}
 
-  async findAll() {
+  async findAll(filter: any) {
     const result = await this.excelRepository.findAll();
 
     const dataset1 = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; // Initialize an array with 12 zeros
@@ -66,6 +66,32 @@ export class ExcelService {
           dataset5[month - 1] += number; // Update the appropriate index
         }
       });
+    }
+    //A는 상반기
+    if (filter === "A") {
+      const res = {
+        labels: ["1월", "2월", "3월", "4월", "5월", "6월"],
+        dataset1: dataset1.slice(0, 6), //업체수
+        dataset2: dataset2.slice(0, 6), //파견인원
+        dataset3: dataset3.slice(0, 6), //채용대행인원
+        dataset4: dataset4.slice(0, 6), //수수료
+        dataset5: dataset5.slice(0, 6), //수익
+      };
+
+      return JsonResponse(res, NETWORK_ERROR_CODE.SUCCESS, "SUCCESS");
+    }
+    //B는 하반기
+    if (filter === "B") {
+      const res = {
+        labels: ["7월", "8월", "9월", "10월", "11월", "12월"],
+        dataset1: dataset1.slice(6), //업체수
+        dataset2: dataset2.slice(6), //파견인원
+        dataset3: dataset3.slice(6), //채용대행인원
+        dataset4: dataset4.slice(6), //수수료
+        dataset5: dataset5.slice(6), //수익
+      };
+
+      return JsonResponse(res, NETWORK_ERROR_CODE.SUCCESS, "SUCCESS");
     }
 
     const res = {
