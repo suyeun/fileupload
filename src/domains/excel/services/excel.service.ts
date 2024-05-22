@@ -10,6 +10,20 @@ import * as XLSX from "xlsx";
 export class ExcelService {
   constructor(private readonly excelRepository: ExcelRepository) {}
 
+  async findAll() {
+    //const res = await this.excelRepository.findAll();
+    const res = {
+      labels: ["1월", "2월", "3월", "4월", "5월", "6월"],
+      dataset1: [65, 59, 80, 81, 56, 55], //업체수
+      dataset2: [28, 48, 40, 19, 86, 27], //파견인원
+      dataset3: [10, 20, 30, 40, 50, 60], //채용대행인원
+      dataset4: [65, 59, 80, 81, 56, 55], //수수료
+      dataset5: [28, 48, 40, 19, 86, 27], //수익
+    };
+
+    return JsonResponse(res, NETWORK_ERROR_CODE.SUCCESS, "SUCCESS");
+  }
+
   async upload(file: any) {
     const workbook = XLSX.read(file.buffer, {
       type: "buffer",
@@ -23,11 +37,13 @@ export class ExcelService {
     const sheetNameTwo = workbook.SheetNames[2];
 
     if (sheetNameOne) {
+      console.log("!!!!!");
       const worksheetOne = workbook.Sheets[sheetNameOne];
       await this.createExcelData(worksheetOne, "A");
     }
 
     if (sheetNameTwo) {
+      console.log("22222");
       const worksheetTwo = workbook.Sheets[sheetNameTwo];
       await this.createExcelData(worksheetTwo, "B");
     }

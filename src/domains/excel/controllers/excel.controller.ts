@@ -24,6 +24,10 @@ import { JsonResponse } from "../../shared/interfaces";
 @Controller("api/v1/data")
 export class PointController {
   constructor(private readonly excelService: ExcelService) {}
+  @Get("list")
+  async findAll() {
+    return this.excelService.findAll();
+  }
 
   @Post("upload")
   @UseInterceptors(FileInterceptor("file"))

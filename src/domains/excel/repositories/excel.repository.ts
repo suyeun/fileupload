@@ -108,6 +108,7 @@ export class ExcelRepository {
         month,
         name,
         personnelCount,
+        type,
       },
     });
 
