@@ -157,9 +157,6 @@ export class ExcelRepository {
 
     return res;
   }
-  //month. name, personnelCount,amount,
-  //commission, commissionPaymentStandard, claimPeriod, depositDate, taxInvoice,
-  // issueDate, settlementCommission,settlementDate
 
   async dispatchCreateExcelData(
     month: string,
@@ -228,5 +225,13 @@ export class ExcelRepository {
     });
 
     return res;
+  }
+
+  async findAll(): Promise<any> {
+    const res = await this.excelDataRepository.find();
+    const res2 = await this.dispatchRepository.find({ where: { type: "A" } });
+    const res3 = await this.dispatchRepository.find({ where: { type: "B" } });
+
+    return { res: res, res2: res2, res3: res3 };
   }
 }
