@@ -6,9 +6,31 @@ import { ExcelData, DataEntry, ExcelDispatch } from "../interfaces";
 import { nanoid } from "nanoid";
 import * as CALENDAR_DTO from "../dto";
 import * as XLSX from "xlsx";
+import { AWSService } from "./aws.service";
 @Injectable()
 export class ExcelService {
-  constructor(private readonly excelRepository: ExcelRepository) {}
+  constructor(
+    private readonly excelRepository: ExcelRepository,
+    private readonly awsService: AWSService
+  ) {}
+
+  async fileUpload(file: Express.Multer.File, name: string, content: string) {
+    // Handle the file, name, and content here
+    // For example, save the file to a database or file system
+    console.log("File:", file);
+    console.log("Name:", name);
+    console.log("Content:", content);
+
+    const res = await this.awsService.imgUploadFromFileDto(file);
+
+    // Return a response
+    return {
+      originalname: file.originalname,
+      name,
+      content,
+      message: "File uploaded successfully",
+    };
+  }
 
   async findAll(filter: any) {
     const result = await this.excelRepository.findAll();

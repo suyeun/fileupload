@@ -8,6 +8,7 @@ import {
   UseGuards,
   UploadedFile,
   UseInterceptors,
+  UploadedFiles,
   Query,
   Get,
 } from "@nestjs/common";
@@ -29,6 +30,21 @@ export class PointController {
   @Get("list")
   async findAll(@Query("filter") filter: string) {
     return this.excelService.findAll(filter);
+  }
+
+  @Post("image/upload")
+  @UseInterceptors(FileInterceptor("file"))
+  async uploadFile(
+    @UploadedFile() file: Express.Multer.File,
+    @Body("name") name: string,
+    @Body("content") content: string
+  ) {
+    if (!file) {
+      throw new Error("No file uploaded");
+    }
+
+    const response = await this.excelService.fileUpload(file, name, content);
+    return response;
   }
 
   @Post("upload")
