@@ -18,13 +18,10 @@ export class AWSService {
     AWS_SDK.config.update({
       region: "ap-northeast-2",
       credentials: {
-        accessKeyId: this.configService.get<string>(
-          "AWS_ACCESS_KEY_ID",
-          "AKIAXDZQYS5YVXTRNS5U"
-        ),
+        accessKeyId: this.configService.get<string>("AWS_ACCESS_KEY_ID", ""),
         secretAccessKey: this.configService.get<string>(
           "AWS_SECRET_ACCESS_KEY",
-          "DXqkiDJltI1WD81iTzscBB7OsHITIeYGfVfcVFRs"
+          ""
         ),
       },
     });
