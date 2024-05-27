@@ -34,7 +34,7 @@ export class AWSService {
 
   public async fileUpload(fileBuffer: Buffer, key: string): Promise<string> {
     try {
-      const extension = key.split(".").pop() || "";
+      const extension = key.split(".").pop() || "-";
       const contentType = mime.lookup(extension) || "application/octet-stream";
       const params = {
         Bucket: this.S3_BUCKET,
