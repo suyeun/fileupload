@@ -14,21 +14,38 @@ export class ExcelService {
     private readonly awsService: AWSService
   ) {}
 
-  async fileUpload(file: Express.Multer.File, name: string, content: string) {
+  async getHistory() {
+    const res = await this.excelRepository.getHistory();
+    return JsonResponse(res, NETWORK_ERROR_CODE.SUCCESS, "SUCCESS");
+  }
+
+  async fileUpload(
+    file: Express.Multer.File,
+    title: string,
+    description: string
+  ) {
     // Handle the file, name, and content here
     // For example, save the file to a database or file system
-    console.log("File:", file);
-    console.log("Name:", name);
-    console.log("Content:", content);
 
+    const name = title || nanoid(10);
+    const descriptionText = description || file.originalname;
+    const filePath = file.originalname;
+    if (!file) {
+      return JsonResponse([], 500, "No file uploaded");
+    }
     const res = await this.awsService.imgUploadFromFileDto(file);
+    //파일이름
+    console.log("!!!!", name, descriptionText, filePath);
+    const result = await this.excelRepository.imgUploadFromFileDto(
+      name,
+      descriptionText,
+      "https://test-workpick.s3.ap-northeast-2.amazonaws.com/images/" + filePath
+    );
 
     // Return a response
     return {
       originalname: file.originalname,
-      name,
-      content,
-      message: "File uploaded successfully",
+      result,
     };
   }
 

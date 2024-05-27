@@ -32,18 +32,27 @@ export class PointController {
     return this.excelService.findAll(filter);
   }
 
+  @Get("history")
+  async getHistory() {
+    return this.excelService.getHistory();
+  }
+
   @Post("image/upload")
   @UseInterceptors(FileInterceptor("file"))
   async uploadFile(
     @UploadedFile() file: Express.Multer.File,
-    @Body("name") name: string,
-    @Body("content") content: string
+    @Body("title") title: string,
+    @Body("description") description: string
   ) {
     if (!file) {
       throw new Error("No file uploaded");
     }
 
-    const response = await this.excelService.fileUpload(file, name, content);
+    const response = await this.excelService.fileUpload(
+      file,
+      title,
+      description
+    );
     return response;
   }
 

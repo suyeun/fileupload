@@ -2,6 +2,7 @@ import { Injectable } from "@nestjs/common";
 import { ConfigService } from "@nestjs/config";
 import AWS_SDK from "aws-sdk";
 import mime from "mime";
+import { nanoid } from "nanoid";
 
 enum S3Path {
   THUMBNAIL = "test/thumbnail",
@@ -17,10 +18,13 @@ export class AWSService {
     AWS_SDK.config.update({
       region: "ap-northeast-2",
       credentials: {
-        accessKeyId: this.configService.get<string>("AWS_ACCESS_KEY_ID", ""),
+        accessKeyId: this.configService.get<string>(
+          "AWS_ACCESS_KEY_ID",
+          "AKIAXDZQYS5YVXTRNS5U"
+        ),
         secretAccessKey: this.configService.get<string>(
           "AWS_SECRET_ACCESS_KEY",
-          ""
+          "DXqkiDJltI1WD81iTzscBB7OsHITIeYGfVfcVFRs"
         ),
       },
     });
@@ -59,6 +63,7 @@ export class AWSService {
       const extension = "png";
       const customName =
         `${file.originalname}`.split(".")[0] || file.originalname;
+      const nano = nanoid(10);
       const fileName = `${customName}.${extension}`;
       const contentType = mime.lookup(extension) || "Application/octet-stream";
       const key = `images/${fileName}`.replace(/ /g, "");

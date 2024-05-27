@@ -1,7 +1,7 @@
 import { Injectable } from "@nestjs/common";
 import { InjectRepository } from "@nestjs/typeorm";
 import { DataSource, Repository } from "typeorm";
-import { User, ExcelData, Dispatch } from "../../../entities";
+import { User, ExcelData, Dispatch, History } from "../../../entities";
 import { DtService } from "../../shared/services/dt.service";
 
 @Injectable()
@@ -16,10 +16,32 @@ export class ExcelRepository {
     @InjectRepository(Dispatch)
     private readonly dispatchRepository: Repository<Dispatch>,
 
+    @InjectRepository(History)
+    private readonly historyRepository: Repository<History>,
+
     private readonly dataSource: DataSource,
 
     private readonly dtService: DtService
   ) {}
+
+  async getHistory(): Promise<any> {
+    const res = await this.historyRepository.find();
+    return res;
+  }
+
+  async imgUploadFromFileDto(
+    name: string,
+    description: string,
+    filePath: any
+  ): Promise<any> {
+    console.log("!!!!????", name);
+    const res = await this.historyRepository.save({
+      title: name,
+      description: description,
+      file: filePath,
+    });
+    return res;
+  }
 
   async save(
     userId: number,
