@@ -15,13 +15,23 @@ export class AWSService {
   private readonly S3_BUCKET: string;
 
   constructor(private readonly configService: ConfigService) {
+    AWS_SDK.config.update({
+      region: "ap-northeast-2",
+      credentials: {
+        accessKeyId: this.configService.get<string>("AWS_ACCESS_KEY_ID", ""),
+        secretAccessKey: this.configService.get<string>(
+          "AWS_SECRET_ACCESS_KEY",
+          ""
+        ),
+      },
+    });
     this.s3 = new AWS_SDK.S3({});
-    this.S3_BUCKET = "";
+    this.S3_BUCKET = this.configService.get<string>("AWS_S3_BUCKET", "");
   }
 
   public async fileUpload(fileBuffer: Buffer, key: string): Promise<string> {
     try {
-      const extension = key.split(".").pop() || "-";
+      const extension = key.split(".").pop() || "";
       const contentType = mime.lookup(extension) || "application/octet-stream";
       const params = {
         Bucket: this.S3_BUCKET,
