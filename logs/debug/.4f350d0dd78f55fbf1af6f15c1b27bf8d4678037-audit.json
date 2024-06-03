@@ -44,6 +44,11 @@
             "date": 1716810996764,
             "name": "/Users/mbp2019/Desktop/Development/workpick-pj/fileupload/logs/debug/24-05-27.debug.log",
             "hash": "88f6262adfb7fbc3e936a86fd491b7752ed95d82711a578d5b2a9019fd772ac5"
+        },
+        {
+            "date": 1717411338936,
+            "name": "/Users/mbp2019/Desktop/Development/workpick-pj/fileupload/logs/debug/24-06-03.debug.log",
+            "hash": "e019c56c5783d2a27ff6cd4b666868374f919d0971f4527593a0f93d2658697f"
         }
     ],
     "hashType": "sha256"

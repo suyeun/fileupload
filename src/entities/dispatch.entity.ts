@@ -74,6 +74,9 @@ export class Dispatch {
   @Column({ name: "SETTLEMENT_DATE", type: "date", comment: "정산일자" })
   settlementDate!: Date;
 
+  @Column({ name: "DESCRIPTION", default: null })
+  description?: string;
+
   @CreateDateColumn({ name: "REG_DT", default: () => "CURRENT_TIMESTAMP" })
   regDt?: Date;
 

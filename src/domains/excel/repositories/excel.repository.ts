@@ -71,44 +71,28 @@ export class ExcelRepository {
     settlement: string,
     amountDay: Date,
     kinds: string,
-    status: string
+    status: string,
+    description: string
   ): Promise<any> {
-    const existingData = await this.excelDataRepository.findOne({
-      where: {
-        month,
-        companyCnt,
-        userCnt,
-      },
+    const existingData = await this.excelDataRepository.delete({
+      kinds: kinds,
     });
 
-    if (existingData) {
-      existingData.amount = amount;
-      existingData.charge = charge;
-      existingData.deposit = deposit;
-      existingData.settlement = settlement;
-      existingData.amountDay = amountDay;
-      existingData.kinds = kinds;
-      existingData.status = status;
+    const newData = await this.excelDataRepository.save({
+      month,
+      companyCnt,
+      userCnt,
+      amount,
+      charge,
+      deposit,
+      settlement,
+      amountDay,
+      kinds,
+      status,
+      description,
+    });
 
-      const result = await this.excelDataRepository.save(existingData);
-
-      return result;
-    } else {
-      const newData = await this.excelDataRepository.save({
-        month,
-        companyCnt,
-        userCnt,
-        amount,
-        charge,
-        deposit,
-        settlement,
-        amountDay,
-        kinds,
-        status,
-      });
-      console.log("newData", newData);
-      return newData;
-    }
+    return newData;
   }
 
   async createExcelDispatchData(
@@ -123,50 +107,28 @@ export class ExcelRepository {
     issueDate: Date,
     settlementCommission: string,
     settlementDate: Date,
-    type: string
+    type: string,
+    description: string
   ): Promise<any> {
-    const existingData = await this.dispatchRepository.findOne({
-      where: {
-        month,
-        name,
-        personnelCount,
-        type,
-      },
+    const existingData = await this.dispatchRepository.delete({ type: type });
+
+    const newData = await this.dispatchRepository.save({
+      month,
+      name,
+      personnelCount,
+      amount,
+      commission,
+      commissionPaymentStandard,
+      claimPeriod,
+      depositDate,
+      issueDate,
+      settlementCommission,
+      settlementDate,
+      type,
+      description,
     });
 
-    if (existingData) {
-      existingData.amount = amount;
-      existingData.name = name;
-      existingData.commission = commission;
-      existingData.commissionPaymentStandard = commissionPaymentStandard;
-      existingData.claimPeriod = claimPeriod;
-      existingData.depositDate = depositDate;
-      existingData.issueDate = issueDate;
-      existingData.settlementCommission = settlementCommission;
-      existingData.settlementDate = settlementDate;
-      existingData.type = type;
-
-      const result = await this.dispatchRepository.save(existingData);
-
-      return result;
-    } else {
-      const newData = await this.dispatchRepository.save({
-        month,
-        name,
-        personnelCount,
-        amount,
-        commission,
-        commissionPaymentStandard,
-        claimPeriod,
-        depositDate,
-        issueDate,
-        settlementCommission,
-        settlementDate,
-        type,
-      });
-      console.log("newData", newData);
-      return newData;
-    }
+    return newData;
   }
 
   async load(): Promise<any> {
@@ -192,51 +154,28 @@ export class ExcelRepository {
     type: string,
     issueDate: Date,
     settlementCommission: string,
-    settlementDate: Date
+    settlementDate: Date,
+    description: string
   ): Promise<any> {
-    const existingData = await this.dispatchRepository.findOne({
-      where: {
-        month,
-        name,
-        type,
-      },
+    const existingData = await this.dispatchRepository.delete({ type: type });
+
+    const newData = await this.dispatchRepository.save({
+      month,
+      name,
+      personnelCount,
+      amount,
+      commission,
+      commissionPaymentStandard,
+      claimPeriod,
+      depositDate,
+      type,
+      issueDate,
+      settlementCommission,
+      settlementDate,
+      description,
     });
-
-    if (existingData) {
-      existingData.month = month;
-      existingData.name = name;
-      existingData.personnelCount = personnelCount;
-      existingData.amount = amount;
-      existingData.commission = commission;
-      existingData.commissionPaymentStandard = commissionPaymentStandard;
-      existingData.claimPeriod = claimPeriod;
-      existingData.depositDate = depositDate;
-      existingData.type = type;
-      existingData.issueDate = issueDate;
-      existingData.settlementCommission = settlementCommission;
-      existingData.settlementDate = settlementDate;
-
-      const result = await this.dispatchRepository.save(existingData);
-
-      return result;
-    } else {
-      const newData = await this.dispatchRepository.save({
-        month,
-        name,
-        personnelCount,
-        amount,
-        commission,
-        commissionPaymentStandard,
-        claimPeriod,
-        depositDate,
-        type,
-        issueDate,
-        settlementCommission,
-        settlementDate,
-      });
-      console.log("newData", newData);
-      return newData;
-    }
+    console.log("newData", newData);
+    return newData;
   }
 
   async dispatchLoad(type: string): Promise<any> {

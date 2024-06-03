@@ -26,6 +26,7 @@ export interface DataEntry {
   deposit: Date; //입금일자
   settlement: string; //정산 수수료 금액
   amountDay: Date; //정산 수수료 정산일자
+  description: string; //비고
 }
 
 export interface ExcelDispatch {
@@ -40,6 +41,7 @@ export interface ExcelDispatch {
   issueDate: Date; //세금계산서 발행일
   settlementCommission: string; //정산 수수료
   settlementDate: Date; //정산일자
+  description: string; //비고
 }
 
 //파견

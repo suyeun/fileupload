@@ -201,18 +201,9 @@ export class ExcelService {
         deposit,
         settlement,
         amountDay,
+        description,
       ] = row;
 
-      const fields = [
-        month,
-        companyCnt,
-        userCnt,
-        amount,
-        charge,
-        deposit,
-        settlement,
-        amountDay,
-      ];
       const depositDate = new Date(deposit);
       depositDate.setHours(depositDate.getHours() + 9);
       const amountDayDate = new Date(amountDay);
@@ -227,6 +218,7 @@ export class ExcelService {
         deposit: depositDate,
         settlement,
         amountDay: amountDayDate,
+        description,
       };
     });
 
@@ -251,7 +243,8 @@ export class ExcelService {
           entry.settlement,
           entry.amountDay,
           "first",
-          "DONE"
+          "DONE",
+          entry.description || ""
         );
         return result;
       })
@@ -280,6 +273,7 @@ export class ExcelService {
         issueDate,
         settlementCommission,
         settlementDate,
+        description,
       ] = row;
 
       const deposit = new Date(depositDate);
@@ -303,6 +297,7 @@ export class ExcelService {
         settlementCommission,
         settlementDate: settlement,
         type: type,
+        description,
       };
     });
     const res = await Promise.all(
@@ -333,7 +328,8 @@ export class ExcelService {
           entry.issueDate,
           entry.settlementCommission,
           entry.settlementDate,
-          type
+          type,
+          entry.description || ""
         );
         return result;
       })

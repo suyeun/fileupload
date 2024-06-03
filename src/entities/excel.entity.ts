@@ -72,6 +72,9 @@ export class ExcelData {
   })
   amountDay?: Date;
 
+  @Column({ name: "DESCRIPTION", default: null })
+  description?: string;
+
   @CreateDateColumn({ name: "REG_DT", default: () => "CURRENT_TIMESTAMP" })
   regDt?: Date;
 
