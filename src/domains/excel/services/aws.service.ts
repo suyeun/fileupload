@@ -13,16 +13,10 @@ enum S3Path {
 export class AWSService {
   private readonly s3: AWS_SDK.S3;
   private readonly S3_BUCKET: string;
-  //aaa
+
   constructor(private readonly configService: ConfigService) {
-    AWS_SDK.config.update({
-      region: "ap-northeast-2",
-    });
     this.s3 = new AWS_SDK.S3({});
-    this.S3_BUCKET = this.configService.get<string>(
-      "AWS_S3_BUCKET",
-      "test-workpick"
-    );
+    this.S3_BUCKET = "";
   }
 
   public async fileUpload(fileBuffer: Buffer, key: string): Promise<string> {
