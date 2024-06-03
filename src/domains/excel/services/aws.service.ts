@@ -13,7 +13,7 @@ enum S3Path {
 export class AWSService {
   private readonly s3: AWS_SDK.S3;
   private readonly S3_BUCKET: string;
-
+  //aaa
   constructor(private readonly configService: ConfigService) {
     AWS_SDK.config.update({
       region: "ap-northeast-2",
